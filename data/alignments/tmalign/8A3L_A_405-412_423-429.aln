@@ -1,0 +1,162 @@
+
+Name of Chain_1: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8A3L_A_405-412_423-429.cif (to be superimposed onto Chain_2)
+Name of Chain_2: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/7JT3_3_405-412_423-429.cif
+Length of Chain_1: 15 residues
+Length of Chain_2: 15 residues
+
+Aligned length= 15, RMSD=   1.00, Seq_ID=n_identical/n_aligned= 1.000
+TM-score= 0.33930 (if normalized by length of Chain_1, i.e., LN=15, d0=0.50)
+TM-score= 0.33930 (if normalized by length of Chain_2, i.e., LN=15, d0=0.50)
+TM-score= 0.33930 (if normalized by average length of two structures, i.e., LN= 15.0, d0= 0.50)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+UAUGAAGAGUUGUAA
+:::::::::::::::
+UAUGAAGAGUUGUAA
+
+Total CPU time is  0.00 seconds
+
+Name of Chain_1: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8A3L_A_405-412_423-429.cif (to be superimposed onto Chain_2)
+Name of Chain_2: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/6SPE_a_399-406_417-423.cif
+Length of Chain_1: 15 residues
+Length of Chain_2: 15 residues
+
+Aligned length= 15, RMSD=   0.70, Seq_ID=n_identical/n_aligned= 0.867
+TM-score= 0.41699 (if normalized by length of Chain_1, i.e., LN=15, d0=0.50)
+TM-score= 0.41699 (if normalized by length of Chain_2, i.e., LN=15, d0=0.50)
+TM-score= 0.41699 (if normalized by average length of two structures, i.e., LN= 15.0, d0= 0.50)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+UAUGAAGAGUUGUAA
+:::::::::::::::
+UGUGAAGAAUUGUAA
+
+Total CPU time is  0.00 seconds
+
+Name of Chain_1: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8A3L_A_405-412_423-429.cif (to be superimposed onto Chain_2)
+Name of Chain_2: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/5LMN_A_402-409_420-426.cif
+Length of Chain_1: 15 residues
+Length of Chain_2: 15 residues
+
+Aligned length= 15, RMSD=   1.65, Seq_ID=n_identical/n_aligned= 0.800
+TM-score= 0.54946 (if normalized by length of Chain_1, i.e., LN=15, d0=0.50)
+TM-score= 0.54946 (if normalized by length of Chain_2, i.e., LN=15, d0=0.50)
+TM-score= 0.54946 (if normalized by average length of two structures, i.e., LN= 15.0, d0= 0.50)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+UAUGAAGAGUUGUAA
+:::::.:::::::::
+GAGGAAGAGGUGUAA
+
+Total CPU time is  0.00 seconds
+
+Name of Chain_1: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8A3L_A_405-412_423-429.cif (to be superimposed onto Chain_2)
+Name of Chain_2: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8BH7_a_409-417_427-433.cif
+Length of Chain_1: 15 residues
+Length of Chain_2: 16 residues
+
+Aligned length= 13, RMSD=   1.36, Seq_ID=n_identical/n_aligned= 0.769
+TM-score= 0.22982 (if normalized by length of Chain_1, i.e., LN=15, d0=0.50)
+TM-score= 0.21545 (if normalized by length of Chain_2, i.e., LN=16, d0=0.50)
+TM-score= 0.22240 (if normalized by average length of two structures, i.e., LN= 15.5, d0= 0.50)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+UAUGAAGAG--UUGUAA-
+ :::::::   :::::: 
+-GUGAUGA-AGUCGUAAA
+
+Total CPU time is  0.00 seconds
+
+Name of Chain_1: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8A3L_A_405-412_423-429.cif (to be superimposed onto Chain_2)
+Name of Chain_2: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/5X8P_A_1282-1288_2023-2028.cif
+Length of Chain_1: 15 residues
+Length of Chain_2: 13 residues
+
+Aligned length= 11, RMSD=   2.11, Seq_ID=n_identical/n_aligned= 0.364
+TM-score= 0.22102 (if normalized by length of Chain_1, i.e., LN=15, d0=0.50)
+TM-score= 0.25503 (if normalized by length of Chain_2, i.e., LN=13, d0=0.50)
+TM-score= 0.23681 (if normalized by average length of two structures, i.e., LN= 14.0, d0= 0.50)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+GUUGUAA*UAUGAAGA--
+:::::::    ::: :  
+UUGAGUA----GUG-AAA
+
+Total CPU time is  0.00 seconds
+
+Name of Chain_1: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8A3L_A_405-412_423-429.cif (to be superimposed onto Chain_2)
+Name of Chain_2: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8OIQ_B8_639-645_1004-1009.cif
+Length of Chain_1: 15 residues
+Length of Chain_2: 13 residues
+
+Aligned length= 11, RMSD=   2.16, Seq_ID=n_identical/n_aligned= 0.364
+TM-score= 0.22034 (if normalized by length of Chain_1, i.e., LN=15, d0=0.50)
+TM-score= 0.25423 (if normalized by length of Chain_2, i.e., LN=13, d0=0.50)
+TM-score= 0.23608 (if normalized by average length of two structures, i.e., LN= 14.0, d0= 0.50)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+GUUGUAA*UAUGAAGA--
+:::::::    ::: :  
+AUGAGUA----GUG-AAA
+
+Total CPU time is  0.00 seconds
+
+Name of Chain_1: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8A3L_A_405-412_423-429.cif (to be superimposed onto Chain_2)
+Name of Chain_2: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8BH7_a_889-897_906-912.cif
+Length of Chain_1: 15 residues
+Length of Chain_2: 16 residues
+
+Aligned length= 7, RMSD=   1.91, Seq_ID=n_identical/n_aligned= 0.000
+TM-score= 0.23596 (if normalized by length of Chain_1, i.e., LN=15, d0=0.50)
+TM-score= 0.22121 (if normalized by length of Chain_2, i.e., LN=16, d0=0.50)
+TM-score= 0.22835 (if normalized by average length of two structures, i.e., LN= 15.5, d0= 0.50)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+----UAUGAAGAGUUGU-AA----
+    ::::.         .:    
+GGGAGUACG--------GUUGAAA
+
+Total CPU time is  0.00 seconds
+
+Name of Chain_1: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8A3L_A_405-412_423-429.cif (to be superimposed onto Chain_2)
+Name of Chain_2: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/6DZP_A_235-241_249-254.cif
+Length of Chain_1: 15 residues
+Length of Chain_2: 13 residues
+
+Aligned length= 11, RMSD=   2.68, Seq_ID=n_identical/n_aligned= 0.364
+TM-score= 0.22291 (if normalized by length of Chain_1, i.e., LN=15, d0=0.50)
+TM-score= 0.25720 (if normalized by length of Chain_2, i.e., LN=13, d0=0.50)
+TM-score= 0.23883 (if normalized by average length of two structures, i.e., LN= 14.0, d0= 0.50)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+-GUUGUAA*UAUGAAGA-
+ ::::::    .::. : 
+CGUGAGU----AGCG-AA
+
+Total CPU time is  0.00 seconds
+
+Name of Chain_1: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/8A3L_A_405-412_423-429.cif (to be superimposed onto Chain_2)
+Name of Chain_2: /media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx_extracted_ext0/6DZI_A_235-241_249-254.cif
+Length of Chain_1: 15 residues
+Length of Chain_2: 13 residues
+
+Aligned length= 11, RMSD=   2.68, Seq_ID=n_identical/n_aligned= 0.364
+TM-score= 0.22292 (if normalized by length of Chain_1, i.e., LN=15, d0=0.50)
+TM-score= 0.25721 (if normalized by length of Chain_2, i.e., LN=13, d0=0.50)
+TM-score= 0.23884 (if normalized by average length of two structures, i.e., LN= 14.0, d0= 0.50)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+-GUUGUAA*UAUGAAGA-
+ ::::::    .::. : 
+CGUGAGU----AGCG-AA
+
+Total CPU time is  0.00 seconds

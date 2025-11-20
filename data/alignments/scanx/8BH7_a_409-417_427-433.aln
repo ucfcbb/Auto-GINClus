@@ -1,0 +1,293 @@
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 6SPE_a:399-406_417-423:
+#  Alignment score:  90.5
+#  P-value:  NA
+#  Query aligned region: 5-6,7-8,9-14
+#  Target aligned region: 6-7,8-9,10-14
+
+	GAAGUGUAA
+	GAAUUGUAA
+
+#  Matched base-pairing interactions: 
+	<G(5:)-G(11:) trans S/S>                       MATCHES	<G(6:)-G(11:) trans S/S>
+	<A(6:)-A(13:) trans H/W>                       MATCHES	<A(7:)-A(13:) trans H/W>
+	<U(12:)-A(14:) cis W/H>                        MATCHES	<U(12:)-A(14:) cis W/H>
+#  Matched base-stacking interactions: 
+	<G(11:)-A(13:) outward>                        MATCHES	<G(11:)-A(13:) outward>
+Total Elapsed Time : 2.8964 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 8A3L_A:423-429_405-412:
+#  Alignment score:  33.9
+#  P-value:  NA
+#  Query aligned region: 3-4,5-5,12-13
+#  Target aligned region: 4-5,10-10,11-14
+
+	AUGU--A
+	UAGAAGA
+
+#  Matched base-pairing interactions: 
+	<U(4:)-U(12:) trans H/W>                       MATCHES	<A(5:)-A(11:) trans H/W>
+	<U(4:)-A(13:) trans W/H>                       MATCHES	<A(5:)-A(14:) trans W/H>
+#  Matched base-stacking interactions: 
+	<A(3:)-G(5:) upward>                           MATCHES	<U(4:)-G(10:) inward>
+	<A(3:)-U(12:) outward>                         MATCHES	<U(4:)-A(11:) outward>
+Total Elapsed Time : 0.47788 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 8A3L_A:405-412_423-429:
+#  Alignment score:  88.1
+#  P-value:  NA
+#  Query aligned region: 5-6,7-8,9-14
+#  Target aligned region: 6-7,8-9,10-14
+
+	GAAGUGUAA
+	GAGUUGUAA
+
+#  Matched base-pairing interactions: 
+	<G(5:)-G(11:) trans S/S>                       MATCHES	<G(6:)-G(11:) trans S/S>
+	<A(6:)-A(13:) trans H/W>                       MATCHES	<A(7:)-A(13:) trans H/W>
+	<U(12:)-A(14:) cis W/H>                        MATCHES	<U(12:)-A(14:) cis W/H>
+#  Matched base-stacking interactions: 
+	<G(11:)-A(13:) outward>                        MATCHES	<G(11:)-A(13:) outward>
+Total Elapsed Time : 2.98493 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 7JT3_3:405-412_423-429:
+#  Alignment score:  88.1
+#  P-value:  NA
+#  Query aligned region: 5-6,7-8,9-14
+#  Target aligned region: 6-7,8-9,10-14
+
+	GAAGUGUAA
+	GAGUUGUAA
+
+#  Matched base-pairing interactions: 
+	<G(5:)-G(11:) trans S/S>                       MATCHES	<G(6:)-G(11:) trans S/S>
+	<A(6:)-A(13:) trans H/W>                       MATCHES	<A(7:)-A(13:) trans H/W>
+	<U(12:)-A(14:) cis W/H>                        MATCHES	<U(12:)-A(14:) cis W/H>
+#  Matched base-stacking interactions: 
+	<G(11:)-A(13:) outward>                        MATCHES	<G(11:)-A(13:) outward>
+Total Elapsed Time : 3.13453 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 5LMN_A:402-409_420-426:
+#  Alignment score:  89.2
+#  P-value:  NA
+#  Query aligned region: 2-6,7-8,9-14
+#  Target aligned region: 3-7,8-9,10-14
+
+	GAUGAAGUGUAA
+	GAAGAGGUGUAA
+
+#  Matched base-pairing interactions: 
+	<G(5:)-G(11:) trans S/S>                       MATCHES	<G(6:)-G(11:) trans S/S>
+	<A(6:)-A(13:) trans H/W>                       MATCHES	<A(7:)-A(13:) trans H/W>
+	<U(12:)-A(14:) cis W/H>                        MATCHES	<U(12:)-A(14:) cis W/H>
+#  Matched base-stacking interactions: 
+	<A(3:)-G(5:) upward>                           MATCHES	<A(4:)-G(6:) upward>
+	<A(3:)-U(12:) outward>                         MATCHES	<A(4:)-U(12:) outward>
+	<G(2:)-U(12:) inward>                          MATCHES	<G(3:)-U(12:) inward>
+	<G(11:)-A(13:) outward>                        MATCHES	<G(11:)-A(13:) outward>
+Total Elapsed Time : 3.22379 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 5LMN_A:420-426_402-409:
+#  Alignment score:  40.1
+#  P-value:  NA
+#  Query aligned region: 3-4,11-11,12-13
+#  Target aligned region: 4-5,6-6,11-14
+
+	AUGU--A
+	UAAAAGA
+
+#  Matched base-pairing interactions: 
+	<A(3:)-G(11:) trans W/S>                       MATCHES	<U(4:)-A(6:) cis W/H>
+	<U(4:)-U(12:) trans H/W>                       MATCHES	<A(5:)-A(11:) trans H/W>
+	<U(4:)-A(13:) trans W/H>                       MATCHES	<A(5:)-A(14:) trans W/H>
+#  Matched base-stacking interactions: 
+	<A(3:)-U(12:) outward>                         MATCHES	<U(4:)-A(11:) outward>
+	<G(11:)-A(13:) outward>                        MATCHES	<A(6:)-A(14:) outward>
+Total Elapsed Time : 0.301867 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 6SPE_a:417-423_399-406:
+#  Alignment score:  35.9
+#  P-value:  NA
+#  Query aligned region: 3-4,5-5,12-13
+#  Target aligned region: 4-5,10-10,11-14
+
+	AUGU--A
+	UAGAAGA
+
+#  Matched base-pairing interactions: 
+	<U(4:)-U(12:) trans H/W>                       MATCHES	<A(5:)-A(11:) trans H/W>
+	<U(4:)-A(13:) trans W/H>                       MATCHES	<A(5:)-A(14:) trans W/H>
+#  Matched base-stacking interactions: 
+	<A(3:)-G(5:) upward>                           MATCHES	<U(4:)-G(10:) inward>
+	<A(3:)-U(12:) outward>                         MATCHES	<U(4:)-A(11:) outward>
+Total Elapsed Time : 0.224701 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 7JT3_3:423-429_405-412:
+#  Alignment score:  33.9
+#  P-value:  NA
+#  Query aligned region: 3-4,5-5,12-13
+#  Target aligned region: 4-5,10-10,11-14
+
+	AUGU--A
+	UAGAAGA
+
+#  Matched base-pairing interactions: 
+	<U(4:)-U(12:) trans H/W>                       MATCHES	<A(5:)-A(11:) trans H/W>
+	<U(4:)-A(13:) trans W/H>                       MATCHES	<A(5:)-A(14:) trans W/H>
+#  Matched base-stacking interactions: 
+	<A(3:)-G(5:) upward>                           MATCHES	<U(4:)-G(10:) inward>
+	<A(3:)-U(12:) outward>                         MATCHES	<U(4:)-A(11:) outward>
+Total Elapsed Time : 0.324021 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 8BH7_a:889-897_906-912:
+#  Alignment score:  31.8
+#  P-value:  NA
+#  Query aligned region: 2-4,13-15
+#  Target aligned region: 2-5,13-15
+
+	GA-UAAA
+	GAGUAAA
+
+#  Matched base-pairing interactions: 
+	<U(4:)-A(13:) trans W/H>                       MATCHES	<U(5:)-A(13:) trans W/H>
+	<G(2:)-A(15:) trans S/H>                       MATCHES	<G(2:)-A(15:) trans S/H>
+#  Matched base-stacking interactions: 
+Total Elapsed Time : 0.793986 sec
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 8BH7_a:906-912_889-897:
+#  Alignment score:  37
+#  P-value:  NA
+#  Query aligned region: 1-2,3-3,12-15
+#  Target aligned region: 2-3,10-10,12-13
+
+	UGAUAAA
+	UGAU--A
+
+#  Matched base-pairing interactions: 
+	<G(2:)-A(15:) trans S/H>                       MATCHES	<G(3:)-A(13:) trans S/H>
+#  Matched base-stacking interactions: 
+	<A(3:)-U(12:) outward>                         MATCHES	<A(10:)-U(12:) outward>
+	<G(2:)-U(12:) inward>                          MATCHES	<G(3:)-U(12:) inward>
+Total Elapsed Time : 0.947358 sec
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 5X8P_A:2023-2028_1282-1288:
+#  Alignment score:  36.7
+#  P-value:  NA
+#  Query aligned region: 2-2,3-3,12-15
+#  Target aligned region: 2-2,9-9,11-12
+
+	GAUAAA
+	GAU--A
+
+#  Matched base-pairing interactions: 
+	<G(2:)-A(15:) trans S/H>                       MATCHES	<G(2:)-A(12:) trans S/H>
+#  Matched base-stacking interactions: 
+	<A(3:)-U(12:) outward>                         MATCHES	<A(9:)-U(11:) outward>
+	<G(2:)-U(12:) inward>                          MATCHES	<G(2:)-U(11:) inward>
+Total Elapsed Time : 0.692345 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 8OIQ_B8:639-645_1004-1009:
+#  Alignment score:  29.6
+#  P-value:  NA
+#  Query aligned region: 4-4,12-14
+#  Target aligned region: 5-5,10-12
+
+	UUAA
+	UAAA
+
+#  Matched base-pairing interactions: 
+	<U(4:)-U(12:) trans H/W>                       MATCHES	<U(5:)-A(10:) trans W/H>
+	<U(4:)-A(13:) trans W/H>                       MATCHES	<U(5:)-A(11:) trans W/H>
+#  Matched base-stacking interactions: 
+Total Elapsed Time : 0.534614 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 8OIQ_B8:1004-1009_639-645:
+#  Alignment score:  36.9
+#  P-value:  NA
+#  Query aligned region: 6-8,10-13
+#  Target aligned region: 3-5,8-11
+
+	AAGCGUA
+	AAAGAGU
+
+#  Matched base-pairing interactions: 
+	<G(8:)-C(10:) cis W/W>                         MATCHES	<A(5:)-G(8:) trans H/S>
+	<A(7:)-G(11:) cis H/W>                         MATCHES	<A(4:)-A(9:) trans H/H>
+	<A(7:)-A(13:) trans H/W>                       MATCHES	<A(4:)-U(11:) trans H/W>
+	<A(6:)-A(13:) trans H/W>                       MATCHES	<A(3:)-U(11:) trans H/W>
+#  Matched base-stacking interactions: 
+	<G(11:)-A(13:) outward>                        MATCHES	<A(9:)-U(11:) outward>
+Total Elapsed Time : 2.02409 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 5X8P_A:1282-1288_2023-2028:
+#  Alignment score:  32.1
+#  P-value:  NA
+#  Query aligned region: 1-4,13-15
+#  Target aligned region: 1-5,10-12
+
+	UGA-UAAA
+	UGAGUAAA
+
+#  Matched base-pairing interactions: 
+	<U(4:)-A(13:) trans W/H>                       MATCHES	<U(5:)-A(10:) trans W/H>
+	<G(2:)-A(15:) trans S/H>                       MATCHES	<G(2:)-A(12:) trans S/H>
+#  Matched base-stacking interactions: 
+Total Elapsed Time : 0.288118 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 6DZI_A:235-241_249-254:
+#  Alignment score:  24.6
+#  P-value:  NA
+#  Query aligned region: 4-4,13-13
+#  Target aligned region: 6-6,11-11
+
+	UA
+	UA
+
+#  Matched base-pairing interactions: 
+	<U(4:)-A(13:) trans W/H>                       MATCHES	<U(6:)-A(11:) trans W/H>
+#  Matched base-stacking interactions: 
+Total Elapsed Time : 0.089159 sec
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 6DZI_A:249-254_235-241:
+#  Alignment score:  19
+#  P-value:  NA
+#  Query aligned region: 2-4,12-12
+#  Target aligned region: 3-4,12-12
+
+	GAUU
+	G-AU
+
+#  Matched base-pairing interactions: 
+	<U(4:)-U(12:) trans H/W>                       MATCHES	<A(4:)-U(12:) trans H/W>
+#  Matched base-stacking interactions: 
+	<G(2:)-U(12:) inward>                          MATCHES	<G(3:)-U(12:) inward>
+Total Elapsed Time : 0.147313 sec
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 6DZP_A:235-241_249-254:
+#  Alignment score:  24.9
+#  P-value:  NA
+#  Query aligned region: 4-4,13-14
+#  Target aligned region: 6-6,11-12
+
+	UAA
+	UAA
+
+#  Matched base-pairing interactions: 
+	<U(4:)-A(13:) trans W/H>                       MATCHES	<U(6:)-A(11:) trans W/H>
+#  Matched base-stacking interactions: 
+Total Elapsed Time : 0.084089 sec (copied)
+
+#  Aligning       :: 8BH7_a:409-417_427-433 and 6DZP_A:249-254_235-241:
+#  Alignment score:  19.0
+#  P-value:  NA
+#  Query aligned region: 2-4,12-12
+#  Target aligned region: 3-4,12-12
+
+	GAUU
+	G-AU
+
+#  Matched base-pairing interactions: 
+	<U(4:)-U(12:) trans H/W>                       MATCHES	<A(4:)-U(12:) trans H/W>
+#  Matched base-stacking interactions: 
+	<G(2:)-U(12:) inward>                          MATCHES	<G(3:)-U(12:) inward>
+Total Elapsed Time : 0.151096 sec (copied)

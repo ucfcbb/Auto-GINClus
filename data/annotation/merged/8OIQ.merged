@@ -1,0 +1,2316 @@
+AG1	AG2	A-G	upward
+AG1	AG67	A-U	W/W	cis
+AG1	AG68	A-A	outward
+AG2	AG3	G-U	upward
+AG2	AG66	G-C	W/W	cis
+AG2	AG67	G-U	outward
+AG3	AG4	U-A	upward
+AG3	AG65	U-A	W/W	cis
+AG4	AG5	A-A	upward
+AG4	AG64	A-U	W/W	cis
+AG4	AG65	A-A	outward
+AG5	AG63	A-G	W/W	cis
+AG6	AG7	G-G	upward
+AG6	AG62	G-C	W/W	cis
+AG6	AG63	G-G	outward
+AG7	AG45	G-G	upward
+AG7	AG61	G-C	W/W	cis
+AG7	AG62	G-C	outward
+AG8	AG14	U-A	W/H	trans
+AG9	AG19	C-A	downward
+AG9	AG20	C-G	H/H	trans
+AG9	AG42	C-A	inward
+AG9	AG43	C-A	outward
+AG10	AG11	A-G	upward
+AG10	AG22	A-U	W/W	cis
+AG10	AG23	A-A	outward
+AG11	AG12	G-C	upward
+AG11	AG21	G-C	W/W	cis
+AG12	AG13	C-U	upward
+AG12	AG20	C-G	W/W	cis
+AG13	AG14	U-A	upward
+AG13	AG19	U-A	W/W	cis
+AG14	AG15	A-A	upward
+AG14	AG19	A-A	outward
+AG15	AG16	A-A	inward
+AG15	AG44	A-U	W/W	trans
+AG16	AG55	A-C	outward
+AG18	AG43	A-A	inward
+AG18	AG44	A-U	outward
+AG19	AG20	A-G	upward
+AG19	AG43	A-A	H/W	trans
+AG20	AG21	G-C	upward
+AG21	AG22	C-U	upward
+AG22	AG23	U-A	upward
+AG23	AG24	A-U	upward
+AG23	AG41	A-A	W/W	cis
+AG24	AG25	U-C	upward
+AG24	AG40	U-A	W/W	cis
+AG25	AG39	C-G	W/W	cis
+AG26	AG27	G-G	upward
+AG26	AG38	G-C	W/W	cis
+AG26	AG39	G-G	outward
+AG27	AG28	G-G	upward
+AG27	AG37	G-C	W/W	cis
+AG27	AG38	G-C	outward
+AG28	AG29	G-C	upward
+AG28	AG36	G-C	W/W	cis
+AG28	AG37	G-C	outward
+AG29	AG30	C-C	upward
+AG31	AG32	C-A	upward
+AG32	AG33	A-U	upward
+AG33	AG34	U-A	upward
+AG34	AG35	A-C	upward
+AG35	AG36	C-C	upward
+AG36	AG37	C-C	upward
+AG37	AG38	C-C	upward
+AG38	AG39	C-G	upward
+AG39	AG40	G-A	upward
+AG40	AG41	A-A	upward
+AG41	AG42	A-A	upward
+AG45	AG46	G-U	upward
+AG45	AG60	G-C	W/W	cis
+AG46	AG47	U-U	upward
+AG46	AG59	U-U	W/W	cis
+AG47	AG48	U-G	upward
+AG47	AG58	U-U	W/W	cis
+AG47	AG59	U-U	outward
+AG48	AG49	G-G	upward
+AG48	AG57	G-C	W/W	cis
+AG48	AG58	G-U	outward
+AG49	AG50	G-U	upward
+AG49	AG56	G-C	W/W	cis
+AG49	AG57	G-C	outward
+AG50	AG54	U-A	W/W	trans
+AG50	AG56	U-C	W/W	cis
+AG51	AG52	U-A	outward
+AG52	AG53	A-U	inward
+AG53	AG54	U-A	downward
+AG54	AG56	A-C	outward
+AG56	AG57	C-C	upward
+AG57	AG58	C-U	upward
+AG58	AG59	U-U	upward
+AG59	AG60	U-C	upward
+AG60	AG61	C-C	upward
+AG61	AG62	C-C	upward
+AG62	AG63	C-G	upward
+AG63	AG64	G-U	upward
+AG64	AG65	U-A	upward
+AG65	AG66	A-C	upward
+AG66	AG67	C-U	upward
+AG67	AG68	U-A	upward
+AG69	AG70	C-C	upward
+AG69	'B8'1152	C-G	W/W	cis
+AG69	'B8'1153	C-G	outward
+AG70	AG71	C-A	upward
+AG70	'B8'1151	C-OMG	W/W	cis
+AG70	'B8'1152	C-G	outward
+'B7'75	'B7'76	C-A	upward
+'B7'75	'B8'1245	C-G	W/S	trans
+'B7'76	'B8'1235	A-C	S/W	cis
+'B7'76	'B8'1245	A-G	downward
+'B7'76	'B8'1246	A-A	upward
+'B8'1	'B8'2	A-C	upward
+'B8'1	'B8'153	A-U	W/W	cis
+'B8'1	'B8'154	A-A	outward
+'B8'2	'B8'3	C-C	upward
+'B8'2	'B8'152	C-G	W/W	cis
+'B8'2	'B8'153	C-U	W/W	cis
+'B8'3	'B8'4	C-A	upward
+'B8'4	'B8'5	A-A	upward
+'B8'4	'B8'147	A-U	W/W	cis
+'B8'5	'B8'6	A-A	upward
+'B8'5	'B8'147	A-U	outward
+'B8'6	'B8'7	A-G	inward
+'B8'7	'B8'133	G-A	downward
+'B8'8	'B8'9	C-U	upward
+'B8'8	'B8'132	C-G	W/W	cis
+'B8'9	'B8'10	U-A	upward
+'B8'9	'B8'108	U-A	W/H	trans
+'B8'10	'B8'11	A-G	upward
+'B8'10	'B8'108	A-A	outward
+'B8'10	'B8'110	A-A	W/W	trans
+'B8'11	'B8'12	G-C	upward
+'B8'11	'B8'106	G-C	W/W	cis
+'B8'11	'B8'111	G-G	S/S	trans
+'B8'12	'B8'13	C-U	upward
+'B8'12	'B8'105	C-G	W/W	cis
+'B8'12	'B8'106	C-C	W/W	cis
+'B8'13	'B8'14	U-C	upward
+'B8'13	'B8'103	U-A	W/W	cis
+'B8'13	'B8'105	U-G	outward
+'B8'14	'B8'15	C-A	upward
+'B8'14	'B8'102	C-G	W/W	cis
+'B8'15	'B8'16	A-A	upward
+'B8'15	'B8'102	A-G	outward
+'B8'16	'B8'17	A-C	upward
+'B8'17	'B8'18	C-A	upward
+'B8'18	'B8'19	A-U	upward
+'B8'23	'B8'24	A-A	upward
+'B8'24	'B8'25	A-A	upward
+'B8'25	'B8'26	A-C	upward
+'B8'27	'B8'28	A-A	upward
+'B8'28	'B8'29	A-A	upward
+'B8'29	'B8'30	A-U	upward
+'B8'30	'B8'34	U-A	S/S	cis
+'B8'32	'B8'36	C-A	downward
+'B8'34	'B8'35	A-A	upward
+'B8'37	'B8'38	A-U	upward
+'B8'42	'B8'43	C-C	upward
+'B8'43	'B8'44	C-A	upward
+'B8'44	'B8'45	A-A	upward
+'B8'45	'B8'46	A-A	upward
+'B8'46	'B8'47	A-A	upward
+'B8'49	'B8'50	A-A	upward
+'B8'50	'B8'51	A-A	upward
+'B8'50	'B8'247	A-C	S/S	cis
+'B8'51	'B8'52	A-A	inward
+'B8'51	'B8'246	A-C	S/s	cis
+'B8'51	'B8'346	A-G	S/S	trans
+'B8'52	'B8'53	A-U	outward
+'B8'53	'B8'54	U-A	upward
+'B8'53	'B8'62	U-C	W/W	cis
+'B8'54	'B8'55	A-A	upward
+'B8'54	'B8'61	A-U	W/W	cis
+'B8'54	'B8'62	A-C	outward
+'B8'55	'B8'58	A-C	inward
+'B8'55	'B8'84	A-G	S/W	cis
+'B8'56	'B8'352	A-G	outward
+'B8'56	'B8'377	A-G	W/S	trans
+'B8'57	'B8'58	A-C	upward
+'B8'57	'B8'1254	A-A	downward
+'B8'58	'B8'82	C-G	W/W	cis
+'B8'59	'B8'1256	A-C	inward
+'B8'59	'B8'1257	A-A	downward
+'B8'60	'B8'61	U-U	outward
+'B8'60	'B8'82	U-G	W/S	cis
+'B8'60	'B8'1255	U-A	W/H	trans
+'B8'61	'B8'62	U-C	upward
+'B8'61	'B8'84	U-G	S/W	trans
+'B8'63	'B8'64	A-C	inward
+'B8'64	'B8'65	C-C	outward
+'B8'66	'B8'67	U-A	downward
+'B8'70	'B8'71	A-U	upward
+'B8'70	'B8'95	A-U	W/W	cis
+'B8'71	'B8'94	U-U	W/W	cis
+'B8'72	'B8'73	U-A	upward
+'B8'72	'B8'93	U-U	W/W	cis
+'B8'72	'B8'94	U-U	outward
+'B8'73	'B8'74	A-A	upward
+'B8'73	'B8'92	A-U	W/W	cis
+'B8'74	'B8'75	A-A	inward
+'B8'74	'B8'91	A-A	S/H	trans
+'B8'75	'B8'76	A-G	outward
+'B8'75	'B8'77	A-U	outward
+'B8'75	'B8'90	A-A	H/H	trans
+'B8'76	'B8'77	G-U	S/H	cis
+'B8'76	'B8'88	G-G	inward
+'B8'77	'B8'78	U-A	upward
+'B8'77	'B8'88	U-G	inward
+'B8'77	'B8'89	U-A	W/H	trans
+'B8'78	'B8'79	A-U	upward
+'B8'78	'B8'88	A-G	H/S	trans
+'B8'78	'B8'89	A-A	outward
+'B8'79	'B8'80	U-A	upward
+'B8'79	'B8'87	U-A	W/W	cis
+'B8'79	'B8'88	U-G	outward
+'B8'80	'B8'81	A-G	upward
+'B8'80	'B8'86	A-U	W/W	cis
+'B8'80	'B8'87	A-A	outward
+'B8'81	'B8'83	G-A	upward
+'B8'81	'B8'85	G-A	S/H	trans
+'B8'81	'B8'86	G-U	outward
+'B8'82	'B8'84	G-G	outward
+'B8'82	'B8'1255	G-A	S/H	trans
+'B8'84	'B8'85	G-A	upward
+'B8'85	'B8'86	A-U	upward
+'B8'86	'B8'87	U-A	upward
+'B8'87	'B8'88	A-G	upward
+'B8'89	'B8'90	A-A	upward
+'B8'90	'B8'91	A-A	upward
+'B8'91	'B8'92	A-U	upward
+'B8'92	'B8'93	U-U	upward
+'B8'93	'B8'94	U-U	upward
+'B8'94	'B8'95	U-U	upward
+'B8'97	'B8'98	A-U	upward
+'B8'98	'B8'99	U-C	upward
+'B8'99	'B8'100	C-C	upward
+'B8'102	'B8'103	G-A	upward
+'B8'103	'B8'105	A-G	upward
+'B8'105	'B8'106	G-C	upward
+'B8'106	'B8'107	C-U	upward
+'B8'108	'B8'132	A-G	upward
+'B8'110	'B8'111	A-G	upward
+'B8'112	'B8'114	A-A	inward
+'B8'113	'B8'114	G-A	upward
+'B8'113	'B8'117	G-G	outward
+'B8'115	'B8'131	U-A	inward
+'B8'116	'B8'118	A-U	outward
+'B8'117	'B8'118	G-U	S/H	cis
+'B8'117	'B8'128	G-G	inward
+'B8'118	'B8'119	U-A	upward
+'B8'118	'B8'129	U-A	W/H	trans
+'B8'119	'B8'120	A-C	upward
+'B8'119	'B8'128	A-G	H/S	trans
+'B8'119	'B8'129	A-A	outward
+'B8'120	'B8'121	C-C	upward
+'B8'120	'B8'127	C-G	W/W	cis
+'B8'121	'B8'122	C-G	upward
+'B8'121	'B8'126	C-G	W/W	cis
+'B8'121	'B8'127	C-G	outward
+'B8'122	'B8'125	G-A	S/H	trans
+'B8'122	'B8'126	G-G	outward
+'B8'123	'B8'124	U-A	upward
+'B8'123	'B8'335	U-U	downward
+'B8'124	'B8'125	A-A	upward
+'B8'125	'B8'342	A-C	W/S	trans
+'B8'126	'B8'127	G-G	upward
+'B8'127	'B8'128	G-G	upward
+'B8'129	'B8'130	A-A	upward
+'B8'130	'B8'131	A-A	upward
+'B8'132	'B8'133	G-A	upward
+'B8'134	'B8'135	U-G	upward
+'B8'134	'B8'138	U-A	W/H	trans
+'B8'135	'B8'137	G-A	inward
+'B8'135	'B8'138	G-A	outward
+'B8'135	'B8'140	G-A	S/H	trans
+'B8'136	'B8'137	A-A	upward
+'B8'137	'B8'140	A-A	upward
+'B8'138	'B8'140	A-A	downward
+'B8'141	'B8'143	A-A	upward
+'B8'143	'B8'144	A-A	upward
+'B8'144	'B8'145	A-A	upward
+'B8'145	'B8'146	A-A	upward
+'B8'147	'B8'148	U-A	upward
+'B8'150	'B8'151	A-A	upward
+'B8'150	'B8'198	A-U	W/S	cis
+'B8'151	'B8'152	A-G	upward
+'B8'151	'B8'638	A-A	W/S	trans
+'B8'152	'B8'153	G-U	upward
+'B8'153	'B8'154	U-A	upward
+'B8'154	'B8'155	A-A	upward
+'B8'155	'B8'156	A-A	inward
+'B8'157	'B8'158	A-A	upward
+'B8'158	'B8'159	A-A	inward
+'B8'158	'B8'1039	A-A	W/S	cis
+'B8'160	'B8'1037	A-U	inward
+'B8'161	'B8'162	A-G	outward
+'B8'161	'B8'1037	A-U	H/W	cis
+'B8'162	'B8'1018	G-U	upward
+'B8'162	'B8'1036	G-A	W/W	cis
+'B8'163	'B8'1013	C-A	W/W	cis
+'B8'163	'B8'1030	C-G	downward
+'B8'164	'B8'1015	A-C	W/S	cis
+'B8'164	'B8'1016	A-C	downward
+'B8'165	'B8'166	A-A	upward
+'B8'165	'B8'177	A-U	W/W	cis
+'B8'166	'B8'167	A-G	upward
+'B8'166	'B8'176	A-U	W/W	cis
+'B8'167	'B8'168	G-A	upward
+'B8'167	'B8'175	G-C	W/W	cis
+'B8'167	'B8'176	G-U	outward
+'B8'168	'B8'169	A-U	upward
+'B8'172	'B8'173	C-C	upward
+'B8'173	'B8'174	C-C	upward
+'B8'174	'B8'175	C-C	upward
+'B8'175	'B8'176	C-U	upward
+'B8'176	'B8'177	U-U	upward
+'B8'177	'B8'178	U-C	upward
+'B8'179	'B8'189	U-A	upward
+'B8'179	'B8'1028	U-A	W/W	cis
+'B8'180	'B8'181	A-C	upward
+'B8'180	'B8'195	A-G	W/W	cis
+'B8'180	'B8'1013	A-A	outward
+'B8'181	'B8'182	C-C	upward
+'B8'181	'B8'194	C-G	W/W	cis
+'B8'182	'B8'183	C-U	upward
+'B8'182	'B8'193	C-U	W/W	cis
+'B8'183	'B8'184	U-U	upward
+'B8'183	'B8'192	U-A	W/W	cis
+'B8'184	'B8'185	U-U	upward
+'B8'186	'B8'187	U-G	upward
+'B8'186	'B8'467	U-A	S/W	cis
+'B8'187	'B8'1025	G-A	upward
+'B8'188	'B8'192	C-A	upward
+'B8'188	'B8'1025	C-A	downward
+'B8'189	'B8'190	A-U	inward
+'B8'189	'B8'1024	A-G	H/S	trans
+'B8'189	'B8'1028	A-A	outward
+'B8'192	'B8'193	A-U	upward
+'B8'193	'B8'194	U-G	upward
+'B8'194	'B8'195	G-G	upward
+'B8'196	'B8'197	U-U	upward
+'B8'196	'B8'639	U-U	W/W	cis
+'B8'196	'B8'640	U-A	outward
+'B8'196	'B8'1012	U-U	downward
+'B8'197	'B8'198	U-U	upward
+'B8'197	'B8'638	U-A	W/W	cis
+'B8'197	'B8'639	U-U	W/W	cis
+'B8'198	'B8'199	U-A	upward
+'B8'198	'B8'637	U-A	W/W	cis
+'B8'199	'B8'200	A-A	upward
+'B8'199	'B8'636	A-U	W/W	cis
+'B8'199	'B8'637	A-A	outward
+'B8'200	'B8'201	A-C	upward
+'B8'200	'B8'635	A-U	W/W	cis
+'B8'201	'B8'202	C-C	upward
+'B8'201	'B8'634	C-G	W/W	cis
+'B8'202	'B8'629	C-A	upward
+'B8'202	'B8'634	C-G	outward
+'B8'203	'B8'356	A-G	S/S	trans
+'B8'203	'B8'629	A-A	H/H	trans
+'B8'203	'B8'632	A-A	outward
+'B8'204	'B8'239	G-C	upward
+'B8'204	'B8'357	G-U	W/W	cis
+'B8'206	'B8'238	A-C	upward
+'B8'207	'B8'236	A-U	inward
+'B8'207	'B8'237	A-A	outward
+'B8'208	'B8'209	A-A	upward
+'B8'208	'B8'237	A-A	H/W	trans
+'B8'209	'B8'210	A-A	upward
+'B8'210	'B8'211	A-U	upward
+'B8'210	'B8'236	A-U	W/W	cis
+'B8'211	'B8'212	U-C	upward
+'B8'211	'B8'235	U-A	W/W	cis
+'B8'212	'B8'213	C-U	upward
+'B8'212	'B8'234	C-G	W/W	cis
+'B8'213	'B8'214	U-A	upward
+'B8'213	'B8'233	U-A	W/W	cis
+'B8'213	'B8'234	U-G	outward
+'B8'214	'B8'215	A-A	upward
+'B8'214	'B8'232	A-U	W/W	cis
+'B8'214	'B8'233	A-A	outward
+'B8'215	'B8'216	A-C	upward
+'B8'215	'B8'231	A-C	W/W	cis
+'B8'216	'B8'217	C-A	upward
+'B8'216	'B8'230	C-G	W/W	cis
+'B8'218	'B8'229	A-A	outward
+'B8'219	'B8'220	A-G	upward
+'B8'219	'B8'226	A-U	W/W	cis
+'B8'220	'B8'221	G-A	upward
+'B8'220	'B8'225	G-C	W/W	cis
+'B8'220	'B8'226	G-U	outward
+'B8'223	'B8'224	A-A	upward
+'B8'225	'B8'226	C-U	upward
+'B8'226	'B8'227	U-U	upward
+'B8'230	'B8'231	G-C	upward
+'B8'231	'B8'232	C-U	upward
+'B8'232	'B8'233	U-A	upward
+'B8'233	'B8'234	A-G	upward
+'B8'234	'B8'235	G-A	upward
+'B8'235	'B8'236	A-U	upward
+'B8'237	'B8'238	A-C	inward
+'B8'239	'B8'240	C-C	upward
+'B8'239	'B8'356	C-G	W/W	cis
+'B8'240	'B8'241	C-C	upward
+'B8'240	'B8'355	C-G	W/W	cis
+'B8'240	'B8'356	C-G	outward
+'B8'241	'B8'242	C-G	upward
+'B8'241	'B8'354	C-U	W/W	cis
+'B8'241	'B8'355	C-G	outward
+'B8'242	'B8'351	G-A	inward
+'B8'242	'B8'353	G-C	W/W	cis
+'B8'242	'B8'354	G-U	outward
+'B8'243	'B8'244	A-A	upward
+'B8'243	'B8'350	A-U	H/W	trans
+'B8'243	'B8'351	A-A	outward
+'B8'243	'B8'1266	A-U	W/S	cis
+'B8'244	'B8'349	A-A	H/W	trans
+'B8'244	'B8'1064	A-G	W/S	trans
+'B8'245	'B8'246	A-C	upward
+'B8'245	'B8'349	A-A	outward
+'B8'246	'B8'247	C-C	upward
+'B8'246	'B8'346	C-G	W/W	cis
+'B8'247	'B8'248	C-A	upward
+'B8'247	'B8'345	C-G	W/W	cis
+'B8'247	'B8'346	C-G	outward
+'B8'248	'B8'249	A-G	upward
+'B8'248	'B8'344	A-U	W/W	cis
+'B8'248	'B8'345	A-G	outward
+'B8'249	'B8'250	G-A	upward
+'B8'249	'B8'343	G-C	W/W	cis
+'B8'249	'B8'344	G-U	outward
+'B8'250	'B8'251	A-C	upward
+'B8'250	'B8'342	A-C	W/W	cis
+'B8'251	'B8'252	C-G	upward
+'B8'251	'B8'341	C-G	W/W	cis
+'B8'252	'B8'321	G-A	inward
+'B8'252	'B8'322	G-G	W/H	trans
+'B8'252	'B8'341	G-G	outward
+'B8'253	'B8'256	A-U	S/W	trans
+'B8'253	'B8'257	A-A	upward
+'B8'253	'B8'320	A-U	inward
+'B8'253	'B8'321	A-A	outward
+'B8'253	'B8'325	A-G	W/S	trans
+'B8'255	'B8'256	C-U	upward
+'B8'255	'B8'335	C-U	outward
+'B8'255	'B8'832	C-A	S/W	cis
+'B8'257	'B8'258	A-C	upward
+'B8'257	'B8'320	A-U	W/W	cis
+'B8'258	'B8'259	C-C	upward
+'B8'258	'B8'319	C-G	W/W	cis
+'B8'259	'B8'260	C-C	upward
+'B8'259	'B8'318	C-G	W/W	cis
+'B8'260	'B8'261	C-A	upward
+'B8'260	'B8'317	C-A	W/W	cis
+'B8'260	'B8'318	C-G	outward
+'B8'261	'B8'262	A-U	upward
+'B8'261	'B8'316	A-U	W/W	cis
+'B8'261	'B8'317	A-A	outward
+'B8'262	'B8'263	U-G	upward
+'B8'262	'B8'315	U-G	W/W	cis
+'B8'263	'B8'264	G-A	upward
+'B8'263	'B8'314	G-U	W/W	cis
+'B8'263	'B8'315	G-G	outward
+'B8'264	'B8'265	A-G	upward
+'B8'264	'B8'313	A-U	W/W	cis
+'B8'265	'B8'266	G-C	upward
+'B8'265	'B8'312	G-C	W/W	cis
+'B8'265	'B8'313	G-U	outward
+'B8'266	'B8'309	C-A	upward
+'B8'266	'B8'310	C-G	W/W	cis
+'B8'267	'B8'268	A-G	upward
+'B8'267	'B8'280	A-C	H/W	trans
+'B8'267	'B8'281	A-A	outward
+'B8'268	'B8'269	G-U	upward
+'B8'268	'B8'279	G-C	W/W	cis
+'B8'269	'B8'270	U-U	upward
+'B8'269	'B8'278	U-A	W/W	cis
+'B8'270	'B8'271	U-U	upward
+'B8'270	'B8'277	U-A	W/W	cis
+'B8'271	'B8'275	U-A	W/H	trans
+'B8'272	'B8'273	A-A	downward
+'B8'273	'B8'275	A-A	outward
+'B8'274	'B8'309	A-A	downward
+'B8'275	'B8'277	A-A	upward
+'B8'276	'B8'826	G-C	W/W	cis
+'B8'276	'B8'827	G-U	outward
+'B8'277	'B8'278	A-A	upward
+'B8'278	'B8'279	A-C	upward
+'B8'279	'B8'280	C-C	upward
+'B8'280	'B8'308	C-A	inward
+'B8'281	'B8'282	A-A	upward
+'B8'282	'B8'283	A-C	upward
+'B8'282	'B8'308	A-A	H/S	trans
+'B8'283	'B8'284	C-U	upward
+'B8'283	'B8'307	C-G	W/W	cis
+'B8'284	'B8'285	U-C	upward
+'B8'284	'B8'306	U-A	W/W	cis
+'B8'284	'B8'307	U-G	outward
+'B8'285	'B8'286	C-A	upward
+'B8'285	'B8'305	C-G	W/W	cis
+'B8'286	'B8'305	A-G	outward
+'B8'287	'B8'288	U-C	upward
+'B8'287	'B8'304	U-U	W/W	cis
+'B8'287	'B8'305	U-G	outward
+'B8'287	'B8'976	U-A	downward
+'B8'288	'B8'289	C-U	upward
+'B8'288	'B8'303	C-G	W/W	cis
+'B8'289	'B8'290	U-A	upward
+'B8'289	'B8'302	U-A	W/W	cis
+'B8'289	'B8'303	U-G	outward
+'B8'290	'B8'291	A-U	upward
+'B8'290	'B8'301	A-U	W/W	cis
+'B8'290	'B8'302	A-A	outward
+'B8'291	'B8'292	U-G	upward
+'B8'291	'B8'300	U-A	W/W	cis
+'B8'292	'B8'293	G-U	upward
+'B8'292	'B8'295	G-G	inward
+'B8'292	'B8'297	G-A	S/W	trans
+'B8'292	'B8'300	G-A	outward
+'B8'295	'B8'297	G-A	inward
+'B8'296	'B8'297	C-A	upward
+'B8'296	'B8'300	C-A	W/S	cis
+'B8'296	'B8'766	C-A	downward
+'B8'297	'B8'300	A-A	outward
+'B8'298	'B8'336	A-A	inward
+'B8'299	'B8'833	A-C	upward
+'B8'299	'B8'1432	A-U	W/W	cis
+'B8'300	'B8'301	A-U	upward
+'B8'301	'B8'302	U-A	upward
+'B8'302	'B8'303	A-G	upward
+'B8'303	'B8'304	G-U	upward
+'B8'304	'B8'305	U-G	upward
+'B8'305	'B8'306	G-A	upward
+'B8'305	'B8'976	G-A	S/W	cis
+'B8'306	'B8'307	A-G	upward
+'B8'307	'B8'308	G-A	upward
+'B8'309	'B8'310	A-G	outward
+'B8'310	'B8'312	G-C	upward
+'B8'311	'B8'328	A-A	upward
+'B8'311	'B8'827	A-U	H/W	cis
+'B8'312	'B8'313	C-U	upward
+'B8'313	'B8'314	U-U	upward
+'B8'315	'B8'316	G-U	upward
+'B8'316	'B8'317	U-A	upward
+'B8'317	'B8'318	A-G	upward
+'B8'318	'B8'319	G-G	upward
+'B8'319	'B8'320	G-U	upward
+'B8'322	'B8'324	G-G	outward
+'B8'322	'B8'338	G-C	W/W	cis
+'B8'322	'B8'341	G-G	upward
+'B8'324	'B8'325	G-G	upward
+'B8'324	'B8'334	G-C	W/W	cis
+'B8'325	'B8'326	G-U	upward
+'B8'325	'B8'333	G-C	W/W	cis
+'B8'325	'B8'334	G-C	outward
+'B8'326	'B8'327	U-G	upward
+'B8'326	'B8'332	U-G	W/W	cis
+'B8'327	'B8'329	G-A	upward
+'B8'327	'B8'330	G-A	S/W	trans
+'B8'327	'B8'332	G-G	outward
+'B8'328	'B8'828	A-G	S/S	trans
+'B8'330	'B8'332	A-G	outward
+'B8'331	'B8'339	A-G	upward
+'B8'331	'B8'340	A-A	S/H	cis
+'B8'332	'B8'333	G-C	upward
+'B8'333	'B8'334	C-C	upward
+'B8'334	'B8'338	C-C	inward
+'B8'339	'B8'1067	G-G	S/S	cis
+'B8'339	'B8'1263	G-C	upward
+'B8'341	'B8'342	G-C	upward
+'B8'342	'B8'343	C-C	upward
+'B8'343	'B8'344	C-U	upward
+'B8'344	'B8'345	U-G	upward
+'B8'345	'B8'346	G-G	upward
+'B8'346	'B8'347	G-U	inward
+'B8'349	'B8'350	A-U	upward
+'B8'350	'B8'351	U-A	upward
+'B8'351	'B8'353	A-C	upward
+'B8'353	'B8'354	C-U	upward
+'B8'354	'B8'355	U-G	upward
+'B8'354	'B8'1055	U-A	S/W	cis
+'B8'355	'B8'356	G-G	upward
+'B8'355	'B8'632	G-A	S/S	cis
+'B8'356	'B8'357	G-U	upward
+'B8'358	'B8'629	U-A	downward
+'B8'359	'B8'360	G-U	upward
+'B8'359	'B8'605	G-C	W/W	cis
+'B8'359	'B8'606	G-U	outward
+'B8'359	'B8'628	G-A	downward
+'B8'360	'B8'361	U-C	upward
+'B8'360	'B8'604	U-A	W/W	cis
+'B8'361	'B8'362	C-C	upward
+'B8'361	'B8'603	C-G	W/W	cis
+'B8'362	'B8'602	C-G	W/W	cis
+'B8'362	'B8'603	C-G	outward
+'B8'363	'B8'364	G-A	upward
+'B8'363	'B8'601	G-C	W/W	cis
+'B8'363	'B8'602	G-G	outward
+'B8'364	'B8'365	A-G	upward
+'B8'364	'B8'600	A-C	W/W	cis
+'B8'365	'B8'597	G-A	inward
+'B8'365	'B8'598	G-U	inward
+'B8'365	'B8'599	G-A	S/H	trans
+'B8'366	'B8'599	A-A	outward
+'B8'367	'B8'433	A-G	outward
+'B8'369	'B8'370	G-A	upward
+'B8'369	'B8'380	G-C	W/W	cis
+'B8'369	'B8'381	G-A	outward
+'B8'370	'B8'371	A-A	upward
+'B8'370	'B8'379	A-U	W/W	cis
+'B8'371	'B8'372	A-U	upward
+'B8'371	'B8'378	A-U	W/W	cis
+'B8'372	'B8'374	U-U	inward
+'B8'372	'B8'377	U-G	W/W	cis
+'B8'373	'B8'1063	U-U	upward
+'B8'373	'B8'1254	U-A	upward
+'B8'374	'B8'375	U-U	upward
+'B8'376	'B8'432	A-A	S/W	trans
+'B8'376	'B8'1061	A-U	H/S	cis
+'B8'377	'B8'378	G-U	upward
+'B8'378	'B8'379	U-U	upward
+'B8'379	'B8'380	U-C	upward
+'B8'379	'B8'431	U-U	H/W	trans
+'B8'380	'B8'381	C-A	upward
+'B8'380	'B8'431	C-U	H/W	trans
+'B8'381	'B8'382	A-A	upward
+'B8'381	'B8'430	A-A	H/W	trans
+'B8'382	'B8'383	A-C	upward
+'B8'382	'B8'429	A-G	W/W	cis
+'B8'383	'B8'384	C-C	upward
+'B8'384	'B8'385	C-U	upward
+'B8'384	'B8'427	C-G	W/W	cis
+'B8'385	'B8'386	U-U	upward
+'B8'385	'B8'426	U-A	W/W	cis
+'B8'385	'B8'427	U-G	outward
+'B8'386	'B8'387	U-A	upward
+'B8'386	'B8'425	U-A	W/W	cis
+'B8'386	'B8'426	U-A	outward
+'B8'387	'B8'388	A-A	upward
+'B8'387	'B8'424	A-U	W/W	cis
+'B8'387	'B8'425	A-A	outward
+'B8'388	'B8'389	A-A	upward
+'B8'388	'B8'423	A-U	W/W	cis
+'B8'388	'B8'424	A-U	outward
+'B8'389	'B8'390	A-A	upward
+'B8'389	'B8'422	A-U	W/W	cis
+'B8'390	'B8'391	A-A	upward
+'B8'390	'B8'421	A-U	W/W	cis
+'B8'391	'B8'420	A-U	W/W	cis
+'B8'392	'B8'393	U-A	upward
+'B8'392	'B8'419	U-A	W/W	cis
+'B8'393	'B8'394	A-C	upward
+'B8'393	'B8'418	A-U	W/W	cis
+'B8'393	'B8'419	A-A	outward
+'B8'394	'B8'395	C-C	upward
+'B8'394	'B8'417	C-G	W/W	cis
+'B8'395	'B8'396	C-C	upward
+'B8'395	'B8'415	C-A	W/H	trans
+'B8'395	'B8'416	C-U	W/W	cis
+'B8'395	'B8'417	C-G	outward
+'B8'396	'B8'413	C-C	inward
+'B8'397	'B8'398	C-A	downward
+'B8'397	'B8'413	C-C	W/W	trans
+'B8'397	'B8'414	C-A	upward
+'B8'398	'B8'399	A-A	outward
+'B8'399	'B8'400	A-A	upward
+'B8'399	'B8'412	A-C	W/W	cis
+'B8'400	'B8'401	A-A	upward
+'B8'400	'B8'411	A-U	W/W	cis
+'B8'401	'B8'410	A-U	W/W	cis
+'B8'402	'B8'403	A-C	upward
+'B8'404	'B8'405	C-C	inward
+'B8'405	'B8'406	C-U	outward
+'B8'407	'B8'408	A-A	upward
+'B8'407	'B8'1167	A-C	downward
+'B8'408	'B8'1168	A-A	H/H	trans
+'B8'409	'B8'410	A-U	upward
+'B8'409	'B8'1168	A-A	downward
+'B8'410	'B8'411	U-U	upward
+'B8'411	'B8'412	U-C	upward
+'B8'412	'B8'413	C-C	upward
+'B8'414	'B8'415	A-A	upward
+'B8'415	'B8'416	A-U	upward
+'B8'416	'B8'417	U-G	upward
+'B8'417	'B8'418	G-U	upward
+'B8'418	'B8'419	U-A	upward
+'B8'420	'B8'421	U-U	upward
+'B8'421	'B8'422	U-U	upward
+'B8'422	'B8'423	U-U	upward
+'B8'423	'B8'424	U-U	upward
+'B8'424	'B8'425	U-A	upward
+'B8'425	'B8'426	A-A	upward
+'B8'426	'B8'427	A-G	upward
+'B8'427	'B8'428	G-A	upward
+'B8'428	'B8'429	A-G	upward
+'B8'428	'B8'600	A-C	s/S	cis
+'B8'429	'B8'430	G-A	upward
+'B8'429	'B8'599	G-A	S/s	cis
+'B8'430	'B8'431	A-U	upward
+'B8'432	'B8'1271	A-A	inward
+'B8'433	'B8'434	G-U	upward
+'B8'433	'B8'458	G-A	W/W	cis
+'B8'434	'B8'435	U-C	upward
+'B8'434	'B8'457	U-A	W/W	cis
+'B8'434	'B8'468	U-A	S/H	trans
+'B8'435	'B8'436	C-U	upward
+'B8'435	'B8'456	C-G	W/W	cis
+'B8'436	'B8'437	U-A	upward
+'B8'436	'B8'455	U-A	W/W	cis
+'B8'436	'B8'456	U-G	outward
+'B8'437	'B8'438	A-A	upward
+'B8'437	'B8'454	A-U	W/W	cis
+'B8'437	'B8'455	A-A	outward
+'B8'438	'B8'439	A-A	upward
+'B8'438	'B8'453	A-U	W/W	cis
+'B8'438	'B8'454	A-U	outward
+'B8'439	'B8'440	A-A	upward
+'B8'439	'B8'452	A-U	W/W	cis
+'B8'440	'B8'441	A-A	upward
+'B8'440	'B8'451	A-U	W/W	cis
+'B8'440	'B8'452	A-U	outward
+'B8'441	'B8'442	A-G	upward
+'B8'441	'B8'450	A-U	W/W	cis
+'B8'442	'B8'443	G-G	upward
+'B8'442	'B8'449	G-C	W/W	cis
+'B8'442	'B8'450	G-U	outward
+'B8'442	'B8'1150	G-G	S/W	cis
+'B8'443	'B8'447	G-A	S/H	trans
+'B8'444	'B8'446	U-C	outward
+'B8'444	'B8'1282	U-A	upward
+'B8'444	'B8'1317	U-A	H/S	trans
+'B8'446	'B8'447	C-A	upward
+'B8'446	'B8'1280	C-C	s/S	cis
+'B8'447	'B8'449	A-C	upward
+'B8'447	'B8'1279	A-G	S/S	cis
+'B8'448	'B8'1026	G-A	upward
+'B8'449	'B8'450	C-U	upward
+'B8'450	'B8'451	U-U	upward
+'B8'451	'B8'452	U-U	upward
+'B8'452	'B8'453	U-U	upward
+'B8'453	'B8'454	U-U	upward
+'B8'454	'B8'455	U-A	upward
+'B8'455	'B8'456	A-G	upward
+'B8'456	'B8'457	G-A	upward
+'B8'457	'B8'458	A-A	upward
+'B8'459	'B8'461	A-G	upward
+'B8'459	'B8'471	A-U	H/W	trans
+'B8'459	'B8'584	A-A	W/S	cis
+'B8'459	'B8'585	A-A	downward
+'B8'461	'B8'462	G-G	upward
+'B8'461	'B8'470	G-C	W/W	cis
+'B8'461	'B8'471	G-U	outward
+'B8'461	'B8'485	G-A	S/S	trans
+'B8'462	'B8'463	G-A	upward
+'B8'462	'B8'469	G-C	W/W	cis
+'B8'462	'B8'470	G-C	outward
+'B8'463	'B8'466	A-C	inward
+'B8'464	'B8'465	U-A	upward
+'B8'465	'B8'1022	A-G	S/S	trans
+'B8'467	'B8'468	A-A	inward
+'B8'469	'B8'470	C-C	upward
+'B8'470	'B8'471	C-U	upward
+'B8'471	'B8'472	U-U	upward
+'B8'471	'B8'484	U-A	S/S	cis
+'B8'474	'B8'585	A-A	outward
+'B8'474	'B8'596	A-A	upward
+'B8'475	'B8'476	C-U	upward
+'B8'475	'B8'592	C-G	W/W	cis
+'B8'475	'B8'595	C-C	downward
+'B8'476	'B8'477	U-A	upward
+'B8'476	'B8'591	U-A	W/W	cis
+'B8'476	'B8'592	U-G	outward
+'B8'477	'B8'478	A-G	upward
+'B8'477	'B8'590	A-U	W/W	cis
+'B8'477	'B8'591	A-A	outward
+'B8'478	'B8'480	G-G	upward
+'B8'478	'B8'589	G-C	W/W	cis
+'B8'478	'B8'590	G-U	outward
+'B8'480	'B8'481	G-A	upward
+'B8'480	'B8'588	G-C	W/W	cis
+'B8'480	'B8'589	G-C	outward
+'B8'481	'B8'482	A-G	upward
+'B8'481	'B8'587	A-U	W/W	cis
+'B8'482	'B8'483	G-U	upward
+'B8'482	'B8'586	G-C	W/W	cis
+'B8'482	'B8'587	G-U	outward
+'B8'483	'B8'584	U-A	W/H	trans
+'B8'484	'B8'485	A-A	upward
+'B8'484	'B8'584	A-A	outward
+'B8'485	'B8'486	A-A	upward
+'B8'485	'B8'583	A-A	H/S	trans
+'B8'486	'B8'582	A-C	W/W	cis
+'B8'487	'B8'582	A-C	W/W	cis
+'B8'488	'B8'572	U-A	W/W	trans
+'B8'489	'B8'490	C-U	upward
+'B8'490	'B8'491	U-U	upward
+'B8'491	'B8'492	U-A	upward
+'B8'494	'B8'559	U-A	inward
+'B8'494	'B8'560	U-A	outward
+'B8'495	'B8'496	A-C	upward
+'B8'495	'B8'1520	A-U	outward
+'B8'496	'B8'497	C-U	S/H	cis
+'B8'496	'B8'555	C-C	W/W	trans
+'B8'496	'B8'556	C-A	upward
+'B8'497	'B8'1522	U-A	outward
+'B8'498	'B8'499	A-C	outward
+'B8'498	'B8'550	A-A	H/W	cis
+'B8'499	'B8'500	C-C	upward
+'B8'500	'B8'501	C-A	upward
+'B8'502	'B8'503	U-A	inward
+'B8'502	'B8'526	U-A	W/W	cis
+'B8'502	'B8'530	U-A	downward
+'B8'503	'B8'526	A-A	upward
+'B8'504	'B8'505	G-U	inward
+'B8'504	'B8'524	G-C	W/W	cis
+'B8'505	'B8'532	U-A	W/H	cis
+'B8'506	'B8'515	A-A	inward
+'B8'507	'B8'508	G-G	upward
+'B8'507	'B8'521	G-C	W/W	cis
+'B8'507	'B8'522	G-A	outward
+'B8'507	'B8'532	G-A	outward
+'B8'508	'B8'509	G-C	upward
+'B8'508	'B8'520	G-C	W/W	cis
+'B8'508	'B8'521	G-C	outward
+'B8'509	'B8'510	C-C	upward
+'B8'509	'B8'519	C-G	W/W	cis
+'B8'510	'B8'511	C-U	upward
+'B8'510	'B8'518	C-A	S/W	trans
+'B8'512	'B8'513	A-A	upward
+'B8'513	'B8'514	A-A	upward
+'B8'514	'B8'518	A-A	inward
+'B8'516	'B8'517	G-C	upward
+'B8'516	'B8'533	G-A	downward
+'B8'516	'B8'534	G-A	downward
+'B8'516	'B8'535	G-G	W/H	cis
+'B8'517	'B8'536	C-C	W/H	cis
+'B8'517	'B8'543	C-G	W/H	trans
+'B8'518	'B8'519	A-G	outward
+'B8'519	'B8'520	G-C	upward
+'B8'520	'B8'521	C-C	upward
+'B8'521	'B8'522	C-A	upward
+'B8'522	'B8'523	A-U	upward
+'B8'524	'B8'525	C-A	upward
+'B8'524	'B8'532	C-A	downward
+'B8'526	'B8'527	A-U	upward
+'B8'527	'B8'530	U-A	W/H	trans
+'B8'528	'B8'529	U-G	upward
+'B8'529	'B8'530	G-A	upward
+'B8'529	'B8'549	G-C	S/S	cis
+'B8'531	'B8'533	G-A	upward
+'B8'531	'B8'534	G-A	upward
+'B8'531	'B8'546	G-C	W/W	cis
+'B8'531	'B8'547	G-A	outward
+'B8'534	'B8'535	A-G	upward
+'B8'534	'B8'545	A-U	W/W	cis
+'B8'534	'B8'546	A-C	outward
+'B8'535	'B8'536	G-C	upward
+'B8'535	'B8'544	G-C	W/W	cis
+'B8'535	'B8'545	G-U	outward
+'B8'536	'B8'537	C-G	upward
+'B8'536	'B8'543	C-G	W/W	cis
+'B8'537	'B8'538	G-U	upward
+'B8'537	'B8'542	G-A	S/H	trans
+'B8'538	'B8'541	U-A	S/H	trans
+'B8'539	'B8'540	U-A	upward
+'B8'540	'B8'541	A-A	upward
+'B8'541	'B8'542	A-A	upward
+'B8'542	'B8'543	A-G	upward
+'B8'543	'B8'544	G-C	upward
+'B8'544	'B8'545	C-U	upward
+'B8'545	'B8'546	U-C	upward
+'B8'547	'B8'548	A-A	upward
+'B8'548	'B8'549	A-C	upward
+'B8'549	'B8'550	C-A	upward
+'B8'550	'B8'551	A-A	upward
+'B8'551	'B8'552	A-A	upward
+'B8'552	'B8'553	A-U	upward
+'B8'554	'B8'555	U-C	upward
+'B8'555	'B8'556	C-A	upward
+'B8'557	'B8'558	C-C	upward
+'B8'558	'B8'559	C-A	upward
+'B8'562	'B8'563	A-U	outward
+'B8'562	'B8'1286	A-U	H/S	cis
+'B8'562	'B8'1311	A-G	W/S	cis
+'B8'563	'B8'1311	U-G	H/S	cis
+'B8'563	'B8'1341	U-A	inward
+'B8'564	'B8'565	A-A	upward
+'B8'564	'B8'1339	A-A	S/S	cis
+'B8'564	'B8'1341	A-A	outward
+'B8'565	'B8'1338	A-G	S/S	cis
+'B8'568	'B8'569	C-C	upward
+'B8'570	'B8'571	A-A	upward
+'B8'571	'B8'572	A-A	upward
+'B8'572	'B8'573	A-A	upward
+'B8'578	'B8'580	A-A	downward
+'B8'580	'B8'581	A-A	outward
+'B8'581	'B8'582	A-C	upward
+'B8'582	'B8'583	C-A	upward
+'B8'584	'B8'586	A-C	upward
+'B8'586	'B8'587	C-U	upward
+'B8'587	'B8'588	U-C	upward
+'B8'588	'B8'589	C-C	upward
+'B8'589	'B8'590	C-U	upward
+'B8'590	'B8'591	U-A	upward
+'B8'591	'B8'592	A-G	upward
+'B8'592	'B8'594	G-C	upward
+'B8'596	'B8'597	A-A	upward
+'B8'599	'B8'600	A-C	upward
+'B8'600	'B8'601	C-C	upward
+'B8'601	'B8'602	C-G	upward
+'B8'602	'B8'603	G-G	upward
+'B8'603	'B8'604	G-A	upward
+'B8'604	'B8'605	A-C	upward
+'B8'605	'B8'606	C-U	upward
+'B8'606	'B8'628	U-A	W/W	cis
+'B8'607	'B8'608	A-A	upward
+'B8'607	'B8'627	A-C	W/S	cis
+'B8'607	'B8'628	A-A	outward
+'B8'608	'B8'609	A-U	upward
+'B8'608	'B8'625	A-A	W/W	cis
+'B8'609	'B8'610	U-C	upward
+'B8'609	'B8'624	U-A	W/W	cis
+'B8'610	'B8'611	C-U	upward
+'B8'610	'B8'623	C-G	W/W	cis
+'B8'611	'B8'612	U-A	upward
+'B8'611	'B8'622	U-A	W/W	cis
+'B8'611	'B8'623	U-G	outward
+'B8'612	'B8'613	A-U	upward
+'B8'612	'B8'620	A-A	W/W	cis
+'B8'612	'B8'621	A-U	W/W	cis
+'B8'612	'B8'622	A-A	outward
+'B8'613	'B8'614	U-U	upward
+'B8'613	'B8'620	U-A	W/W	cis
+'B8'614	'B8'615	U-G	upward
+'B8'614	'B8'619	U-C	W/W	cis
+'B8'615	'B8'616	G-A	upward
+'B8'615	'B8'619	G-C	outward
+'B8'620	'B8'621	A-U	upward
+'B8'621	'B8'622	U-A	upward
+'B8'622	'B8'623	A-G	upward
+'B8'623	'B8'624	G-A	upward
+'B8'624	'B8'625	A-A	upward
+'B8'625	'B8'627	A-C	upward
+'B8'630	'B8'631	U-A	upward
+'B8'634	'B8'635	G-U	upward
+'B8'635	'B8'636	U-U	upward
+'B8'636	'B8'637	U-A	upward
+'B8'637	'B8'638	A-A	upward
+'B8'638	'B8'639	A-U	upward
+'B8'640	'B8'641	A-U	upward
+'B8'640	'B8'1012	A-U	W/W	cis
+'B8'641	'B8'642	U-G	upward
+'B8'641	'B8'1011	U-U	W/W	cis
+'B8'642	'B8'643	G-A	inward
+'B8'642	'B8'1009	G-A	inward
+'B8'642	'B8'1010	G-A	S/H	trans
+'B8'642	'B8'1011	G-U	outward
+'B8'643	'B8'645	A-U	outward
+'B8'643	'B8'1008	A-A	downward
+'B8'643	'B8'1009	A-A	H/H	trans
+'B8'644	'B8'645	G-U	S/H	cis
+'B8'644	'B8'1007	G-G	inward
+'B8'645	'B8'1007	U-G	inward
+'B8'645	'B8'1008	U-A	W/H	trans
+'B8'645	'B8'1009	U-A	W/H	trans
+'B8'646	'B8'647	A-A	upward
+'B8'646	'B8'1007	A-G	H/S	trans
+'B8'646	'B8'1008	A-A	outward
+'B8'647	'B8'648	A-C	upward
+'B8'647	'B8'1006	A-U	W/W	cis
+'B8'647	'B8'1007	A-G	outward
+'B8'648	'B8'649	C-A	upward
+'B8'648	'B8'1005	C-G	W/W	cis
+'B8'649	'B8'784	A-G	upward
+'B8'649	'B8'1004	A-A	W/W	cis
+'B8'649	'B8'1005	A-G	outward
+'B8'650	'B8'690	A-U	H/W	trans
+'B8'650	'B8'691	A-A	outward
+'B8'651	'B8'652	G-A	upward
+'B8'651	'B8'660	G-C	W/W	cis
+'B8'651	'B8'661	G-U	outward
+'B8'651	'B8'781	G-A	downward
+'B8'652	'B8'653	A-A	upward
+'B8'652	'B8'659	A-U	W/W	cis
+'B8'653	'B8'654	A-G	upward
+'B8'653	'B8'658	A-U	W/W	cis
+'B8'654	'B8'656	G-C	upward
+'B8'654	'B8'657	G-U	W/S	cis
+'B8'654	'B8'658	G-U	outward
+'B8'658	'B8'659	U-U	upward
+'B8'659	'B8'660	U-C	upward
+'B8'660	'B8'661	C-U	upward
+'B8'661	'B8'662	U-C	upward
+'B8'661	'B8'781	U-A	W/W	cis
+'B8'662	'B8'663	C-C	upward
+'B8'662	'B8'780	C-G	W/W	cis
+'B8'662	'B8'782	C-A	S/W	trans
+'B8'663	'B8'664	C-U	upward
+'B8'663	'B8'779	C-G	W/W	cis
+'B8'663	'B8'780	C-G	outward
+'B8'664	'B8'779	U-G	W/W	cis
+'B8'666	'B8'667	G-C	upward
+'B8'666	'B8'773	G-C	W/W	cis
+'B8'666	'B8'774	G-A	outward
+'B8'667	'B8'668	C-A	upward
+'B8'667	'B8'772	C-G	W/W	cis
+'B8'668	'B8'669	A-C	upward
+'B8'668	'B8'771	A-U	W/W	cis
+'B8'668	'B8'772	A-G	outward
+'B8'669	'B8'670	C-A	upward
+'B8'669	'B8'770	C-G	W/W	cis
+'B8'670	'B8'671	A-C	upward
+'B8'670	'B8'770	A-G	outward
+'B8'671	'B8'672	C-G	upward
+'B8'672	'B8'673	G-C	upward
+'B8'672	'B8'758	G-C	W/W	cis
+'B8'673	'B8'674	C-U	upward
+'B8'673	'B8'756	C-A	W/W	cis
+'B8'674	'B8'675	U-U	S/H	cis
+'B8'675	'B8'755	U-U	outward
+'B8'676	'B8'755	A-U	W/W	cis
+'B8'676	'B8'756	A-A	outward
+'B8'677	'B8'702	C-A	W/W	cis
+'B8'677	'B8'703	C-A	W/W	cis
+'B8'678	'B8'679	A-U	upward
+'B8'678	'B8'701	A-U	W/W	cis
+'B8'678	'B8'702	A-A	outward
+'B8'679	'B8'680	U-C	upward
+'B8'679	'B8'700	U-A	W/W	cis
+'B8'680	'B8'681	C-A	upward
+'B8'680	'B8'699	C-G	W/W	cis
+'B8'681	'B8'682	A-G	upward
+'B8'681	'B8'698	A-U	W/W	cis
+'B8'681	'B8'699	A-G	outward
+'B8'682	'B8'683	G-U	upward
+'B8'682	'B8'697	G-C	W/W	cis
+'B8'682	'B8'698	G-U	outward
+'B8'683	'B8'693	U-U	inward
+'B8'683	'B8'694	U-A	W/H	trans
+'B8'684	'B8'685	A-A	upward
+'B8'685	'B8'686	A-C	upward
+'B8'686	'B8'687	C-U	upward
+'B8'686	'B8'697	C-C	W/S	cis
+'B8'687	'B8'688	U-A	upward
+'B8'687	'B8'694	U-A	W/W	cis
+'B8'688	'B8'693	A-U	W/W	cis
+'B8'688	'B8'694	A-A	outward
+'B8'690	'B8'691	U-A	upward
+'B8'691	'B8'692	A-A	upward
+'B8'692	'B8'693	A-U	upward
+'B8'693	'B8'694	U-A	upward
+'B8'694	'B8'697	A-C	upward
+'B8'695	'B8'696	U-A	upward
+'B8'695	'B8'757	U-A	downward
+'B8'696	'B8'764	A-A	upward
+'B8'697	'B8'698	C-U	upward
+'B8'698	'B8'699	U-G	upward
+'B8'699	'B8'700	G-A	upward
+'B8'700	'B8'701	A-U	upward
+'B8'701	'B8'702	U-A	upward
+'B8'702	'B8'703	A-A	upward
+'B8'703	'B8'704	A-U	upward
+'B8'704	'B8'755	U-U	upward
+'B8'706	'B8'708	A-C	upward
+'B8'706	'B8'754	A-U	H/W	trans
+'B8'708	'B8'709	C-A	upward
+'B8'708	'B8'753	C-G	W/W	cis
+'B8'709	'B8'710	A-A	upward
+'B8'709	'B8'752	A-U	W/W	cis
+'B8'709	'B8'753	A-G	outward
+'B8'710	'B8'711	A-C	upward
+'B8'710	'B8'751	A-U	W/W	cis
+'B8'711	'B8'712	C-C	upward
+'B8'711	'B8'750	C-A	W/W	cis
+'B8'713	'B8'714	A-A	upward
+'B8'713	'B8'743	A-U	W/W	cis
+'B8'713	'B8'744	A-A	outward
+'B8'714	'B8'715	A-U	upward
+'B8'714	'B8'742	A-U	W/W	cis
+'B8'714	'B8'743	A-U	W/W	cis
+'B8'715	'B8'716	U-A	upward
+'B8'715	'B8'741	U-A	W/W	cis
+'B8'716	'B8'717	A-A	upward
+'B8'716	'B8'740	A-U	W/W	cis
+'B8'716	'B8'741	A-A	outward
+'B8'717	'B8'718	A-A	upward
+'B8'717	'B8'739	A-U	W/W	cis
+'B8'718	'B8'719	A-C	upward
+'B8'718	'B8'738	A-U	W/W	cis
+'B8'719	'B8'737	C-G	W/W	cis
+'B8'720	'B8'721	C-A	upward
+'B8'722	'B8'723	A-A	upward
+'B8'722	'B8'730	A-C	H/W	trans
+'B8'722	'B8'734	A-A	downward
+'B8'723	'B8'724	A-A	inward
+'B8'723	'B8'729	A-A	H/W	trans
+'B8'724	'B8'726	A-A	downward
+'B8'724	'B8'728	A-C	W/W	trans
+'B8'724	'B8'729	A-A	upward
+'B8'728	'B8'729	C-A	upward
+'B8'729	'B8'730	A-C	upward
+'B8'730	'B8'731	C-U	upward
+'B8'731	'B8'733	U-A	upward
+'B8'731	'B8'734	U-A	W/W	cis
+'B8'735	'B8'736	A-C	upward
+'B8'737	'B8'738	G-U	upward
+'B8'738	'B8'739	U-U	upward
+'B8'739	'B8'740	U-U	upward
+'B8'740	'B8'741	U-A	upward
+'B8'741	'B8'742	A-U	upward
+'B8'742	'B8'743	U-U	upward
+'B8'743	'B8'744	U-A	upward
+'B8'748	'B8'749	A-C	outward
+'B8'750	'B8'751	A-U	upward
+'B8'751	'B8'752	U-U	upward
+'B8'753	'B8'754	G-U	upward
+'B8'755	'B8'756	U-A	upward
+'B8'756	'B8'758	A-C	upward
+'B8'759	'B8'760	C-C	upward
+'B8'759	'B8'768	C-G	W/W	cis
+'B8'760	'B8'761	C-A	upward
+'B8'760	'B8'767	C-G	W/W	cis
+'B8'760	'B8'768	C-G	outward
+'B8'761	'B8'765	A-C	inward
+'B8'761	'B8'767	A-G	outward
+'B8'763	'B8'765	C-C	upward
+'B8'767	'B8'768	G-G	upward
+'B8'768	'B8'769	G-A	upward
+'B8'770	'B8'771	G-U	upward
+'B8'771	'B8'772	U-G	upward
+'B8'772	'B8'773	G-C	upward
+'B8'773	'B8'774	C-A	upward
+'B8'774	'B8'775	A-C	upward
+'B8'776	'B8'778	C-A	upward
+'B8'778	'B8'779	A-G	upward
+'B8'779	'B8'780	G-G	upward
+'B8'780	'B8'781	G-A	upward
+'B8'784	'B8'785	G-A	upward
+'B8'784	'B8'1003	G-C	W/W	cis
+'B8'784	'B8'1004	G-A	outward
+'B8'785	'B8'786	A-U	upward
+'B8'785	'B8'1002	A-U	W/W	cis
+'B8'786	'B8'787	U-U	upward
+'B8'786	'B8'1001	U-A	W/W	cis
+'B8'787	'B8'788	U-A	upward
+'B8'787	'B8'1000	U-A	W/W	cis
+'B8'789	'B8'790	A-A	upward
+'B8'789	'B8'1561	A-A	outward
+'B8'790	'B8'791	A-A	upward
+'B8'791	'B8'792	A-G	upward
+'B8'791	'B8'999	A-C	W/W	cis
+'B8'792	'B8'793	G-A	upward
+'B8'792	'B8'998	G-C	W/W	cis
+'B8'793	'B8'794	A-A	upward
+'B8'793	'B8'997	A-U	W/W	cis
+'B8'794	'B8'795	A-G	upward
+'B8'794	'B8'996	A-U	W/W	cis
+'B8'795	'B8'796	G-U	upward
+'B8'795	'B8'995	G-C	W/W	cis
+'B8'795	'B8'996	G-U	outward
+'B8'796	'B8'797	U-A	upward
+'B8'796	'B8'994	U-A	W/W	cis
+'B8'797	'B8'798	A-A	upward
+'B8'797	'B8'993	A-U	W/W	cis
+'B8'797	'B8'994	A-A	outward
+'B8'798	'B8'987	A-G	inward
+'B8'798	'B8'992	A-U	W/W	cis
+'B8'799	'B8'800	A-A	upward
+'B8'799	'B8'987	A-G	H/H	cis
+'B8'799	'B8'991	A-C	W/W	trans
+'B8'799	'B8'1498	A-C	outward
+'B8'800	'B8'801	A-G	upward
+'B8'800	'B8'990	A-U	W/W	cis
+'B8'801	'B8'802	G-G	upward
+'B8'801	'B8'804	G-A	upward
+'B8'801	'B8'989	G-C	W/W	cis
+'B8'801	'B8'990	G-U	outward
+'B8'802	'B8'986	G-U	inward
+'B8'802	'B8'988	G-U	S/H	trans
+'B8'803	'B8'809	A-G	upward
+'B8'803	'B8'986	A-U	H/W	trans
+'B8'803	'B8'988	A-U	outward
+'B8'804	'B8'988	A-U	W/W	cis
+'B8'805	'B8'806	C-U	upward
+'B8'807	'B8'808	C-G	upward
+'B8'808	'B8'810	G-C	upward
+'B8'809	'B8'812	G-A	S/W	trans
+'B8'809	'B8'985	G-C	W/W	cis
+'B8'810	'B8'811	C-A	upward
+'B8'811	'B8'812	A-A	upward
+'B8'812	'B8'813	A-A	upward
+'B8'813	'B8'815	A-A	upward
+'B8'815	'B8'816	A-C	upward
+'B8'817	'B8'818	A-A	upward
+'B8'817	'B8'982	A-U	W/W	cis
+'B8'817	'B8'983	A-U	outward
+'B8'818	'B8'819	A-A	upward
+'B8'818	'B8'981	A-U	W/W	cis
+'B8'818	'B8'982	A-U	outward
+'B8'819	'B8'820	A-C	upward
+'B8'820	'B8'821	C-C	upward
+'B8'820	'B8'979	C-G	W/W	cis
+'B8'821	'B8'822	C-C	upward
+'B8'821	'B8'978	C-G	W/W	cis
+'B8'821	'B8'979	C-G	outward
+'B8'822	'B8'823	C-C	upward
+'B8'822	'B8'977	C-G	W/W	cis
+'B8'822	'B8'978	C-G	outward
+'B8'823	'B8'824	C-G	upward
+'B8'823	'B8'975	C-G	W/W	cis
+'B8'824	'B8'974	G-C	W/W	cis
+'B8'824	'B8'975	G-G	outward
+'B8'825	'B8'826	C-C	outward
+'B8'825	'B8'872	C-A	upward
+'B8'826	'B8'827	C-U	upward
+'B8'826	'B8'842	C-U	H/W	trans
+'B8'827	'B8'828	U-G	upward
+'B8'828	'B8'829	G-U	upward
+'B8'828	'B8'840	G-C	W/W	cis
+'B8'828	'B8'841	G-A	outward
+'B8'829	'B8'830	U-U	upward
+'B8'829	'B8'839	U-A	W/W	cis
+'B8'830	'B8'836	U-A	upward
+'B8'830	'B8'837	U-A	W/H	trans
+'B8'831	'B8'835	U-A	downward
+'B8'831	'B8'836	U-A	W/H	trans
+'B8'834	'B8'1409	C-C	W/W	trans
+'B8'834	'B8'1410	C-A	upward
+'B8'835	'B8'1410	A-A	downward
+'B8'835	'B8'1430	A-G	S/S	cis
+'B8'837	'B8'839	A-A	upward
+'B8'837	'B8'1411	A-G	W/S	trans
+'B8'838	'B8'933	A-A	upward
+'B8'839	'B8'840	A-C	upward
+'B8'840	'B8'841	C-A	upward
+'B8'841	'B8'842	A-U	upward
+'B8'842	'B8'871	U-A	inward
+'B8'844	'B8'845	A-C	upward
+'B8'844	'B8'870	A-C	W/W	cis
+'B8'844	'B8'871	A-A	outward
+'B8'845	'B8'846	C-C	upward
+'B8'845	'B8'869	C-G	W/W	cis
+'B8'845	'B8'896	C-A	S/W	trans
+'B8'846	'B8'847	C-U	upward
+'B8'846	'B8'868	C-G	W/W	cis
+'B8'847	'B8'848	U-C	upward
+'B8'847	'B8'867	U-A	W/W	cis
+'B8'848	'B8'849	C-U	upward
+'B8'848	'B8'866	C-G	W/W	cis
+'B8'849	'B8'850	U-A	upward
+'B8'849	'B8'865	U-A	W/W	cis
+'B8'849	'B8'866	U-G	outward
+'B8'850	'B8'862	A-A	upward
+'B8'850	'B8'864	A-U	W/W	cis
+'B8'850	'B8'865	A-A	outward
+'B8'851	'B8'861	G-U	S/S	trans
+'B8'851	'B8'862	G-A	downward
+'B8'852	'B8'860	C-G	W/W	trans
+'B8'852	'B8'861	C-U	upward
+'B8'856	'B8'857	A-C	upward
+'B8'857	'B8'858	C-U	inward
+'B8'858	'B8'860	U-G	outward
+'B8'860	'B8'861	G-U	upward
+'B8'864	'B8'865	U-A	upward
+'B8'865	'B8'866	A-G	upward
+'B8'866	'B8'867	G-A	upward
+'B8'867	'B8'868	A-G	upward
+'B8'868	'B8'869	G-G	upward
+'B8'869	'B8'870	G-C	upward
+'B8'869	'B8'896	G-A	S/S	cis
+'B8'870	'B8'871	C-A	upward
+'B8'872	'B8'873	A-U	upward
+'B8'872	'B8'971	A-A	H/W	trans
+'B8'873	'B8'874	U-G	upward
+'B8'873	'B8'970	U-C	W/W	cis
+'B8'874	'B8'875	G-C	upward
+'B8'874	'B8'969	G-C	W/W	cis
+'B8'874	'B8'970	G-C	outward
+'B8'875	'B8'876	C-C	upward
+'B8'875	'B8'968	C-G	W/W	cis
+'B8'876	'B8'877	C-U	upward
+'B8'876	'B8'964	C-A	s/S	trans
+'B8'876	'B8'967	C-G	W/W	cis
+'B8'877	'B8'965	U-A	W/H	cis
+'B8'878	'B8'879	G-C	upward
+'B8'878	'B8'901	G-C	W/W	cis
+'B8'878	'B8'926	G-U	outward
+'B8'879	'B8'880	C-C	upward
+'B8'879	'B8'900	C-G	W/W	cis
+'B8'880	'B8'895	C-U	inward
+'B8'880	'B8'899	C-G	W/W	cis
+'B8'880	'B8'900	C-G	outward
+'B8'880	'B8'922	C-A	S/S	cis
+'B8'881	'B8'894	C-U	inward
+'B8'881	'B8'895	C-U	outward
+'B8'881	'B8'897	C-A	W/H	trans
+'B8'882	'B8'883	A-G	upward
+'B8'882	'B8'922	A-A	outward
+'B8'883	'B8'884	G-U	upward
+'B8'883	'B8'898	G-C	W/W	cis
+'B8'884	'B8'885	U-G	upward
+'B8'884	'B8'897	U-A	W/W	cis
+'B8'885	'B8'886	G-A	upward
+'B8'885	'B8'894	G-U	W/W	cis
+'B8'885	'B8'897	G-A	outward
+'B8'886	'B8'887	A-C	upward
+'B8'886	'B8'893	A-U	W/W	cis
+'B8'887	'B8'888	C-A	upward
+'B8'887	'B8'892	C-G	W/W	cis
+'B8'888	'B8'890	A-C	S/W	trans
+'B8'888	'B8'891	A-A	S/W	trans
+'B8'888	'B8'892	A-G	outward
+'B8'890	'B8'891	C-A	downward
+'B8'891	'B8'892	A-G	outward
+'B8'892	'B8'893	G-U	upward
+'B8'893	'B8'894	U-U	upward
+'B8'895	'B8'898	U-C	S/H	cis
+'B8'895	'B8'899	U-G	upward
+'B8'896	'B8'965	A-A	downward
+'B8'897	'B8'898	A-C	upward
+'B8'898	'B8'899	C-G	upward
+'B8'899	'B8'900	G-G	upward
+'B8'900	'B8'901	G-C	upward
+'B8'900	'B8'923	G-A	S/S	trans
+'B8'901	'B8'925	C-G	upward
+'B8'902	'B8'919	C-G	W/W	cis
+'B8'902	'B8'924	C-G	outward
+'B8'903	'B8'904	G-C	upward
+'B8'903	'B8'918	G-U	W/W	cis
+'B8'903	'B8'919	G-G	outward
+'B8'904	'B8'905	C-G	upward
+'B8'904	'B8'917	C-G	W/W	cis
+'B8'905	'B8'906	G-G	upward
+'B8'905	'B8'916	G-C	W/W	cis
+'B8'905	'B8'917	G-G	outward
+'B8'906	'B8'907	G-U	upward
+'B8'906	'B8'915	G-C	W/W	cis
+'B8'906	'B8'916	G-C	outward
+'B8'907	'B8'913	U-G	inward
+'B8'908	'B8'912	A-U	H/W	trans
+'B8'908	'B8'913	A-G	outward
+'B8'908	'B8'914	A-A	outward
+'B8'909	'B8'910	U-U	upward
+'B8'910	'B8'911	U-C	upward
+'B8'911	'B8'912	C-U	upward
+'B8'912	'B8'913	U-G	upward
+'B8'913	'B8'914	G-A	S/H	cis
+'B8'914	'B8'915	A-C	upward
+'B8'915	'B8'916	C-C	upward
+'B8'916	'B8'917	C-G	upward
+'B8'917	'B8'918	G-U	upward
+'B8'918	'B8'919	U-G	upward
+'B8'919	'B8'920	G-C	upward
+'B8'920	'B8'921	C-A	upward
+'B8'920	'B8'924	C-G	W/W	trans
+'B8'921	'B8'923	A-A	S/H	trans
+'B8'921	'B8'924	A-G	downward
+'B8'922	'B8'923	A-A	upward
+'B8'923	'B8'924	A-G	inward
+'B8'925	'B8'963	G-G	inward
+'B8'926	'B8'927	U-A	upward
+'B8'926	'B8'963	U-G	inward
+'B8'926	'B8'964	U-A	W/H	trans
+'B8'927	'B8'928	A-G	upward
+'B8'927	'B8'963	A-G	H/S	trans
+'B8'927	'B8'964	A-A	outward
+'B8'928	'B8'929	G-C	upward
+'B8'928	'B8'962	G-U	W/W	cis
+'B8'928	'B8'963	G-G	outward
+'B8'929	'B8'930	C-A	upward
+'B8'929	'B8'959	C-G	W/W	cis
+'B8'930	'B8'957	A-U	inward
+'B8'930	'B8'959	A-G	outward
+'B8'931	'B8'940	U-G	outward
+'B8'932	'B8'934	A-U	inward
+'B8'932	'B8'959	A-G	W/S	trans
+'B8'933	'B8'1428	A-U	S/S	cis
+'B8'935	'B8'936	C-A	upward
+'B8'935	'B8'961	C-A	downward
+'B8'936	'B8'937	A-C	upward
+'B8'937	'B8'938	C-U	inward
+'B8'939	'B8'950	U-U	outward
+'B8'940	'B8'941	G-U	upward
+'B8'940	'B8'956	G-C	W/W	cis
+'B8'941	'B8'942	U-U	upward
+'B8'941	'B8'955	U-A	W/W	cis
+'B8'942	'B8'943	U-C	upward
+'B8'942	'B8'954	U-G	W/W	cis
+'B8'943	'B8'944	C-U	upward
+'B8'943	'B8'953	C-G	W/W	cis
+'B8'943	'B8'954	C-G	outward
+'B8'944	'B8'945	U-C	upward
+'B8'944	'B8'952	U-A	W/W	cis
+'B8'944	'B8'953	U-G	outward
+'B8'945	'B8'946	C-C	upward
+'B8'945	'B8'951	C-A	W/W	cis
+'B8'947	'B8'948	A-A	upward
+'B8'947	'B8'1383	A-G	W/S	cis
+'B8'948	'B8'1372	A-G	S/S	trans
+'B8'948	'B8'1373	A-U	upward
+'B8'949	'B8'951	1MA-A	upward
+'B8'951	'B8'952	A-A	upward
+'B8'952	'B8'953	A-G	upward
+'B8'953	'B8'954	G-G	upward
+'B8'954	'B8'955	G-A	upward
+'B8'955	'B8'956	A-C	upward
+'B8'956	'B8'957	C-U	upward
+'B8'958	'B8'960	U-U	upward
+'B8'959	'B8'962	G-U	upward
+'B8'961	'B8'1415	A-G	W/S	cis
+'B8'962	'B8'963	U-G	upward
+'B8'964	'B8'967	A-G	S/S	cis
+'B8'965	'B8'967	A-G	outward
+'B8'967	'B8'968	G-G	upward
+'B8'968	'B8'969	G-C	upward
+'B8'969	'B8'970	C-C	upward
+'B8'970	'B8'971	C-A	upward
+'B8'971	'B8'972	A-C	upward
+'B8'972	'B8'973	C-A	upward
+'B8'973	'B8'974	A-C	upward
+'B8'974	'B8'975	C-G	upward
+'B8'975	'B8'977	G-G	upward
+'B8'977	'B8'978	G-G	upward
+'B8'978	'B8'979	G-G	upward
+'B8'979	'B8'980	G-U	upward
+'B8'980	'B8'981	U-U	upward
+'B8'981	'B8'982	U-U	upward
+'B8'982	'B8'983	U-U	upward
+'B8'983	'B8'984	U-A	upward
+'B8'984	'B8'985	A-C	upward
+'B8'985	'B8'986	C-U	upward
+'B8'987	'B8'989	G-C	downward
+'B8'987	'B8'991	G-C	W/W	cis
+'B8'987	'B8'992	G-U	upward
+'B8'988	'B8'989	U-C	upward
+'B8'989	'B8'990	C-U	upward
+'B8'990	'B8'991	U-C	inward
+'B8'992	'B8'993	U-U	upward
+'B8'993	'B8'994	U-A	upward
+'B8'994	'B8'995	A-C	upward
+'B8'995	'B8'996	C-U	upward
+'B8'996	'B8'997	U-U	upward
+'B8'997	'B8'998	U-C	upward
+'B8'998	'B8'999	C-C	upward
+'B8'999	'B8'1000	C-A	upward
+'B8'1000	'B8'1001	A-A	upward
+'B8'1001	'B8'1002	A-U	upward
+'B8'1002	'B8'1003	U-C	upward
+'B8'1004	'B8'1005	A-G	upward
+'B8'1005	'B8'1006	G-U	upward
+'B8'1006	'B8'1007	U-G	upward
+'B8'1008	'B8'1009	A-A	upward
+'B8'1008	'B8'1436	A-U	W/W	trans
+'B8'1009	'B8'1010	A-A	upward
+'B8'1009	'B8'1436	A-U	downward
+'B8'1010	'B8'1011	A-U	upward
+'B8'1011	'B8'1012	U-U	upward
+'B8'1013	'B8'1014	A-A	upward
+'B8'1014	'B8'1015	A-C	upward
+'B8'1014	'B8'1030	A-G	W/W	cis
+'B8'1015	'B8'1017	C-U	upward
+'B8'1015	'B8'1029	C-G	W/W	cis
+'B8'1018	'B8'1019	U-C	upward
+'B8'1018	'B8'1035	U-A	W/W	cis
+'B8'1019	'B8'1020	C-C	upward
+'B8'1019	'B8'1034	C-G	W/W	cis
+'B8'1019	'B8'1035	C-A	outward
+'B8'1020	'B8'1021	C-C	upward
+'B8'1020	'B8'1033	C-G	W/W	cis
+'B8'1021	'B8'1022	C-G	upward
+'B8'1021	'B8'1032	C-G	W/W	cis
+'B8'1022	'B8'1023	G-U	upward
+'B8'1022	'B8'1031	G-C	W/W	cis
+'B8'1022	'B8'1032	G-G	outward
+'B8'1023	'B8'1024	U-G	upward
+'B8'1023	'B8'1028	U-A	W/H	trans
+'B8'1024	'B8'1028	G-A	outward
+'B8'1026	'B8'1321	A-C	upward
+'B8'1027	'B8'1395	G-A	upward
+'B8'1028	'B8'1031	A-C	upward
+'B8'1029	'B8'1030	G-G	upward
+'B8'1032	'B8'1033	G-G	upward
+'B8'1033	'B8'1034	G-G	upward
+'B8'1034	'B8'1035	G-A	upward
+'B8'1035	'B8'1036	A-A	upward
+'B8'1036	'B8'1037	A-U	upward
+'B8'1038	'B8'1039	A-A	upward
+'B8'1039	'B8'1040	A-A	upward
+'B8'1040	'B8'1041	A-A	upward
+'B8'1041	'B8'1042	A-A	upward
+'B8'1042	'B8'1043	A-A	upward
+'B8'1042	'B8'1561	A-A	S/W	cis
+'B8'1043	'B8'1044	A-A	upward
+'B8'1043	'B8'1443	A-U	W/W	cis
+'B8'1044	'B8'1045	A-U	upward
+'B8'1044	'B8'1442	A-U	W/W	cis
+'B8'1044	'B8'1443	A-U	outward
+'B8'1045	'B8'1046	U-A	upward
+'B8'1045	'B8'1441	U-A	W/W	cis
+'B8'1046	'B8'1047	A-A	S/H	cis
+'B8'1046	'B8'1437	A-A	inward
+'B8'1047	'B8'1048	A-G	upward
+'B8'1047	'B8'1440	A-U	W/W	cis
+'B8'1047	'B8'1441	A-A	outward
+'B8'1048	'B8'1049	G-A	upward
+'B8'1048	'B8'1439	G-C	W/W	cis
+'B8'1048	'B8'1440	G-U	outward
+'B8'1049	'B8'1400	A-A	H/W	trans
+'B8'1049	'B8'1438	A-U	W/W	cis
+'B8'1051	'B8'1052	G-A	upward
+'B8'1051	'B8'1400	G-A	outward
+'B8'1051	'B8'1435	G-C	W/W	cis
+'B8'1052	'B8'1053	A-G	upward
+'B8'1052	'B8'1434	A-U	W/W	cis
+'B8'1052	'B8'1435	A-C	outward
+'B8'1053	'B8'1054	G-A	upward
+'B8'1053	'B8'1434	G-U	outward
+'B8'1054	'B8'1326	A-A	upward
+'B8'1055	'B8'1325	A-G	outward
+'B8'1056	'B8'1057	G-A	downward
+'B8'1056	'B8'1058	G-C	upward
+'B8'1056	'B8'1274	G-A	W/W	cis
+'B8'1056	'B8'1326	G-A	downward
+'B8'1057	'B8'1326	A-A	H/H	trans
+'B8'1058	'B8'1059	C-C	upward
+'B8'1058	'B8'1273	C-A	W/W	cis
+'B8'1058	'B8'1324	C-C	W/W	trans
+'B8'1059	'B8'1060	C-C	upward
+'B8'1059	'B8'1269	C-G	W/W	cis
+'B8'1059	'B8'1273	C-A	outward
+'B8'1060	'B8'1061	C-U	upward
+'B8'1060	'B8'1268	C-G	W/W	cis
+'B8'1060	'B8'1272	C-U	S/W	cis
+'B8'1061	'B8'1062	U-A	upward
+'B8'1061	'B8'1267	U-A	W/W	cis
+'B8'1061	'B8'1268	U-G	outward
+'B8'1062	'B8'1064	A-G	upward
+'B8'1062	'B8'1266	A-U	W/W	cis
+'B8'1062	'B8'1267	A-A	outward
+'B8'1063	'B8'1254	U-A	W/W	trans
+'B8'1064	'B8'1065	G-G	upward
+'B8'1064	'B8'1265	G-C	W/W	cis
+'B8'1064	'B8'1266	G-U	outward
+'B8'1065	'B8'1066	G-A	upward
+'B8'1065	'B8'1264	G-C	W/W	cis
+'B8'1065	'B8'1265	G-C	outward
+'B8'1066	'B8'1067	A-G	upward
+'B8'1066	'B8'1261	A-U	W/W	cis
+'B8'1067	'B8'1068	G-C	upward
+'B8'1067	'B8'1260	G-U	W/W	cis
+'B8'1067	'B8'1261	G-U	outward
+'B8'1068	'B8'1069	C-U	upward
+'B8'1068	'B8'1259	C-G	W/W	cis
+'B8'1069	'B8'1070	U-U	upward
+'B8'1069	'B8'1258	U-A	W/W	cis
+'B8'1069	'B8'1259	U-G	outward
+'B8'1069	'B8'1420	U-A	S/W	cis
+'B8'1070	'B8'1072	U-A	W/H	cis
+'B8'1071	'B8'1419	U-C	upward
+'B8'1072	'B8'1073	A-A	upward
+'B8'1072	'B8'1143	A-U	W/W	cis
+'B8'1072	'B8'1258	A-A	outward
+'B8'1073	'B8'1074	A-U	upward
+'B8'1073	'B8'1142	A-U	W/W	cis
+'B8'1074	'B8'1075	U-U	upward
+'B8'1074	'B8'1141	U-A	W/W	cis
+'B8'1075	'B8'1140	U-A	W/W	cis
+'B8'1076	'B8'1077	A-A	upward
+'B8'1076	'B8'1140	A-A	H/S	trans
+'B8'1077	'B8'1078	A-C	upward
+'B8'1077	'B8'1139	A-C	W/W	cis
+'B8'1078	'B8'1079	C-U	upward
+'B8'1078	'B8'1138	C-G	W/W	cis
+'B8'1079	'B8'1080	U-A	upward
+'B8'1079	'B8'1137	U-A	W/W	cis
+'B8'1079	'B8'1138	U-G	outward
+'B8'1080	'B8'1081	A-U	upward
+'B8'1080	'B8'1136	A-U	W/W	cis
+'B8'1080	'B8'1137	A-A	outward
+'B8'1081	'B8'1082	U-U	upward
+'B8'1081	'B8'1135	U-C	W/W	cis
+'B8'1082	'B8'1083	U-C	upward
+'B8'1082	'B8'1134	U-A	W/W	cis
+'B8'1083	'B8'1084	C-C	upward
+'B8'1083	'B8'1133	C-G	W/W	cis
+'B8'1084	'B8'1085	C-A	upward
+'B8'1084	'B8'1132	C-G	W/W	cis
+'B8'1084	'B8'1133	C-G	outward
+'B8'1085	'B8'1086	A-A	upward
+'B8'1085	'B8'1131	A-U	W/W	cis
+'B8'1085	'B8'1132	A-G	outward
+'B8'1086	'B8'1087	A-A	upward
+'B8'1087	'B8'1088	A-A	upward
+'B8'1087	'B8'1126	A-U	W/W	cis
+'B8'1088	'B8'1089	A-G	upward
+'B8'1088	'B8'1125	A-U	W/W	cis
+'B8'1089	'B8'1090	G-U	upward
+'B8'1089	'B8'1124	G-C	W/W	cis
+'B8'1089	'B8'1125	G-U	outward
+'B8'1090	'B8'1091	U-U	upward
+'B8'1090	'B8'1123	U-A	W/W	cis
+'B8'1091	'B8'1092	U-A	upward
+'B8'1091	'B8'1122	U-A	W/W	cis
+'B8'1091	'B8'1123	U-A	outward
+'B8'1092	'B8'1093	A-A	upward
+'B8'1092	'B8'1119	A-C	W/H	trans
+'B8'1092	'B8'1121	A-U	W/W	cis
+'B8'1092	'B8'1122	A-A	outward
+'B8'1097	'B8'1098	A-C	upward
+'B8'1100	'B8'1111	C-G	inward
+'B8'1101	'B8'1102	A-A	upward
+'B8'1101	'B8'1111	A-G	outward
+'B8'1102	'B8'1103	A-C	upward
+'B8'1102	'B8'1109	A-A	W/H	cis
+'B8'1102	'B8'1110	A-G	S/W	cis
+'B8'1103	'B8'1104	C-C	upward
+'B8'1103	'B8'1108	C-A	W/W	cis
+'B8'1103	'B8'1110	C-G	outward
+'B8'1104	'B8'1107	C-A	S/H	trans
+'B8'1105	'B8'1106	A-C	upward
+'B8'1106	'B8'1107	C-A	upward
+'B8'1107	'B8'1108	A-A	upward
+'B8'1108	'B8'1109	A-A	inward
+'B8'1109	'B8'1110	A-G	outward
+'B8'1110	'B8'1111	G-G	upward
+'B8'1115	'B8'1116	A-A	upward
+'B8'1116	'B8'1117	A-A	upward
+'B8'1117	'B8'1118	A-A	upward
+'B8'1121	'B8'1122	U-A	upward
+'B8'1122	'B8'1123	A-A	upward
+'B8'1123	'B8'1124	A-C	upward
+'B8'1124	'B8'1125	C-U	upward
+'B8'1125	'B8'1126	U-U	upward
+'B8'1127	'B8'1128	A-A	upward
+'B8'1128	'B8'1129	A-C	upward
+'B8'1129	'B8'1130	C-A	upward
+'B8'1131	'B8'1132	U-G	upward
+'B8'1132	'B8'1133	G-G	upward
+'B8'1133	'B8'1134	G-A	upward
+'B8'1134	'B8'1135	A-C	upward
+'B8'1135	'B8'1136	C-U	upward
+'B8'1136	'B8'1137	U-A	upward
+'B8'1137	'B8'1138	A-G	upward
+'B8'1138	'B8'1139	G-C	upward
+'B8'1139	'B8'1140	C-A	upward
+'B8'1140	'B8'1141	A-A	upward
+'B8'1141	'B8'1142	A-U	upward
+'B8'1142	'B8'1143	U-U	upward
+'B8'1143	'B8'1144	U-U	upward
+'B8'1144	'B8'1145	U-C	upward
+'B8'1144	'B8'1258	U-A	W/H	cis
+'B8'1145	'B8'1259	C-G	W/H	cis
+'B8'1145	'B8'1260	C-U	W/H	cis
+'B8'1146	'B8'1147	G-G	upward
+'B8'1146	'B8'1158	G-C	W/W	cis
+'B8'1146	'B8'1250	G-A	outward
+'B8'1147	'B8'1148	G-U	upward
+'B8'1147	'B8'1157	G-C	W/W	cis
+'B8'1147	'B8'1158	G-C	outward
+'B8'1148	'B8'1149	U-U	upward
+'B8'1148	'B8'1156	U-A	W/W	cis
+'B8'1151	AG70	G-C	W/W	cis
+'B8'1151	'B8'1152	OMG-G	upward
+'B8'1152	AG69	G-C	W/W	cis
+'B8'1152	'B8'1153	G-G	upward
+'B8'1153	'B8'1154	G-U	upward
+'B8'1154	'B8'1155	U-G	upward
+'B8'1155	'B8'1156	G-A	upward
+'B8'1155	'B8'1175	G-C	W/W	cis
+'B8'1156	'B8'1157	A-C	upward
+'B8'1156	'B8'1175	A-C	outward
+'B8'1157	'B8'1158	C-C	upward
+'B8'1159	'B8'1160	U-C	upward
+'B8'1159	'B8'1181	U-A	W/W	cis
+'B8'1159	'B8'1182	U-G	W/W	cis
+'B8'1159	'B8'1251	U-C	downward
+'B8'1160	'B8'1180	C-G	W/W	cis
+'B8'1160	'B8'1181	C-A	outward
+'B8'1161	'B8'1162	G-G	upward
+'B8'1161	'B8'1179	G-C	W/W	cis
+'B8'1161	'B8'1180	G-G	outward
+'B8'1162	'B8'1163	G-A	upward
+'B8'1162	'B8'1178	G-C	W/W	cis
+'B8'1163	'B8'1164	A-G	upward
+'B8'1163	'B8'1177	A-U	W/W	cis
+'B8'1164	'B8'1165	G-U	upward
+'B8'1164	'B8'1176	G-C	W/W	cis
+'B8'1164	'B8'1177	G-U	outward
+'B8'1165	'B8'1166	U-A	inward
+'B8'1166	'B8'1172	A-A	downward
+'B8'1166	'B8'1173	A-A	H/H	trans
+'B8'1169	'B8'1170	A-A	upward
+'B8'1170	'B8'1171	A-A	upward
+'B8'1171	'B8'1172	A-A	upward
+'B8'1173	'B8'1174	A-C	upward
+'B8'1174	'B8'1176	C-C	upward
+'B8'1176	'B8'1177	C-U	upward
+'B8'1177	'B8'1178	U-C	upward
+'B8'1178	'B8'1179	C-C	upward
+'B8'1179	'B8'1180	C-G	upward
+'B8'1180	'B8'1181	G-A	upward
+'B8'1180	'B8'1229	G-A	S/S	trans
+'B8'1181	'B8'1182	A-G	upward
+'B8'1182	'B8'1249	G-A	upward
+'B8'1182	'B8'1251	G-C	W/W	cis
+'B8'1183	'B8'1184	U-G	upward
+'B8'1183	'B8'1225	U-A	W/W	cis
+'B8'1183	'B8'1230	U-U	downward
+'B8'1184	'B8'1185	G-A	upward
+'B8'1184	'B8'1224	G-C	W/W	cis
+'B8'1184	'B8'1225	G-A	outward
+'B8'1185	'B8'1186	A-U	upward
+'B8'1185	'B8'1223	A-U	W/W	cis
+'B8'1186	'B8'1187	U-U	upward
+'B8'1186	'B8'1222	U-A	W/W	cis
+'B8'1187	'B8'1188	U-U	downward
+'B8'1187	'B8'1189	U-U	upward
+'B8'1187	'B8'1190	U-A	W/W	cis
+'B8'1187	'B8'1222	U-A	outward
+'B8'1189	'B8'1190	U-A	outward
+'B8'1190	'B8'1222	A-A	upward
+'B8'1191	'B8'1192	A-U	upward
+'B8'1191	'B8'1212	A-U	W/W	cis
+'B8'1191	'B8'1213	A-A	outward
+'B8'1191	'B8'1220	A-A	downward
+'B8'1192	'B8'1193	U-C	upward
+'B8'1192	'B8'1211	U-A	W/W	cis
+'B8'1193	'B8'1194	C-U	upward
+'B8'1193	'B8'1210	C-A	W/W	cis
+'B8'1194	'B8'1208	U-A	W/W	cis
+'B8'1194	'B8'1209	U-A	S/H	trans
+'B8'1195	'B8'1196	A-G	upward
+'B8'1195	'B8'1208	A-A	H/S	trans
+'B8'1195	'B8'1209	A-A	outward
+'B8'1196	'B8'1197	G-A	upward
+'B8'1196	'B8'1207	G-C	W/W	cis
+'B8'1197	'B8'1198	A-C	upward
+'B8'1197	'B8'1206	A-U	W/W	cis
+'B8'1198	'B8'1199	C-A	upward
+'B8'1198	'B8'1205	C-G	W/W	cis
+'B8'1199	'B8'1200	A-A	upward
+'B8'1199	'B8'1204	A-A	S/H	trans
+'B8'1199	'B8'1205	A-G	outward
+'B8'1201	'B8'1202	A-C	upward
+'B8'1202	'B8'1203	C-C	upward
+'B8'1202	'B8'1252	C-G	W/W	cis
+'B8'1203	'B8'1204	C-A	upward
+'B8'1203	'B8'1252	C-G	outward
+'B8'1204	'B8'1205	A-G	upward
+'B8'1205	'B8'1206	G-U	upward
+'B8'1206	'B8'1207	U-C	upward
+'B8'1207	'B8'1208	C-A	upward
+'B8'1209	'B8'1210	A-A	upward
+'B8'1210	'B8'1211	A-A	upward
+'B8'1211	'B8'1212	A-U	upward
+'B8'1212	'B8'1213	U-A	upward
+'B8'1213	'B8'1214	A-A	upward
+'B8'1213	'B8'1220	A-A	W/H	trans
+'B8'1214	'B8'1215	A-C	upward
+'B8'1215	'B8'1219	C-A	upward
+'B8'1216	'B8'1219	C-A	downward
+'B8'1222	'B8'1223	A-U	upward
+'B8'1223	'B8'1224	U-C	upward
+'B8'1224	'B8'1225	C-A	upward
+'B8'1225	'B8'1227	A-U	upward
+'B8'1228	'B8'1229	U-A	upward
+'B8'1229	'B8'1230	A-U	upward
+'B8'1232	'B8'1248	G-C	inward
+'B8'1232	'B8'1253	G-G	S/S	trans
+'B8'1233	'B8'1234	A-U	upward
+'B8'1233	'B8'1248	A-C	H/W	trans
+'B8'1233	'B8'1253	A-G	downward
+'B8'1234	'B8'1235	U-C	upward
+'B8'1235	'B8'1236	C-C	upward
+'B8'1236	'B8'1237	C-A	upward
+'B8'1236	'B8'1245	C-G	W/W	cis
+'B8'1237	'B8'1238	A-A	upward
+'B8'1237	'B8'1244	A-U	W/W	cis
+'B8'1237	'B8'1245	A-G	outward
+'B8'1238	'B8'1239	A-A	inward
+'B8'1238	'B8'1243	A-U	W/W	cis
+'B8'1240	'B8'1241	A-U	inward
+'B8'1240	'B8'1242	A-U	inward
+'B8'1241	'B8'1242	U-U	upward
+'B8'1243	'B8'1244	U-U	upward
+'B8'1244	'B8'1245	U-G	upward
+'B8'1246	'B8'1248	A-C	upward
+'B8'1247	'B8'1249	U-A	downward
+'B8'1249	'B8'1251	A-C	outward
+'B8'1255	'B8'1256	A-C	upward
+'B8'1258	'B8'1259	A-G	upward
+'B8'1259	'B8'1260	G-U	upward
+'B8'1259	'B8'1421	G-A	S/S	trans
+'B8'1260	'B8'1261	U-U	upward
+'B8'1261	'B8'1263	U-C	S/H	cis
+'B8'1261	'B8'1264	U-C	upward
+'B8'1263	'B8'1264	C-C	upward
+'B8'1264	'B8'1265	C-C	upward
+'B8'1265	'B8'1266	C-U	upward
+'B8'1266	'B8'1267	U-A	upward
+'B8'1267	'B8'1268	A-G	upward
+'B8'1268	'B8'1269	G-G	upward
+'B8'1268	'B8'1272	G-U	W/W	trans
+'B8'1269	'B8'1324	G-C	inward
+'B8'1270	'B8'1274	G-A	W/H	cis
+'B8'1270	'B8'1323	G-U	inward
+'B8'1270	'B8'1324	G-C	outward
+'B8'1270	'B8'1327	G-U	H/H	cis
+'B8'1273	'B8'1274	A-A	upward
+'B8'1273	'B8'1324	A-C	H/W	trans
+'B8'1274	'B8'1275	A-C	upward
+'B8'1275	'B8'1276	C-A	upward
+'B8'1275	'B8'1327	C-U	W/W	cis
+'B8'1276	'B8'1323	A-U	W/W	cis
+'B8'1276	'B8'1327	A-U	outward
+'B8'1277	'B8'1278	G-C	upward
+'B8'1277	'B8'1321	G-C	W/W	cis
+'B8'1277	'B8'1322	G-C	outward
+'B8'1278	'B8'1279	C-G	upward
+'B8'1278	'B8'1319	C-G	W/W	cis
+'B8'1279	'B8'1280	G-C	upward
+'B8'1279	'B8'1318	G-C	W/W	cis
+'B8'1279	'B8'1319	G-G	outward
+'B8'1280	'B8'1281	C-A	upward
+'B8'1280	'B8'1317	C-A	W/W	cis
+'B8'1281	'B8'1282	A-A	S/H	cis
+'B8'1281	'B8'1313	A-G	inward
+'B8'1282	'B8'1283	A-U	upward
+'B8'1282	'B8'1316	A-U	W/W	cis
+'B8'1282	'B8'1317	A-A	outward
+'B8'1283	'B8'1284	U-C	upward
+'B8'1283	'B8'1313	U-G	W/W	cis
+'B8'1283	'B8'1315	U-U	W/W	cis
+'B8'1284	'B8'1285	C-C	upward
+'B8'1284	'B8'1312	C-G	W/W	cis
+'B8'1285	'B8'1286	C-U	upward
+'B8'1285	'B8'1311	C-G	W/W	cis
+'B8'1285	'B8'1312	C-G	outward
+'B8'1286	'B8'1287	U-G	upward
+'B8'1286	'B8'1310	U-A	W/W	cis
+'B8'1286	'B8'1311	U-G	outward
+'B8'1287	'B8'1288	G-U	upward
+'B8'1287	'B8'1309	G-U	W/W	cis
+'B8'1287	'B8'1310	G-A	outward
+'B8'1288	'B8'1289	U-U	upward
+'B8'1288	'B8'1308	U-A	W/W	cis
+'B8'1289	'B8'1290	U-C	upward
+'B8'1289	'B8'1307	U-A	W/W	cis
+'B8'1289	'B8'1308	U-A	outward
+'B8'1290	'B8'1291	C-U	upward
+'B8'1290	'B8'1306	C-C	W/W	cis
+'B8'1291	'B8'1304	U-G	inward
+'B8'1291	'B8'1305	U-A	W/H	trans
+'B8'1292	'B8'1293	A-G	upward
+'B8'1292	'B8'1304	A-G	H/S	trans
+'B8'1292	'B8'1305	A-A	outward
+'B8'1293	'B8'1294	G-A	upward
+'B8'1293	'B8'1303	G-C	W/W	cis
+'B8'1293	'B8'1304	G-G	outward
+'B8'1294	'B8'1295	A-G	upward
+'B8'1294	'B8'1302	A-U	W/W	cis
+'B8'1295	'B8'1298	G-C	inward
+'B8'1295	'B8'1301	G-A	S/H	trans
+'B8'1296	'B8'1297	U-U	upward
+'B8'1297	'B8'1298	U-C	upward
+'B8'1298	'B8'1352	C-G	W/W	trans
+'B8'1299	'B8'1300	C-U	upward
+'B8'1299	'B8'1304	C-G	W/W	cis
+'B8'1301	'B8'1302	A-U	upward
+'B8'1301	'B8'1352	A-G	downward
+'B8'1302	'B8'1303	U-C	upward
+'B8'1303	'B8'1304	C-G	upward
+'B8'1305	'B8'1306	A-C	upward
+'B8'1306	'B8'1307	C-A	upward
+'B8'1307	'B8'1308	A-A	upward
+'B8'1308	'B8'1309	A-U	upward
+'B8'1309	'B8'1310	U-A	upward
+'B8'1310	'B8'1311	A-G	upward
+'B8'1311	'B8'1312	G-G	upward
+'B8'1312	'B8'1313	G-G	upward
+'B8'1313	'B8'1315	G-U	S/H	cis
+'B8'1315	'B8'1316	U-U	upward
+'B8'1316	'B8'1317	U-A	upward
+'B8'1317	'B8'1318	A-C	upward
+'B8'1318	'B8'1319	C-G	upward
+'B8'1319	'B8'1320	G-A	upward
+'B8'1319	'B8'1321	G-C	upward
+'B8'1320	'B8'1321	A-C	S/H	cis
+'B8'1322	'B8'1323	C-U	upward
+'B8'1328	'B8'1399	G-G	upward
+'B8'1328	'B8'1433	G-U	W/W	trans
+'B8'1330	'B8'1331	U-G	upward
+'B8'1330	'B8'1376	U-G	W/S	trans
+'B8'1330	'B8'1405	U-A	W/W	cis
+'B8'1330	'B8'1406	U-G	outward
+'B8'1331	'B8'1332	G-G	upward
+'B8'1331	'B8'1403	G-P	W/W	cis
+'B8'1331	'B8'1405	G-A	outward
+'B8'1332	'B8'1333	G-A	upward
+'B8'1332	'B8'1403	G-PSU	outward
+'B8'1333	'B8'1334	A-U	upward
+'B8'1333	'B8'1401	A-U	W/W	cis
+'B8'1334	'B8'1335	U-C	upward
+'B8'1334	'B8'1398	U-U	W/W	cis
+'B8'1334	'B8'1401	U-U	W/W	cis
+'B8'1335	'B8'1336	C-A	upward
+'B8'1335	'B8'1397	C-G	W/W	cis
+'B8'1336	'B8'1394	A-U	W/W	cis
+'B8'1336	'B8'1397	A-G	outward
+'B8'1337	'B8'1338	G-G	upward
+'B8'1337	'B8'1393	G-C	W/W	cis
+'B8'1338	'B8'1339	G-A	upward
+'B8'1338	'B8'1392	G-C	W/W	cis
+'B8'1338	'B8'1393	G-C	outward
+'B8'1339	'B8'1340	A-C	upward
+'B8'1339	'B8'1391	A-U	W/W	cis
+'B8'1340	'B8'1365	C-A	inward
+'B8'1340	'B8'1390	C-G	W/W	cis
+'B8'1342	'B8'1344	C-C	S/H	cis
+'B8'1342	'B8'1345	C-A	W/H	trans
+'B8'1342	'B8'1364	C-A	inward
+'B8'1342	'B8'1365	C-A	outward
+'B8'1343	'B8'1344	C-C	upward
+'B8'1343	'B8'1368	C-G	W/W	cis
+'B8'1343	'B8'1388	C-A	s/S	cis
+'B8'1343	'B8'1390	C-G	outward
+'B8'1344	'B8'1345	C-A	upward
+'B8'1344	'B8'1367	C-G	W/W	cis
+'B8'1344	'B8'1368	C-G	outward
+'B8'1345	'B8'1364	A-A	W/W	cis
+'B8'1345	'B8'1366	A-A	W/W	cis
+'B8'1345	'B8'1367	A-G	outward
+'B8'1346	'B8'1347	A-A	upward
+'B8'1346	'B8'1363	A-U	W/W	cis
+'B8'1346	'B8'1364	A-A	outward
+'B8'1347	'B8'1348	A-U	upward
+'B8'1347	'B8'1362	A-U	W/W	cis
+'B8'1347	'B8'1363	A-U	outward
+'B8'1347	'B8'1511	A-A	S/W	trans
+'B8'1348	'B8'1361	U-A	W/W	cis
+'B8'1349	'B8'1350	G-G	upward
+'B8'1349	'B8'1360	G-U	W/W	cis
+'B8'1349	'B8'1361	G-A	outward
+'B8'1350	'B8'1351	G-U	upward
+'B8'1350	'B8'1359	G-C	W/W	cis
+'B8'1351	'B8'1353	U-C	upward
+'B8'1351	'B8'1358	U-G	W/W	cis
+'B8'1354	'B8'1355	A-A	upward
+'B8'1354	'B8'1461	A-C	W/S	cis
+'B8'1354	'B8'1465	A-A	W/W	trans
+'B8'1355	'B8'1356	A-C	upward
+'B8'1355	'B8'1466	A-G	S/S	trans
+'B8'1356	'B8'1357	C-C	upward
+'B8'1357	'B8'1358	C-G	upward
+'B8'1358	'B8'1359	G-C	upward
+'B8'1359	'B8'1360	C-U	upward
+'B8'1360	'B8'1361	U-A	upward
+'B8'1361	'B8'1362	A-U	upward
+'B8'1362	'B8'1363	U-U	upward
+'B8'1363	'B8'1364	U-A	upward
+'B8'1363	'B8'1510	U-A	S/S	cis
+'B8'1366	'B8'1367	A-G	upward
+'B8'1367	'B8'1368	G-G	upward
+'B8'1368	'B8'1369	G-U	upward
+'B8'1368	'B8'1388	G-A	S/S	trans
+'B8'1369	'B8'1390	U-G	W/H	cis
+'B8'1370	'B8'1371	U-C	upward
+'B8'1370	'B8'1384	U-A	W/W	cis
+'B8'1370	'B8'1389	U-A	downward
+'B8'1371	'B8'1383	C-G	W/W	cis
+'B8'1372	'B8'1373	G-U	upward
+'B8'1372	'B8'1382	G-C	W/W	cis
+'B8'1372	'B8'1383	G-G	outward
+'B8'1373	'B8'1374	U-U	upward
+'B8'1373	'B8'1381	U-A	W/W	cis
+'B8'1374	'B8'1375	U-OMU	upward
+'B8'1374	'B8'1380	U-A	W/W	cis
+'B8'1376	'B8'1377	OMG-U	upward
+'B8'1377	'B8'1378	U-U	upward
+'B8'1378	'B8'1379	U-C	upward
+'B8'1379	'B8'1380	C-A	upward
+'B8'1380	'B8'1381	A-A	upward
+'B8'1381	'B8'1382	A-C	upward
+'B8'1383	'B8'1384	G-A	upward
+'B8'1384	'B8'1385	A-U	upward
+'B8'1385	'B8'1386	U-U	upward
+'B8'1385	'B8'1389	U-A	W/H	trans
+'B8'1386	'B8'1388	U-A	S/H	trans
+'B8'1387	'B8'1388	A-A	upward
+'B8'1388	'B8'1389	A-A	upward
+'B8'1390	'B8'1391	G-U	upward
+'B8'1391	'B8'1392	U-C	upward
+'B8'1392	'B8'1393	C-C	upward
+'B8'1393	'B8'1394	C-U	upward
+'B8'1394	'B8'1397	U-G	upward
+'B8'1397	'B8'1398	G-U	upward
+'B8'1399	'B8'1404	G-G	h/H	trans
+'B8'1400	'B8'1437	A-A	upward
+'B8'1401	'B8'1402	U-C	upward
+'B8'1402	'B8'1403	C-PSU	upward
+'B8'1403	'B8'1404	PSU-G	inward
+'B8'1404	'B8'1433	G-U	downward
+'B8'1405	'B8'1406	A-G	upward
+'B8'1406	'B8'1407	G-U	upward
+'B8'1407	'B8'1408	U-U	inward
+'B8'1409	'B8'1410	C-A	upward
+'B8'1409	'B8'1431	C-G	inward
+'B8'1410	'B8'1431	A-G	H/S	trans
+'B8'1411	'B8'1412	G-A	upward
+'B8'1411	'B8'1429	G-C	W/W	cis
+'B8'1411	'B8'1430	G-G	outward
+'B8'1412	'B8'1413	A-C	upward
+'B8'1412	'B8'1428	A-U	W/W	cis
+'B8'1413	'B8'1414	C-C	upward
+'B8'1413	'B8'1427	C-G	W/W	cis
+'B8'1414	'B8'1415	C-G	upward
+'B8'1414	'B8'1426	C-G	W/W	cis
+'B8'1414	'B8'1427	C-G	outward
+'B8'1415	'B8'1416	G-G	upward
+'B8'1415	'B8'1424	G-C	W/W	cis
+'B8'1415	'B8'1426	G-G	outward
+'B8'1416	'B8'1417	G-A	upward
+'B8'1416	'B8'1423	G-C	W/W	cis
+'B8'1417	'B8'1418	A-G	upward
+'B8'1417	'B8'1422	A-U	W/W	cis
+'B8'1418	'B8'1421	G-A	S/H	trans
+'B8'1418	'B8'1422	G-U	W/W	cis
+'B8'1418	'B8'1422	G-U	outward
+'B8'1419	'B8'1420	C-A	upward
+'B8'1420	'B8'1421	A-A	upward
+'B8'1422	'B8'1423	U-C	upward
+'B8'1423	'B8'1424	C-C	upward
+'B8'1426	'B8'1427	G-G	upward
+'B8'1427	'B8'1428	G-U	upward
+'B8'1428	'B8'1429	U-C	upward
+'B8'1429	'B8'1430	C-G	upward
+'B8'1430	'B8'1431	G-G	upward
+'B8'1434	'B8'1435	U-C	upward
+'B8'1437	'B8'1439	A-C	S/H	cis
+'B8'1438	'B8'1439	U-C	upward
+'B8'1439	'B8'1440	C-U	upward
+'B8'1440	'B8'1441	U-A	upward
+'B8'1441	'B8'1442	A-U	upward
+'B8'1442	'B8'1443	U-U	upward
+'B8'1445	'B8'1446	U-A	upward
+'B8'1445	'B8'1544	U-A	W/W	cis
+'B8'1445	'B8'1545	U-A	outward
+'B8'1446	'B8'1447	A-A	upward
+'B8'1446	'B8'1543	A-U	W/W	cis
+'B8'1446	'B8'1544	A-A	outward
+'B8'1447	'B8'1541	A-C	inward
+'B8'1447	'B8'1542	A-A	S/H	trans
+'B8'1448	'B8'1449	A-U	upward
+'B8'1448	'B8'1478	A-U	W/W	cis
+'B8'1448	'B8'1479	A-G	outward
+'B8'1448	'B8'1503	A-C	downward
+'B8'1449	'B8'1450	U-U	upward
+'B8'1449	'B8'1477	U-A	W/W	cis
+'B8'1450	'B8'1451	U-U	upward
+'B8'1450	'B8'1476	U-A	W/W	cis
+'B8'1451	'B8'1452	U-C	upward
+'B8'1451	'B8'1475	U-A	W/W	cis
+'B8'1452	'B8'1453	C-U	upward
+'B8'1452	'B8'1474	C-G	W/W	cis
+'B8'1453	'B8'1454	U-C	upward
+'B8'1453	'B8'1473	U-A	W/W	cis
+'B8'1453	'B8'1474	U-G	outward
+'B8'1454	'B8'1455	C-C	upward
+'B8'1454	'B8'1472	C-G	W/W	cis
+'B8'1455	'B8'1456	C-C	upward
+'B8'1455	'B8'1471	C-A	W/W	cis
+'B8'1455	'B8'1472	C-G	outward
+'B8'1456	'B8'1457	C-A	inward
+'B8'1457	'B8'1459	A-U	outward
+'B8'1457	'B8'1469	A-C	H/H	trans
+'B8'1458	'B8'1459	G-U	S/H	cis
+'B8'1458	'B8'1467	G-G	inward
+'B8'1459	'B8'1460	U-A	upward
+'B8'1459	'B8'1467	U-G	inward
+'B8'1459	'B8'1468	U-A	W/H	trans
+'B8'1460	'B8'1461	A-C	upward
+'B8'1460	'B8'1467	A-G	H/S	trans
+'B8'1460	'B8'1468	A-A	outward
+'B8'1461	'B8'1462	C-G	upward
+'B8'1461	'B8'1466	C-G	W/W	cis
+'B8'1461	'B8'1467	C-G	outward
+'B8'1462	'B8'1465	G-A	S/H	trans
+'B8'1462	'B8'1466	G-G	outward
+'B8'1463	'B8'1464	A-A	upward
+'B8'1464	'B8'1465	A-A	upward
+'B8'1465	'B8'1466	A-G	upward
+'B8'1466	'B8'1467	G-G	upward
+'B8'1468	'B8'1469	A-C	upward
+'B8'1469	'B8'1470	C-A	upward
+'B8'1470	'B8'1471	A-A	upward
+'B8'1471	'B8'1472	A-G	upward
+'B8'1472	'B8'1473	G-A	upward
+'B8'1473	'B8'1474	A-G	upward
+'B8'1474	'B8'1475	G-A	upward
+'B8'1475	'B8'1476	A-A	upward
+'B8'1476	'B8'1477	A-A	upward
+'B8'1477	'B8'1478	A-U	upward
+'B8'1478	'B8'1479	U-G	upward
+'B8'1479	'B8'1480	G-G	upward
+'B8'1479	'B8'1503	G-C	W/W	cis
+'B8'1480	'B8'1481	G-G	upward
+'B8'1480	'B8'1502	G-U	W/W	cis
+'B8'1481	'B8'1482	G-A	upward
+'B8'1481	'B8'1501	G-C	W/W	cis
+'B8'1481	'B8'1502	G-U	outward
+'B8'1482	'B8'1483	A-C	upward
+'B8'1482	'B8'1500	A-U	W/W	cis
+'B8'1483	'B8'1484	C-C	upward
+'B8'1483	'B8'1499	C-G	W/W	cis
+'B8'1484	'B8'1486	C-A	S/H	cis
+'B8'1484	'B8'1496	C-C	inward
+'B8'1484	'B8'1497	C-G	W/H	trans
+'B8'1484	'B8'1499	C-G	outward
+'B8'1485	'B8'1486	A-A	upward
+'B8'1486	'B8'1487	A-C	upward
+'B8'1486	'B8'1499	A-G	W/S	cis
+'B8'1487	'B8'1488	C-C	upward
+'B8'1487	'B8'1497	C-G	W/W	cis
+'B8'1488	'B8'1489	C-U	upward
+'B8'1489	'B8'1490	U-C	upward
+'B8'1489	'B8'1495	U-A	W/W	cis
+'B8'1490	'B8'1494	C-A	S/W	cis
+'B8'1494	'B8'1495	A-A	upward
+'B8'1495	'B8'1496	A-C	upward
+'B8'1496	'B8'1497	C-G	upward
+'B8'1497	'B8'1499	G-G	upward
+'B8'1499	'B8'1500	G-U	upward
+'B8'1500	'B8'1501	U-C	upward
+'B8'1501	'B8'1502	C-U	upward
+'B8'1502	'B8'1503	U-C	upward
+'B8'1505	'B8'1506	G-A	upward
+'B8'1505	'B8'1541	G-C	W/W	cis
+'B8'1505	'B8'1542	G-A	outward
+'B8'1506	'B8'1507	A-G	upward
+'B8'1506	'B8'1540	A-U	W/W	cis
+'B8'1507	'B8'1508	G-A	upward
+'B8'1507	'B8'1539	G-C	W/W	cis
+'B8'1507	'B8'1540	G-U	outward
+'B8'1508	'B8'1509	A-U	upward
+'B8'1508	'B8'1538	A-A	S/H	trans
+'B8'1509	'B8'1537	U-A	W/H	trans
+'B8'1510	'B8'1511	A-A	upward
+'B8'1510	'B8'1536	A-U	downward
+'B8'1511	'B8'1512	A-U	upward
+'B8'1512	'B8'1513	U-U	upward
+'B8'1512	'B8'1534	U-A	W/W	cis
+'B8'1513	'B8'1514	U-A	upward
+'B8'1513	'B8'1525	U-C	inward
+'B8'1513	'B8'1533	U-A	W/W	cis
+'B8'1513	'B8'1534	U-A	outward
+'B8'1514	'B8'1515	A-A	upward
+'B8'1514	'B8'1533	A-A	outward
+'B8'1515	'B8'1516	A-U	upward
+'B8'1515	'B8'1531	A-C	W/W	cis
+'B8'1516	'B8'1517	U-G	upward
+'B8'1516	'B8'1526	U-U	W/H	trans
+'B8'1516	'B8'1530	U-C	W/W	cis
+'B8'1517	'B8'1518	G-A	upward
+'B8'1517	'B8'1524	G-U	inward
+'B8'1517	'B8'1526	G-U	outward
+'B8'1517	'B8'1528	G-A	S/H	trans
+'B8'1518	'B8'1519	A-U	upward
+'B8'1518	'B8'1524	A-U	H/W	trans
+'B8'1518	'B8'1528	A-A	outward
+'B8'1519	'B8'1520	U-U	inward
+'B8'1520	'B8'1523	U-A	W/W	cis
+'B8'1522	'B8'1523	A-A	upward
+'B8'1523	'B8'1524	A-U	upward
+'B8'1526	'B8'1528	U-A	downward
+'B8'1526	'B8'1529	U-A	W/H	cis
+'B8'1528	'B8'1529	A-A	upward
+'B8'1529	'B8'1530	A-C	upward
+'B8'1530	'B8'1531	C-C	upward
+'B8'1531	'B8'1532	C-U	upward
+'B8'1533	'B8'1534	A-A	upward
+'B8'1534	'B8'1535	A-U	upward
+'B8'1536	'B8'1537	U-A	outward
+'B8'1537	'B8'1538	A-A	upward
+'B8'1538	'B8'1539	A-C	upward
+'B8'1539	'B8'1540	C-U	upward
+'B8'1540	'B8'1541	U-C	upward
+'B8'1541	'B8'1542	C-A	upward
+'B8'1542	'B8'1543	A-U	upward
+'B8'1543	'B8'1544	U-A	upward
+'B8'1544	'B8'1545	A-A	upward
+'B8'1545	'B8'1546	A-U	upward
+'B8'1546	'B8'1547	U-A	upward
+'B8'1549	'B8'1550	A-U	upward
+'B8'1551	'B8'1552	C-C	upward
+'B8'1553	'B8'1554	A-G	upward
+'B8'1554	'B8'1555	G-C	upward
+'B8'1554	'B8'1568	G-C	W/W	cis
+'B8'1555	'B8'1556	C-C	upward
+'B8'1555	'B8'1567	C-G	W/W	cis
+'B8'1556	'B8'1557	C-C	upward
+'B8'1556	'B8'1566	C-G	W/W	cis
+'B8'1556	'B8'1567	C-G	outward
+'B8'1557	'B8'1559	C-A	upward
+'B8'1557	'B8'1565	C-G	W/W	cis
+'B8'1557	'B8'1566	C-G	outward
+'B8'1559	'B8'1560	A-G	upward
+'B8'1559	'B8'1564	A-A	S/W	cis
+'B8'1559	'B8'1565	A-G	outward
+'B8'1561	'B8'1562	A-A	upward
+'B8'1562	'B8'1563	A-C	upward
+'B8'1563	'B8'1564	C-A	upward
+'B8'1564	'B8'1565	A-G	upward
+'B8'1565	'B8'1566	G-G	upward
+'B8'1566	'B8'1567	G-G	upward
+'B8'1567	'B8'1568	G-C	upward
+'B8'1569	'B8'1570	A-C	upward
+'B8'1570	'B8'1571	C-A	upward
+'B9'1	'B9'2	G-U	upward
+'B9'1	'B9'69	G-C	W/W	cis
+'B9'2	'B9'68	U-A	W/W	cis
+'B9'3	'B9'4	U-A	upward
+'B9'3	'B9'67	U-A	W/W	cis
+'B9'3	'B9'68	U-A	outward
+'B9'4	'B9'5	A-A	upward
+'B9'4	'B9'67	A-A	outward
+'B9'5	'B9'6	A-U	upward
+'B9'5	'B9'65	A-U	W/W	cis
+'B9'5	'B9'66	A-A	outward
+'B9'6	'B9'7	U-G	upward
+'B9'6	'B9'64	U-A	W/W	cis
+'B9'7	'B9'49	G-G	upward
+'B9'7	'B9'63	G-C	W/W	cis
+'B9'7	'B9'64	G-A	outward
+'B9'8	'B9'12	U-U	inward
+'B9'8	'B9'13	U-U	W/W	trans
+'B9'9	'B9'24	A-A	H/H	trans
+'B9'9	'B9'25	A-G	H/H	trans
+'B9'9	'B9'46	A-G	inward
+'B9'9	'B9'47	A-A	outward
+'B9'10	'B9'11	G-C	upward
+'B9'10	'B9'26	G-C	W/W	cis
+'B9'10	'B9'27	G-A	outward
+'B9'11	'B9'12	C-U	upward
+'B9'11	'B9'25	C-G	W/W	cis
+'B9'12	'B9'24	U-A	W/W	cis
+'B9'12	'B9'25	U-G	W/W	cis
+'B9'13	'B9'14	U-A	outward
+'B9'13	'B9'24	U-A	upward
+'B9'14	'B9'15	A-A	upward
+'B9'15	'B9'16	A-A	upward
+'B9'15	'B9'48	A-U	S/W	trans
+'B9'17	'B9'55	U-C	inward
+'B9'18	'B9'19	U-A	upward
+'B9'19	'B9'20	A-U	upward
+'B9'20	'B9'22	U-A	upward
+'B9'23	'B9'47	A-A	inward
+'B9'23	'B9'48	A-U	outward
+'B9'24	'B9'25	A-G	upward
+'B9'24	'B9'47	A-A	H/W	trans
+'B9'25	'B9'26	G-C	upward
+'B9'26	'B9'27	C-A	upward
+'B9'27	'B9'28	A-A	upward
+'B9'27	'B9'46	A-G	W/W	cis
+'B9'28	'B9'29	A-G	upward
+'B9'28	'B9'44	A-U	W/W	cis
+'B9'29	'B9'30	G-G	upward
+'B9'29	'B9'43	G-C	W/W	cis
+'B9'29	'B9'44	G-U	outward
+'B9'30	'B9'31	G-C	upward
+'B9'30	'B9'42	G-C	W/W	cis
+'B9'30	'B9'43	G-C	outward
+'B9'31	'B9'32	C-A	upward
+'B9'31	'B9'41	C-G	W/W	cis
+'B9'32	'B9'33	A-C	upward
+'B9'32	'B9'40	A-U	W/W	cis
+'B9'32	'B9'41	A-G	outward
+'B9'33	'B9'39	C-A	W/W	cis
+'B9'34	'B9'35	U-G	inward
+'B9'35	'B9'36	G-A	upward
+'B9'36	'B9'37	A-A	upward
+'B9'37	'B9'38	A-MIA	upward
+'B9'38	'B9'39	MIA-A	upward
+'B9'39	'B9'40	A-U	upward
+'B9'40	'B9'41	U-G	upward
+'B9'41	'B9'42	G-C	upward
+'B9'42	'B9'43	C-C	upward
+'B9'44	'B9'45	U-A	upward
+'B9'45	'B9'46	A-G	upward
+'B9'49	'B9'50	G-A	upward
+'B9'49	'B9'62	G-C	W/W	cis
+'B9'50	'B9'51	A-G	upward
+'B9'50	'B9'61	A-U	W/W	cis
+'B9'51	'B9'52	G-C	upward
+'B9'51	'B9'60	G-C	W/W	cis
+'B9'51	'B9'61	G-U	outward
+'B9'52	'B9'53	C-C	upward
+'B9'52	'B9'59	C-G	W/W	cis
+'B9'53	'B9'54	C-U	upward
+'B9'53	'B9'58	C-A	W/W	cis
+'B9'54	'B9'55	U-C	upward
+'B9'57	'B9'58	C-A	upward
+'B9'58	'B9'59	A-G	upward
+'B9'59	'B9'60	G-C	upward
+'B9'60	'B9'61	C-U	upward
+'B9'61	'B9'62	U-C	upward
+'B9'62	'B9'63	C-C	upward
+'B9'63	'B9'64	C-A	upward
+'B9'64	'B9'65	A-U	upward
+'B9'65	'B9'66	U-A	upward
+'B9'66	'B9'67	A-A	upward
+'B9'67	'B9'68	A-A	upward
+'B9'68	'B9'69	A-C	upward
+'B9'69	'B9'70	C-A	upward
+'B9'70	'B9'71	A-C	upward
+'B9'71	'B9'72	C-C	upward

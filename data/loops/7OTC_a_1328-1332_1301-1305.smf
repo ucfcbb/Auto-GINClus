@@ -1,0 +1,14 @@
+>7OTC_a:1328-1332_1301-1305
+AUGAA...CCGGA
+#info=basepair
+4-7,H/S,trans
+3-8,H/S,trans
+2-9,S/H,trans
+#info=stacking
+0-1,upward
+1-2,upward
+3-4,upward
+6-7,upward
+7-8,upward
+2-8,inward
+3-9,outward

@@ -1,0 +1,2310 @@
+a2	a3	A-A	downward
+a3	a4	A-C	outward
+a5	a6	U-G	inward
+a7	a292	A-A	outward
+a9	a10	G-A	upward
+a9	a25	G-C	W/W	cis
+a9	a26	G-A	outward
+a10	a11	A-G	upward
+a10	a24	A-U	W/W	cis
+a11	a12	G-U	upward
+a11	a23	G-C	W/W	cis
+a11	a24	G-U	outward
+a12	a22	U-G	W/W	cis
+a13	a20	U-U	H/W	trans
+a13	a21	U-G	outward
+a13	a909	U-A	W/H	cis
+a15	a16	G-A	upward
+a15	a914	G-U	W/W	cis
+a15	a915	G-U	outward
+a15	a1390	G-A	downward
+a16	a17	A-U	upward
+a16	a913	A-A	W/W	cis
+a17	a18	U-C	upward
+a17	a912	U-A	W/W	cis
+a17	a1073	U-G	S/S	cis
+a18	a19	C-A	upward
+a18	a911	C-G	W/W	cis
+a19	a20	A-U	upward
+a19	a566	A-A	s/S	trans
+a19	a910	A-U	W/W	cis
+a19	a911	A-G	outward
+a20	a21	U-G	upward
+a20	a909	U-A	W/W	cis
+a21	a22	G-G	upward
+a21	a908	G-A	S/H	trans
+a22	a23	G-C	upward
+a22	a907	G-A	s/S	trans
+a22	a908	G-A	outward
+a23	a24	C-U	upward
+a23	a555	C-U	H/W	cis
+a24	a25	U-C	upward
+a25	a26	C-A	upward
+a25	a552	C-G	inward
+a25	a553	C-A	H/W	trans
+a26	a552	A-G	H/S	trans
+a27	a28	G-A	upward
+a27	a550	G-C	W/W	cis
+a27	a551	G-G	outward
+a28	a29	A-U	upward
+a28	a549	A-U	W/W	cis
+a29	a30	U-U	upward
+a29	a548	U-A	W/W	cis
+a30	a32	U-A	upward
+a30	a547	U-A	W/W	cis
+a31	a48	G-C	upward
+a32	a33	A-A	upward
+a32	a546	A-U	W/W	cis
+a32	a547	A-A	outward
+a33	a34	A-C	upward
+a33	a545	A-U	W/W	cis
+a34	a35	C-G	upward
+a34	a544	C-G	W/W	cis
+a35	a36	G-C	upward
+a35	a543	G-C	W/W	cis
+a35	a544	G-G	outward
+a36	a37	C-U	upward
+a36	a542	C-G	W/W	cis
+a37	a38	U-G	upward
+a37	a391	U-A	W/W	trans
+a37	a542	U-G	outward
+a38	a391	G-A	downward
+a39	a40	G-C	upward
+a39	a397	G-C	W/W	cis
+a39	a398	G-G	outward
+a40	a41	C-G	upward
+a40	a396	C-G	W/W	cis
+a41	a42	G-G	upward
+a41	a395	G-C	W/W	cis
+a41	a396	G-G	outward
+a42	a43	G-C	upward
+a42	a394	G-C	W/W	cis
+a42	a395	G-C	outward
+a42	a616	G-A	S/W	trans
+a43	a44	C-A	upward
+a43	a393	C-G	W/W	cis
+a44	a45	A-G	upward
+a44	a392	A-U	W/W	cis
+a44	a393	A-G	outward
+a45	a46	G-G	upward
+a45	a390	G-C	W/W	cis
+a45	a392	G-U	outward
+a46	a360	G-A	upward
+a46	a389	G-C	W/W	cis
+a47	a355	C-G	W/W	cis
+a49	a355	U-G	inward
+a49	a356	U-G	W/S	cis
+a49	a358	U-A	downward
+a49	a359	U-U	H/W	trans
+a51	a108	A-U	H/S	cis
+a51	a110	A-A	upward
+a51	a308	A-C	W/S	cis
+a51	a347	A-A	downward
+a52	a53	C-A	upward
+a52	a353	C-G	W/W	cis
+a52	a354	C-G	outward
+a53	a54	A-C	upward
+a53	a352	A-U	W/W	cis
+a53	a353	A-G	outward
+a54	a346	C-C	inward
+a54	a351	C-G	W/W	cis
+a55	a56	A-U	upward
+a55	a351	A-G	H/S	trans
+a55	a362	A-U	W/W	trans
+a56	a346	U-C	H/W	trans
+a56	a350	U-A	W/W	cis
+a56	a362	U-U	W/W	trans
+a57	a58	G-C	upward
+a57	a349	G-C	W/W	cis
+a57	a350	G-A	outward
+a58	a348	C-G	W/W	cis
+a59	a325	A-G	inward
+a59	a348	A-G	outward
+a60	a101	A-G	S/S	trans
+a61	a62	G-U	upward
+a61	a100	G-C	W/W	cis
+a61	a101	G-G	outward
+a62	a63	U-C	upward
+a62	a99	U-G	W/W	cis
+a63	a98	C-G	W/W	cis
+a64	a67	G-C	downward
+a64	a68	G-G	W/H	cis
+a64	a94	G-C	inward
+a64	a95	G-A	H/H	cis
+a66	a67	G-C	upward
+a66	a97	G-C	W/W	cis
+a66	a98	G-G	outward
+a66	a166	G-A	S/S	cis
+a67	a96	C-G	W/W	cis
+a67	a165	C-A	S/s	cis
+a68	a69	G-G	upward
+a68	a95	G-A	W/W	cis
+a68	a96	G-G	outward
+a68	a145	G-A	S/W	trans
+a68	a146	G-A	S/S	trans
+a69	a70	G-A	upward
+a69	a94	G-C	W/W	cis
+a69	a95	G-A	outward
+a70	a71	A-U	upward
+a70	a93	A-U	W/W	cis
+a71	a72	U-A	upward
+a71	a92	U-U	W/W	cis
+a72	a90	A-G	inward
+a72	a91	A-A	S/H	trans
+a73	a74	A-A	upward
+a73	a90	A-G	H/S	trans
+a73	a91	A-A	outward
+a74	a75	A-G	upward
+a74	a89	A-G	H/S	trans
+a75	a76	G-G	upward
+a75	a88	G-U	W/W	cis
+a75	a89	G-G	outward
+a76	a77	G-G	upward
+a76	a87	G-C	W/W	cis
+a76	a88	G-U	outward
+a77	a78	G-A	upward
+a77	a86	G-C	W/W	cis
+a77	a87	G-C	outward
+a78	a79	A-G	upward
+a78	a85	A-U	W/W	cis
+a79	a80	G-C	upward
+a79	a84	G-C	W/W	cis
+a79	a85	G-U	outward
+a80	a81	C-U	inward
+a80	a83	C-G	W/W	cis
+a81	a83	U-G	S/W	cis
+a82	a83	U-G	outward
+a83	a84	G-C	upward
+a84	a85	C-U	upward
+a85	a86	U-C	upward
+a86	a87	C-C	upward
+a87	a88	C-U	upward
+a88	a89	U-G	upward
+a89	a90	G-G	upward
+a91	a92	A-U	upward
+a92	a93	U-U	upward
+a93	a94	U-C	upward
+a95	a96	A-G	upward
+a96	a97	G-C	upward
+a97	a98	C-G	upward
+a98	a99	G-G	upward
+a99	a100	G-C	upward
+a100	a101	C-G	upward
+a101	a102	G-G	inward
+a103	a318	A-G	H/S	trans
+a103	a321	A-A	upward
+a104	a105	C-G	outward
+a105	a106	G-G	upward
+a105	a325	G-G	W/W	trans
+a106	a107	G-G	upward
+a106	a309	G-A	W/W	cis
+a106	a324	G-C	outward
+a107	a108	G-U	upward
+a107	a308	G-C	W/W	cis
+a107	a309	G-A	outward
+a107	a347	G-A	S/S	cis
+a108	a109	U-G	upward
+a108	a307	U-A	W/W	cis
+a109	a111	G-G	S/H	cis
+a109	a283	G-A	upward
+a109	a306	G-C	W/W	cis
+a109	a307	G-A	outward
+a110	a111	A-G	upward
+a110	a307	A-A	H/S	trans
+a111	a112	G-U	upward
+a112	a282	U-A	inward
+a113	a114	A-A	outward
+a113	a234	A-C	upward
+a113	a281	A-U	H/W	trans
+a113	a282	A-A	outward
+a114	a116	A-G	upward
+a115	a231	U-G	W/H	trans
+a116	a117	G-C	upward
+a116	a233	G-U	W/W	cis
+a117	a118	C-C	upward
+a117	a232	C-G	W/W	cis
+a118	a119	C-U	upward
+a118	a231	C-G	W/W	cis
+a118	a232	C-G	outward
+a119	a120	U-A	upward
+a119	a230	U-A	W/W	cis
+a120	a121	A-G	upward
+a120	a229	A-U	W/W	cis
+a120	a230	A-A	outward
+a121	a122	G-G	upward
+a121	a228	G-C	W/W	cis
+a121	a229	G-U	outward
+a122	a123	G-A	upward
+a122	a227	G-C	W/W	cis
+a122	a228	G-C	outward
+a123	a125	A-U	upward
+a123	a226	A-G	W/W	cis
+a124	a258	A-A	outward
+a125	a126	U-C	upward
+a125	a225	U-A	W/W	cis
+a125	a226	U-G	outward
+a126	a127	C-U	upward
+a126	a224	C-G	W/W	cis
+a127	a223	U-U	W/W	cis
+a127	a224	U-G	outward
+a128	a129	G-C	upward
+a129	a130	C-C	upward
+a130	a131	C-U	upward
+a130	a221	C-G	W/W	cis
+a131	a132	U-G	upward
+a131	a220	U-A	W/W	cis
+a131	a221	U-G	outward
+a132	a133	G-G	upward
+a132	a219	G-C	W/W	cis
+a132	a220	G-A	outward
+a133	a134	G-U	upward
+a133	a218	G-U	W/W	cis
+a133	a219	G-C	outward
+a134	a135	U-A	upward
+a134	a217	U-A	W/W	cis
+a135	a136	A-G	upward
+a135	a216	A-U	W/W	cis
+a135	a217	A-A	outward
+a136	a137	G-U	upward
+a136	a190	G-A	S/W	trans
+a136	a215	G-C	W/W	cis
+a136	a216	G-U	outward
+a137	a214	U-G	W/W	cis
+a138	a139	G-G	upward
+a138	a172	G-C	W/W	cis
+a138	a173	G-A	outward
+a139	a140	G-G	upward
+a139	a171	G-G	W/H	cis
+a139	a172	G-C	outward
+a140	a141	G-G	upward
+a140	a170	G-C	W/W	cis
+a140	a171	G-G	downward
+a141	a142	G-G	upward
+a141	a169	G-C	W/W	cis
+a141	a170	G-C	outward
+a141	a1441	G-A	S/S	cis
+a142	a143	G-A	upward
+a142	a168	G-A	W/W	cis
+a142	a1440	G-A	S/W	cis
+a143	a144	A-U	upward
+a143	a166	A-A	W/H	trans
+a144	a164	U-U	inward
+a144	a165	U-A	W/H	trans
+a145	a146	A-A	upward
+a145	a164	A-U	H/W	trans
+a145	a165	A-A	outward
+a146	a147	A-C	upward
+a146	a163	A-C	H/W	trans
+a146	a164	A-U	outward
+a147	a162	C-G	W/W	cis
+a147	a163	C-C	W/W	cis
+a148	a149	G-U	upward
+a148	a161	G-C	W/W	cis
+a148	a162	G-G	outward
+a149	a150	U-C	upward
+a149	a160	U-G	W/W	cis
+a150	a151	C-C	upward
+a150	a159	C-G	W/W	cis
+a150	a160	C-G	outward
+a151	a152	C-G	upward
+a151	a158	C-G	W/W	cis
+a151	a159	C-G	outward
+a152	a153	G-G	upward
+a152	a157	G-C	W/W	cis
+a152	a158	G-G	outward
+a153	a157	G-C	outward
+a154	a155	A-A	upward
+a154	a338	A-A	downward
+a154	a340	A-G	outward
+a154	a341	A-G	W/S	trans
+a155	a156	A-A	upward
+a156	a157	A-C	H/S	cis
+a157	a158	C-G	upward
+a158	a159	G-G	upward
+a159	a160	G-G	upward
+a160	a161	G-C	upward
+a162	a163	G-C	upward
+a163	a164	C-U	upward
+a165	a166	A-A	upward
+a166	a168	A-A	upward
+a167	a191	U-A	outward
+a168	a169	A-C	upward
+a169	a170	C-C	upward
+a170	a171	C-G	inward
+a171	a172	G-C	outward
+a172	a173	C-A	upward
+a173	a174	A-U	upward
+a173	a190	A-A	W/H	trans
+a174	a175	U-A	upward
+a174	a189	U-A	W/H	trans
+a174	a190	U-A	W/H	trans
+a175	a188	A-G	inward
+a175	a189	A-A	outward
+a176	a177	C-G	inward
+a176	a178	C-U	outward
+a176	a188	C-G	W/W	trans
+a178	a179	U-C	upward
+a178	a187	U-A	W/W	cis
+a179	a180	C-C	upward
+a179	a186	C-G	W/W	cis
+a180	a181	C-U	upward
+a180	a185	C-G	W/W	cis
+a181	a184	U-G	S/H	trans
+a182	a183	G-A	upward
+a184	a185	G-G	upward
+a185	a186	G-G	upward
+a186	a187	G-A	upward
+a187	a188	A-G	upward
+a189	a190	A-A	upward
+a192	a193	G-U	upward
+a192	a213	G-C	W/W	cis
+a192	a214	G-G	outward
+a193	a194	U-G	upward
+a193	a212	U-A	W/W	cis
+a194	a195	G-G	upward
+a194	a211	G-C	W/W	cis
+a194	a212	G-A	outward
+a195	a196	G-G	upward
+a195	a210	G-U	W/W	cis
+a195	a211	G-C	outward
+a195	a463	G-C	S/S	cis
+a196	a197	G-G	upward
+a196	a209	G-C	W/W	cis
+a196	a210	G-U	outward
+a197	a198	G-G	S/H	cis
+a197	a208	G-C	W/W	cis
+a197	a209	G-C	outward
+a198	a199	G-A	upward
+a198	a459	G-A	downward
+a199	a200	A-U	upward
+a199	a208	A-C	W/S	cis
+a200	a201	U-C	upward
+a200	a207	U-A	W/W	cis
+a201	a202	C-U	upward
+a201	a206	C-G	W/W	cis
+a202	a205	U-G	S/W	trans
+a203	a205	U-G	downward
+a205	a206	G-G	outward
+a206	a207	G-A	upward
+a207	a208	A-C	upward
+a208	a209	C-C	upward
+a209	a210	C-U	upward
+a210	a211	U-C	upward
+a211	a212	C-A	upward
+a212	a213	A-C	upward
+a213	a214	C-G	upward
+a214	a215	G-C	upward
+a216	a217	U-A	upward
+a217	a218	A-U	upward
+a218	a219	U-C	upward
+a219	a220	C-A	upward
+a220	a221	A-G	upward
+a221	a222	G-A	upward
+a222	a223	A-U	upward
+a223	a224	U-G	upward
+a224	a225	G-A	upward
+a225	a226	A-G	upward
+a226	a227	G-C	upward
+a226	a257	G-A	S/W	trans
+a227	a228	C-C	upward
+a228	a229	C-U	upward
+a229	a230	U-A	upward
+a230	a231	A-G	upward
+a231	a232	G-G	upward
+a232	a233	G-U	upward
+a234	a235	C-G	upward
+a234	a280	C-G	W/W	cis
+a235	a236	G-G	upward
+a235	a279	G-C	W/W	cis
+a235	a280	G-G	outward
+a236	a239	G-U	upward
+a236	a278	G-C	W/W	cis
+a236	a279	G-C	outward
+a237	a239	A-U	downward
+a237	a275	A-G	inward
+a238	a887	U-C	W/W	cis
+a238	a888	U-G	outward
+a239	a277	U-U	W/W	cis
+a240	a272	A-G	W/S	trans
+a240	a273	A-A	upward
+a240	a275	A-G	H/S	trans
+a240	a276	A-A	outward
+a241	a242	G-C	upward
+a241	a271	G-C	W/W	cis
+a241	a272	G-G	outward
+a241	a276	G-A	S/W	trans
+a242	a243	C-U	upward
+a242	a270	C-G	W/W	cis
+a243	a269	U-G	W/W	cis
+a243	a270	U-G	outward
+a244	a246	A-U	upward
+a244	a268	A-A	inward
+a245	a246	G-U	S/H	cis
+a245	a247	G-U	S/H	cis
+a245	a260	G-G	inward
+a246	a268	U-A	W/W	cis
+a247	a248	U-G	upward
+a247	a267	U-A	W/W	cis
+a248	a249	G-G	upward
+a248	a266	G-C	W/W	cis
+a248	a267	G-A	outward
+a249	a250	G-U	upward
+a249	a265	G-C	W/W	cis
+a249	a266	G-C	outward
+a250	a251	U-G	upward
+a250	a264	U-A	W/W	cis
+a251	a252	G-G	upward
+a251	a263	G-U	W/W	cis
+a251	a264	G-A	outward
+a252	a253	G-G	upward
+a252	a262	G-C	W/W	cis
+a253	a254	G-G	upward
+a253	a261	G-C	W/W	cis
+a253	a262	G-C	outward
+a254	a255	G-U	upward
+a254	a259	G-G	W/H	trans
+a254	a261	G-C	outward
+a256	a257	A-A	outward
+a258	a259	A-G	upward
+a259	a261	G-C	upward
+a261	a262	C-C	upward
+a262	a263	C-U	upward
+a263	a264	U-A	upward
+a264	a265	A-C	upward
+a265	a266	C-C	upward
+a266	a267	C-A	upward
+a267	a268	A-A	upward
+a269	a270	G-G	upward
+a270	a271	G-C	upward
+a271	a272	C-G	upward
+a273	a275	A-G	outward
+a276	a277	A-U	upward
+a277	a278	U-C	upward
+a278	a279	C-C	upward
+a279	a280	C-G	upward
+a280	a281	G-U	upward
+a281	a282	U-A	upward
+a283	a284	A-C	upward
+a283	a305	A-U	W/W	cis
+a284	a285	C-U	upward
+a284	a304	C-G	W/W	cis
+a285	a286	U-G	upward
+a285	a299	U-G	inward
+a285	a303	U-A	W/W	cis
+a285	a304	U-G	outward
+a286	a299	G-G	H/S	trans
+a286	a302	G-C	W/W	cis
+a286	a303	G-A	outward
+a286	a602	G-A	S/W	trans
+a287	a288	G-U	upward
+a287	a298	G-U	W/W	cis
+a287	a299	G-G	outward
+a288	a289	U-C	upward
+a288	a297	U-A	W/W	cis
+a288	a298	U-U	W/W	cis
+a289	a290	C-U	upward
+a289	a296	C-G	W/W	cis
+a290	a291	U-G	upward
+a290	a295	U-G	W/W	cis
+a291	a294	G-A	S/H	trans
+a291	a295	G-G	outward
+a292	a293	A-G	upward
+a293	a294	G-A	upward
+a293	a560	G-G	W/H	cis
+a294	a295	A-G	upward
+a294	a559	A-U	S/W	cis
+a295	a296	G-G	upward
+a296	a297	G-A	upward
+a297	a298	A-U	upward
+a298	a299	U-G	upward
+a300	a301	A-U	upward
+a301	a302	U-C	upward
+a302	a303	C-A	upward
+a303	a304	A-G	upward
+a303	a601	A-A	S/W	cis
+a304	a305	G-U	upward
+a305	a306	U-C	upward
+a306	a307	C-A	upward
+a307	a308	A-C	upward
+a308	a309	C-A	upward
+a309	a324	A-C	upward
+a310	a331	C-G	W/W	cis
+a310	a345	C-G	downward
+a311	a312	U-G	upward
+a311	a330	U-A	W/W	cis
+a311	a331	U-G	outward
+a312	a313	G-G	upward
+a312	a329	G-C	W/W	cis
+a312	a330	G-A	outward
+a313	a314	G-A	upward
+a313	a328	G-C	W/W	cis
+a313	a329	G-C	outward
+a314	a315	A-A	upward
+a314	a327	A-U	W/W	cis
+a315	a316	A-C	upward
+a315	a326	A-G	W/W	cis
+a316	a317	C-U	upward
+a316	a323	C-A	W/H	trans
+a316	a326	C-G	W/W	cis
+a317	a318	U-G	upward
+a317	a321	U-A	W/H	trans
+a318	a321	G-A	outward
+a319	a320	A-G	downward
+a321	a323	A-A	upward
+a323	a326	A-G	upward
+a324	a325	C-G	inward
+a326	a327	G-U	upward
+a327	a328	U-C	upward
+a328	a329	C-C	upward
+a329	a330	C-A	upward
+a329	a1427	C-A	S/W	cis
+a330	a331	A-G	upward
+a331	a332	G-A	upward
+a332	a333	A-C	upward
+a332	a345	A-G	W/W	cis
+a333	a334	C-U	upward
+a333	a344	C-G	W/W	cis
+a334	a335	U-C	upward
+a334	a343	U-A	W/W	cis
+a334	a344	U-G	outward
+a335	a336	C-C	upward
+a335	a342	C-G	W/W	cis
+a335	a343	C-A	outward
+a336	a337	C-U	upward
+a336	a341	C-G	W/W	cis
+a336	a342	C-G	outward
+a337	a339	U-C	upward
+a337	a340	U-G	S/W	trans
+a337	a341	U-G	outward
+a339	a340	C-G	downward
+a340	a341	G-G	outward
+a341	a342	G-G	upward
+a342	a343	G-A	upward
+a343	a344	A-G	upward
+a344	a345	G-G	upward
+a346	a350	C-A	W/H	cis
+a348	a349	G-C	upward
+a349	a350	C-A	upward
+a350	a351	A-G	upward
+a351	a352	G-U	upward
+a352	a353	U-G	upward
+a353	a354	G-G	upward
+a354	a355	G-G	upward
+a355	a356	G-G	upward
+a357	a358	A-A	upward
+a360	a388	A-G	S/W	cis
+a361	a387	U-A	W/W	cis
+a361	a388	U-G	outward
+a363	a364	G-G	upward
+a363	a386	G-C	W/W	cis
+a363	a387	G-A	outward
+a364	a365	G-A	upward
+a364	a385	G-C	W/W	cis
+a365	a366	A-C	upward
+a365	a367	A-A	S/H	cis
+a365	a384	A-U	W/W	cis
+a366	a368	C-A	W/H	cis
+a366	a381	C-U	inward
+a367	a368	A-A	upward
+a367	a385	A-C	W/S	cis
+a367	a476	A-A	outward
+a368	a369	A-U	upward
+a368	a384	A-U	W/S	cis
+a369	a370	U-G	upward
+a370	a371	G-G	upward
+a370	a384	G-U	W/S	cis
+a371	a372	G-G	upward
+a371	a380	G-C	W/W	cis
+a372	a373	G-C	upward
+a372	a379	G-C	W/W	cis
+a372	a380	G-C	outward
+a373	a374	C-G	upward
+a373	a378	C-G	W/W	cis
+a374	a377	G-A	S/H	trans
+a374	a378	G-G	outward
+a376	a377	A-A	upward
+a377	a378	A-G	upward
+a378	a379	G-C	upward
+a379	a380	C-C	upward
+a380	a381	C-U	upward
+a383	a384	A-U	upward
+a384	a385	U-C	upward
+a385	a386	C-C	upward
+a386	a387	C-A	upward
+a387	a388	A-G	upward
+a388	a389	G-C	upward
+a389	a390	C-C	upward
+a391	a541	A-A	H/S	cis
+a391	a542	A-G	outward
+a392	a393	U-G	upward
+a393	a394	G-C	upward
+a394	a395	C-C	upward
+a395	a396	C-G	upward
+a395	a615	C-A	S/W	cis
+a396	a397	G-C	upward
+a397	a398	C-G	upward
+a398	a399	G-U	upward
+a398	a492	G-A	S/S	trans
+a398	a493	G-A	W/H	cis
+a399	a493	U-A	W/H	cis
+a400	a401	G-U	upward
+a400	a430	G-C	W/W	cis
+a400	a431	G-U	outward
+a400	a489	G-A	downward
+a401	a402	U-G	upward
+a401	a429	U-A	W/W	cis
+a402	a403	G-U	upward
+a402	a428	G-C	W/W	cis
+a402	a429	G-A	outward
+a403	a404	U-G	upward
+a403	a427	U-G	W/W	cis
+a404	a423	G-U	inward
+a404	a426	G-A	S/H	trans
+a405	a407	A-G	upward
+a405	a423	A-U	outward
+a405	a424	A-A	W/H	trans
+a406	a425	A-A	W/W	cis
+a407	a422	G-G	S/S	trans
+a408	a409	A-A	inward
+a408	a424	A-A	H/W	trans
+a409	a410	A-G	outward
+a410	a411	G-G	upward
+a410	a421	G-U	W/W	cis
+a411	a412	G-U	upward
+a411	a420	G-U	W/W	cis
+a411	a421	G-U	outward
+a412	a413	U-C	upward
+a412	a419	U-A	W/W	cis
+a413	a414	C-U	upward
+a413	a418	C-G	W/W	cis
+a414	a416	U-C	upward
+a414	a417	U-G	S/W	trans
+a414	a418	U-G	outward
+a417	a418	G-G	outward
+a418	a419	G-A	upward
+a419	a420	A-U	upward
+a420	a421	U-U	upward
+a421	a422	U-G	inward
+a422	a424	G-A	outward
+a423	a425	U-A	W/H	cis
+a424	a425	A-A	upward
+a425	a426	A-A	upward
+a426	a427	A-G	upward
+a427	a428	G-C	upward
+a428	a429	C-A	upward
+a429	a430	A-C	upward
+a430	a431	C-U	upward
+a431	a489	U-A	W/H	trans
+a432	a488	U-G	inward
+a432	a490	U-A	W/H	trans
+a433	a434	U-A	upward
+a433	a492	U-A	W/W	cis
+a434	a435	A-A	upward
+a434	a491	A-U	W/W	cis
+a434	a492	A-A	outward
+a435	a436	A-G	upward
+a435	a491	A-U	outward
+a436	a437	G-U	upward
+a436	a486	G-C	W/W	cis
+a436	a487	G-A	downward
+a437	a438	U-U	upward
+a437	a485	U-A	W/W	cis
+a438	a439	U-G	upward
+a438	a484	U-A	W/W	cis
+a438	a485	U-A	outward
+a439	a440	G-G	upward
+a439	a483	G-C	W/W	cis
+a439	a484	G-A	outward
+a440	a441	G-G	upward
+a440	a482	G-C	W/W	cis
+a440	a483	G-C	outward
+a441	a480	G-U	inward
+a441	a481	G-A	S/H	trans
+a441	a482	G-C	outward
+a442	a443	A-G	upward
+a442	a480	A-U	H/W	trans
+a442	a481	A-A	outward
+a443	a444	G-G	upward
+a443	a478	G-G	W/W	trans
+a444	a475	G-G	inward
+a444	a477	G-C	W/W	cis
+a445	a446	A-A	upward
+a445	a474	A-U	inward
+a445	a475	A-G	outward
+a446	a447	A-G	upward
+a447	a448	G-G	upward
+a447	a473	G-U	W/W	cis
+a448	a449	G-G	upward
+a448	a472	G-U	W/W	cis
+a449	a450	G-C	upward
+a449	a471	G-U	W/W	cis
+a449	a472	G-U	outward
+a450	a451	C-A	upward
+a450	a470	C-G	W/W	cis
+a451	a452	A-G	upward
+a451	a469	A-U	W/W	cis
+a451	a470	A-G	outward
+a452	a453	G-U	upward
+a452	a468	G-C	W/W	cis
+a452	a469	G-U	outward
+a453	a454	U-A	upward
+a453	a467	U-G	W/H	cis
+a454	a455	A-A	upward
+a454	a466	A-U	W/W	cis
+a454	a467	A-G	downward
+a455	a456	A-G	upward
+a455	a465	A-U	W/W	cis
+a456	a457	G-U	upward
+a456	a461	G-U	H/W	trans
+a456	a464	G-C	W/W	cis
+a456	a465	G-U	outward
+a457	a458	U-U	upward
+a457	a462	U-A	W/W	trans
+a460	a462	A-A	inward
+a462	a463	A-C	outward
+a463	a464	C-C	upward
+a464	a465	C-U	upward
+a465	a466	U-U	upward
+a466	a467	U-G	inward
+a467	a468	G-C	outward
+a468	a469	C-U	upward
+a469	a470	U-G	upward
+a470	a471	G-U	upward
+a471	a472	U-U	upward
+a472	a473	U-U	upward
+a476	a477	A-C	upward
+a477	a478	C-G	inward
+a478	a480	G-U	outward
+a481	a482	A-C	upward
+a482	a483	C-C	upward
+a483	a484	C-A	upward
+a484	a485	A-A	upward
+a485	a486	A-C	upward
+a486	a487	C-A	inward
+a487	a488	A-G	outward
+a488	a491	G-U	S/H	cis
+a489	a490	A-A	downward
+a490	a491	A-U	downward
+a493	a540	A-A	upward
+a493	a541	A-A	outward
+a494	a495	G-C	upward
+a494	a539	G-C	W/W	cis
+a494	a540	G-A	downward
+a495	a496	C-A	upward
+a495	a538	C-G	W/W	cis
+a496	a497	A-C	upward
+a496	a537	A-U	W/W	cis
+a496	a538	A-G	outward
+a497	a498	C-C	upward
+a497	a504	C-A	s/S	trans
+a497	a536	C-G	W/W	cis
+a498	a535	C-G	W/W	cis
+a499	a500	G-G	upward
+a499	a520	G-C	W/W	cis
+a499	a529	G-A	outward
+a500	a501	G-C	upward
+a500	a519	G-C	W/W	cis
+a501	a502	C-U	inward
+a501	a518	C-G	W/W	cis
+a502	a504	U-A	S/H	cis
+a503	a504	A-A	upward
+a504	a536	A-G	S/S	cis
+a505	a506	C-U	upward
+a505	a534	C-G	W/W	cis
+a505	a535	C-G	outward
+a506	a507	U-U	upward
+a506	a533	U-A	W/W	cis
+a506	a534	U-G	outward
+a507	a508	U-C	upward
+a507	a532	U-A	W/W	cis
+a508	a509	C-G	upward
+a508	a531	C-G	W/W	cis
+a508	a532	C-A	outward
+a509	a510	G-U	upward
+a509	a530	G-C	W/W	cis
+a509	a531	G-G	outward
+a510	a511	U-G	upward
+a510	a527	U-A	W/H	trans
+a511	a525	G-U	upward
+a512	a523	C-G	downward
+a512	a524	C-G	upward
+a513	a514	C-A	upward
+a514	a515	A-G	upward
+a514	a523	A-G	H/S	trans
+a514	a530	A-C	W/S	trans
+a515	a516	G-C	upward
+a515	a522	G-C	W/W	cis
+a515	a523	G-G	outward
+a516	a517	C-A	upward
+a516	a521	C-G	W/W	cis
+a517	a521	A-G	outward
+a518	a519	G-C	upward
+a519	a520	C-C	upward
+a521	a522	G-C	upward
+a522	a523	C-G	upward
+a527	a530	A-C	upward
+a531	a532	G-A	upward
+a532	a533	A-A	upward
+a533	a534	A-G	upward
+a534	a535	G-G	upward
+a535	a536	G-G	upward
+a536	a537	G-U	upward
+a537	a538	U-G	upward
+a538	a539	G-C	upward
+a539	a540	C-A	inward
+a542	a543	G-C	upward
+a543	a544	C-G	upward
+a544	a545	G-U	upward
+a545	a546	U-U	upward
+a546	a547	U-A	upward
+a547	a548	A-A	upward
+a548	a549	A-U	upward
+a549	a550	U-C	upward
+a550	a551	C-G	upward
+a551	a552	G-G	upward
+a552	a553	G-A	upward
+a553	a555	A-U	inward
+a554	a560	A-G	upward
+a556	a878	U-U	downward
+a557	a561	A-G	outward
+a557	a878	A-U	W/W	trans
+a558	a559	C-U	upward
+a559	a560	U-G	inward
+a561	a562	G-G	upward
+a561	a877	G-C	W/W	cis
+a562	a563	G-C	upward
+a562	a568	G-A	S/S	trans
+a562	a876	G-C	W/W	cis
+a562	a877	G-C	outward
+a563	a875	C-G	W/W	cis
+a564	a565	G-U	upward
+a564	a860	G-C	W/W	cis
+a564	a867	G-A	outward
+a565	a859	U-A	W/W	cis
+a566	a858	A-A	outward
+a567	a568	A-A	upward
+a569	a815	G-G	upward
+a569	a874	G-C	W/W	cis
+a569	a875	G-G	outward
+a571	a572	G-C	upward
+a571	a723	G-A	S/S	cis
+a571	a758	G-C	W/W	cis
+a571	a810	G-A	downward
+a572	a573	C-G	upward
+a572	a722	C-A	S/s	cis
+a572	a757	C-G	W/W	cis
+a573	a574	G-C	upward
+a573	a756	G-U	W/W	cis
+a573	a757	G-G	outward
+a574	a575	C-G	upward
+a574	a755	C-G	W/W	cis
+a575	a752	G-G	inward
+a575	a754	G-G	W/H	trans
+a575	a755	G-G	outward
+a576	a754	U-G	upward
+a577	a578	A-G	upward
+a577	a752	A-G	H/S	trans
+a577	a753	A-A	outward
+a578	a579	G-G	upward
+a578	a751	G-U	W/W	cis
+a579	a580	G-U	upward
+a579	a750	G-C	W/W	cis
+a580	a581	U-G	upward
+a580	a749	U-A	W/W	cis
+a581	a749	G-A	outward
+a582	a583	G-U	upward
+a582	a645	G-C	W/W	cis
+a582	a747	G-A	downward
+a583	a584	U-U	upward
+a583	a644	U-G	W/W	cis
+a584	a585	U-C	upward
+a584	a643	U-A	W/W	cis
+a584	a644	U-G	outward
+a585	a586	C-A	upward
+a585	a642	C-G	W/W	cis
+a585	a643	C-A	outward
+a586	a587	A-G	upward
+a586	a641	A-U	W/W	cis
+a586	a642	A-G	outward
+a587	a588	G-C	upward
+a587	a640	G-C	W/W	cis
+a587	a641	G-U	outward
+a588	a589	C-A	upward
+a588	a639	C-A	W/W	cis
+a589	a590	A-A	S/H	cis
+a589	a635	A-A	inward
+a590	a591	A-G	upward
+a590	a638	A-U	W/W	cis
+a590	a639	A-A	outward
+a591	a592	G-U	upward
+a591	a637	G-C	W/W	cis
+a591	a638	G-U	outward
+a592	a593	U-U	upward
+a592	a634	U-A	W/W	cis
+a592	a636	U-A	W/W	cis
+a593	a594	U-G	upward
+a593	a633	U-A	W/W	cis
+a594	a595	G-G	upward
+a594	a632	G-C	W/W	cis
+a594	a633	G-A	outward
+a595	a596	G-A	upward
+a595	a631	G-C	W/W	cis
+a595	a632	G-C	outward
+a596	a597	A-U	upward
+a596	a630	A-U	W/W	cis
+a597	a598	U-G	upward
+a597	a629	U-A	W/W	cis
+a598	a599	G-U	upward
+a598	a628	G-C	W/W	cis
+a598	a629	G-A	outward
+a599	a600	U-G	upward
+a599	a627	U-G	W/W	cis
+a600	a625	G-C	inward
+a600	a627	G-G	outward
+a601	a602	A-A	upward
+a602	a603	A-A	upward
+a603	a604	A-U	upward
+a604	a605	U-C	upward
+a605	a606	C-C	upward
+a605	a623	C-A	W/W	cis
+a606	a607	C-C	upward
+a606	a622	C-G	W/W	cis
+a607	a608	C-C	upward
+a607	a621	C-G	W/W	cis
+a607	a622	C-G	outward
+a608	a609	C-G	upward
+a608	a620	C-G	W/W	cis
+a608	a621	C-G	outward
+a609	a610	G-G	upward
+a609	a619	G-U	W/W	cis
+a609	a620	G-G	outward
+a610	a611	G-G	upward
+a610	a618	G-C	W/W	cis
+a610	a619	G-U	outward
+a611	a612	G-C	upward
+a611	a617	G-C	W/W	cis
+a611	a618	G-C	outward
+a612	a616	C-A	W/H	trans
+a614	a615	C-A	upward
+a615	a616	A-A	upward
+a616	a617	A-C	upward
+a617	a618	C-C	upward
+a618	a619	C-U	upward
+a620	a621	G-G	upward
+a621	a622	G-G	upward
+a622	a623	G-A	upward
+a623	a624	A-A	upward
+a624	a625	A-C	upward
+a627	a628	G-C	upward
+a628	a629	C-A	upward
+a629	a630	A-U	upward
+a630	a631	U-C	upward
+a631	a632	C-C	upward
+a632	a633	C-A	upward
+a633	a634	A-A	upward
+a634	a635	A-A	upward
+a635	a637	A-C	S/H	cis
+a636	a637	A-C	upward
+a637	a638	C-U	upward
+a638	a639	U-A	upward
+a639	a640	A-C	upward
+a640	a641	C-U	upward
+a642	a643	G-A	upward
+a643	a644	A-G	upward
+a644	a645	G-C	upward
+a645	a646	C-U	upward
+a646	a746	U-G	inward
+a646	a747	U-A	W/H	trans
+a648	a649	G-A	upward
+a648	a747	G-A	outward
+a648	a748	G-C	W/W	cis
+a649	a650	A-G	upward
+a649	a745	A-U	W/W	cis
+a649	a748	A-C	outward
+a650	a651	G-U	upward
+a650	a744	G-C	W/W	cis
+a650	a745	G-U	outward
+a651	a652	U-A	upward
+a651	a743	U-A	W/W	cis
+a651	a744	U-C	W/W	cis
+a652	a653	A-C	upward
+a652	a742	A-U	W/W	cis
+a652	a743	A-A	outward
+a653	a654	C-G	upward
+a653	a740	C-G	W/W	cis
+a654	a655	G-G	upward
+a654	a739	G-U	W/W	cis
+a654	a740	G-G	outward
+a655	a656	G-U	upward
+a655	a738	G-C	W/W	cis
+a655	a739	G-U	outward
+a656	a657	U-A	upward
+a656	a737	U-A	W/W	cis
+a656	a738	U-C	W/W	cis
+a657	a658	A-G	upward
+a657	a736	A-G	W/W	cis
+a657	a737	A-A	outward
+a658	a660	G-G	upward
+a658	a735	G-G	W/W	cis
+a658	a736	G-G	outward
+a659	a718	A-G	H/W	cis
+a659	a719	A-G	upward
+a659	a726	A-C	inward
+a659	a727	A-G	outward
+a660	a661	G-G	upward
+a660	a734	G-U	W/W	cis
+a660	a735	G-G	outward
+a661	a662	G-G	upward
+a661	a733	G-C	W/W	cis
+a662	a663	G-U	upward
+a662	a732	G-C	W/W	cis
+a663	a664	U-G	upward
+a663	a731	U-A	W/W	cis
+a664	a665	G-G	upward
+a664	a730	G-C	W/W	cis
+a664	a731	G-A	outward
+a665	a666	G-U	upward
+a665	a729	G-C	W/W	cis
+a665	a730	G-C	outward
+a666	a667	U-G	upward
+a666	a728	U-A	W/W	cis
+a667	a668	G-G	upward
+a667	a711	G-C	W/W	cis
+a667	a728	G-A	outward
+a668	a669	G-A	upward
+a668	a710	G-A	W/W	cis
+a669	a670	A-A	upward
+a669	a709	A-A	W/W	cis
+a669	a710	A-A	W/W	cis
+a670	a671	A-U	upward
+a670	a708	A-G	W/W	cis
+a671	a672	U-U	upward
+a671	a707	U-G	W/W	cis
+a671	a708	U-G	W/W	cis
+a672	a673	U-U	upward
+a672	a706	U-A	W/W	cis
+a672	a707	U-G	outward
+a673	a674	U-C	upward
+a673	a705	U-A	W/W	cis
+a674	a675	C-C	upward
+a674	a704	C-G	W/W	cis
+a675	a676	C-U	upward
+a675	a703	C-G	W/W	cis
+a675	a704	C-G	outward
+a676	a677	U-G	upward
+a676	a702	U-A	W/W	cis
+a676	a703	U-G	outward
+a677	a678	G-U	upward
+a677	a701	G-U	W/W	cis
+a677	a702	G-A	outward
+a678	a679	U-G	upward
+a678	a700	U-A	W/W	cis
+a679	a680	G-U	upward
+a679	a699	G-U	S/H	trans
+a679	a700	G-A	outward
+a680	a697	U-G	inward
+a680	a698	U-A	W/H	trans
+a681	a695	A-U	upward
+a681	a697	A-G	H/S	trans
+a681	a698	A-A	outward
+a682	a683	G-C	upward
+a682	a693	G-C	W/W	cis
+a682	a694	G-G	outward
+a683	a684	C-G	upward
+a683	a692	C-G	W/W	cis
+a684	a685	G-G	upward
+a684	a691	G-U	W/H	trans
+a684	a692	G-G	outward
+a685	a686	G-U	upward
+a685	a690	G-A	S/H	trans
+a687	a688	G-A	outward
+a688	a689	A-A	upward
+a689	a690	A-A	upward
+a689	a780	A-G	W/S	cis
+a690	a691	A-U	upward
+a690	a791	A-C	W/S	trans
+a691	a692	U-G	upward
+a692	a693	G-C	upward
+a693	a694	C-G	upward
+a698	a699	A-U	upward
+a699	a700	U-A	upward
+a700	a701	A-U	upward
+a702	a703	A-G	upward
+a703	a704	G-G	upward
+a704	a705	G-A	upward
+a705	a706	A-A	upward
+a706	a707	A-G	upward
+a707	a708	G-G	upward
+a708	a709	G-A	upward
+a709	a710	A-A	upward
+a709	a771	A-A	outward
+a710	a711	A-C	upward
+a711	a728	C-A	upward
+a712	a713	A-C	upward
+a713	a714	C-C	upward
+a714	a715	C-A	inward
+a715	a716	A-G	downward
+a715	a727	A-G	downward
+a716	a718	G-G	outward
+a716	a727	G-G	W/W	trans
+a718	a719	G-G	upward
+a719	a720	G-C	upward
+a719	a726	G-C	W/W	cis
+a720	a721	C-G	upward
+a720	a725	C-G	W/W	cis
+a720	a726	C-C	W/W	cis
+a721	a724	G-G	S/H	trans
+a721	a725	G-G	outward
+a722	a723	A-A	upward
+a723	a724	A-G	upward
+a724	a725	G-G	upward
+a725	a726	G-C	upward
+a728	a729	A-C	upward
+a729	a730	C-C	upward
+a731	a732	A-C	upward
+a732	a733	C-C	upward
+a733	a734	C-U	upward
+a735	a736	G-G	upward
+a736	a737	G-A	upward
+a737	a738	A-C	upward
+a738	a739	C-U	upward
+a739	a740	U-G	upward
+a740	a741	G-A	upward
+a741	a742	A-U	upward
+a743	a744	A-C	upward
+a744	a745	C-U	upward
+a745	a746	U-G	upward
+a749	a750	A-C	upward
+a750	a751	C-U	upward
+a751	a752	U-G	upward
+a753	a754	A-G	upward
+a755	a756	G-U	upward
+a756	a757	U-G	upward
+a757	a758	G-C	upward
+a758	a806	C-G	H/W	cis
+a759	a805	G-C	downward
+a759	a806	G-G	upward
+a760	a761	A-A	upward
+a760	a808	A-A	outward
+a760	a1519	A-G	W/S	cis
+a761	a762	A-A	upward
+a761	a807	A-U	H/W	trans
+a761	a1505	A-G	S/S	trans
+a762	a763	A-G	upward
+a762	a805	A-C	W/W	cis
+a763	a764	G-C	upward
+a763	a804	G-C	W/W	cis
+a763	a894	G-A	S/W	cis
+a764	a765	C-G	upward
+a764	a803	C-G	W/W	cis
+a764	a893	C-C	S/W	cis
+a765	a766	G-U	upward
+a765	a802	G-C	W/W	cis
+a765	a803	G-G	outward
+a766	a767	U-G	upward
+a766	a801	U-A	W/W	cis
+a767	a768	G-G	upward
+a767	a800	G-C	W/W	cis
+a767	a801	G-A	outward
+a768	a769	G-G	upward
+a768	a799	G-C	W/W	cis
+a768	a800	G-C	outward
+a769	a770	G-G	upward
+a769	a799	G-C	outward
+a771	a772	A-G	upward
+a772	a773	G-C	upward
+a772	a798	G-U	W/W	cis
+a773	a774	C-A	upward
+a773	a797	C-G	W/W	cis
+a774	a794	A-G	inward
+a774	a795	A-U	inward
+a774	a796	A-A	S/H	trans
+a775	a776	A-A	upward
+a775	a795	A-U	H/W	trans
+a775	a796	A-A	outward
+a776	a777	A-C	upward
+a776	a794	A-G	H/S	trans
+a776	a795	A-U	outward
+a777	a778	C-A	upward
+a777	a793	C-G	W/W	cis
+a778	a779	A-G	upward
+a778	a792	A-U	W/W	cis
+a778	a793	A-G	outward
+a779	a780	G-G	upward
+a779	a791	G-C	W/W	cis
+a779	a792	G-U	outward
+a780	a781	G-A	upward
+a780	a790	G-C	W/W	cis
+a780	a791	G-C	outward
+a781	a782	A-U	upward
+a781	a789	A-C	W/H	cis
+a782	a783	U-U	upward
+a782	a788	U-A	W/H	trans
+a784	a785	A-G	outward
+a785	a786	G-A	upward
+a786	a788	A-A	upward
+a788	a789	A-C	upward
+a789	a790	C-C	upward
+a790	a791	C-C	upward
+a791	a792	C-U	upward
+a792	a793	U-G	upward
+a793	a794	G-G	upward
+a795	a796	U-A	upward
+a796	a797	A-G	upward
+a797	a798	G-U	upward
+a800	a801	C-A	upward
+a801	a802	A-C	upward
+a802	a803	C-G	upward
+a803	a804	G-C	upward
+a804	a805	C-C	upward
+a806	a810	G-A	S/W	trans
+a808	a810	A-A	upward
+a808	a1504	A-C	S/s	cis
+a809	a1523	A-G	outward
+a811	a1523	C-G	W/W	cis
+a812	a814	G-U	inward
+a813	a1523	A-G	downward
+a814	a867	U-A	W/H	cis
+a815	a816	G-U	upward
+a815	a873	G-C	W/W	cis
+a815	a874	G-C	outward
+a816	a817	U-C	upward
+a816	a872	U-A	W/W	cis
+a817	a871	C-G	W/W	cis
+a818	a819	G-A	upward
+a818	a870	G-C	W/W	cis
+a818	a871	G-G	outward
+a819	a820	A-C	upward
+a819	a869	A-U	W/W	cis
+a819	a870	A-C	outward
+a820	a821	C-U	upward
+a820	a868	C-G	W/W	cis
+a821	a864	U-A	inward
+a821	a866	U-A	W/W	trans
+a821	a868	U-G	outward
+a822	a852	A-G	H/S	trans
+a822	a853	A-C	outward
+a823	a824	G-C	upward
+a823	a851	G-C	W/W	cis
+a823	a852	G-G	outward
+a824	a825	C-C	upward
+a824	a850	C-G	W/W	cis
+a825	a849	C-G	W/W	cis
+a825	a850	C-G	outward
+a826	a827	G-U	upward
+a826	a848	G-U	W/W	cis
+a826	a849	G-G	outward
+a827	a828	U-U	upward
+a827	a847	U-G	W/W	cis
+a828	a829	U-G	upward
+a828	a846	U-A	W/W	cis
+a828	a847	U-G	outward
+a829	a830	G-G	upward
+a829	a846	G-A	outward
+a830	a831	G-G	upward
+a830	a844	G-U	W/W	cis
+a831	a832	G-A	upward
+a831	a843	G-C	W/W	cis
+a832	a833	A-U	upward
+a832	a842	A-U	W/W	cis
+a832	a843	A-C	outward
+a833	a834	U-C	upward
+a833	a841	U-A	W/W	cis
+a834	a840	C-G	W/W	cis
+a836	a838	U-G	upward
+a837	a838	U-G	downward
+a838	a840	G-G	outward
+a840	a841	G-A	upward
+a841	a842	A-U	upward
+a842	a843	U-C	upward
+a843	a844	C-U	upward
+a844	a845	U-U	upward
+a845	a846	U-A	upward
+a846	a847	A-G	upward
+a847	a848	G-U	upward
+a848	a865	U-U	upward
+a849	a850	G-G	upward
+a849	a865	G-U	H/H	trans
+a850	a851	G-C	upward
+a851	a852	C-G	upward
+a852	a863	G-G	inward
+a853	a854	C-A	upward
+a854	a855	A-G	upward
+a854	a863	A-G	H/S	trans
+a854	a866	A-A	W/H	trans
+a855	a856	G-C	upward
+a855	a862	G-C	W/W	cis
+a856	a857	C-U	upward
+a856	a861	C-G	W/W	cis
+a857	a860	U-C	W/H	trans
+a858	a859	A-A	upward
+a858	a911	A-G	W/S	trans
+a859	a860	A-C	upward
+a861	a862	G-C	upward
+a861	a867	G-A	S/W	trans
+a862	a863	C-G	upward
+a866	a868	A-G	outward
+a868	a869	G-U	upward
+a869	a870	U-C	upward
+a870	a871	C-G	upward
+a871	a872	G-A	upward
+a872	a873	A-C	upward
+a873	a874	C-C	upward
+a874	a875	C-G	upward
+a875	a876	G-C	upward
+a877	a878	C-U	upward
+a879	a880	G-G	upward
+a879	a906	G-C	W/W	cis
+a879	a907	G-A	outward
+a879	a908	G-A	S/W	trans
+a880	a881	G-G	upward
+a880	a905	G-U	W/W	cis
+a880	a906	G-C	outward
+a881	a882	G-G	upward
+a881	a904	G-C	W/W	cis
+a881	a905	G-U	outward
+a882	a883	G-A	inward
+a882	a902	G-A	inward
+a882	a903	G-A	S/H	trans
+a882	a904	G-C	outward
+a883	a885	A-U	outward
+a883	a901	A-A	downward
+a883	a902	A-A	H/H	trans
+a884	a885	G-U	S/H	cis
+a884	a900	G-A	inward
+a885	a900	U-A	inward
+a885	a901	U-A	W/H	trans
+a886	a887	A-C	upward
+a886	a900	A-A	H/S	trans
+a886	a901	A-A	outward
+a887	a888	C-G	upward
+a888	a889	G-G	upward
+a888	a899	G-U	W/W	cis
+a889	a890	G-C	upward
+a889	a898	G-U	W/W	cis
+a889	a899	G-U	outward
+a890	a891	C-C	upward
+a890	a897	C-G	W/W	cis
+a891	a892	C-G	upward
+a891	a896	C-G	W/W	cis
+a892	a895	G-A	S/H	trans
+a892	a896	G-G	outward
+a893	a894	C-A	upward
+a894	a895	A-A	upward
+a896	a897	G-G	upward
+a897	a898	G-U	upward
+a898	a899	U-U	upward
+a899	a900	U-A	upward
+a901	a902	A-A	upward
+a902	a903	A-A	upward
+a903	a904	A-C	upward
+a903	a1407	A-A	s/S	cis
+a904	a905	C-U	upward
+a905	a906	U-C	upward
+a906	a907	C-A	upward
+a908	a909	A-A	upward
+a909	a910	A-U	upward
+a911	a912	G-A	upward
+a912	a913	A-A	upward
+a913	a914	A-U	upward
+a914	a915	U-U	upward
+a915	a916	U-G	upward
+a915	a1390	U-A	W/W	cis
+a916	a917	G-A	upward
+a916	a1389	G-C	W/W	cis
+a916	a1390	G-A	outward
+a917	a918	A-C	upward
+a917	a1387	A-U	W/W	cis
+a918	a919	C-G	upward
+a918	a1386	C-G	W/W	cis
+a919	a921	G-G	upward
+a919	a1385	G-U	W/W	cis
+a919	a1386	G-G	outward
+a920	a1499	G-G	inward
+a921	a922	G-G	upward
+a921	a1384	G-U	W/W	cis
+a921	a1385	G-U	outward
+a922	a923	G-G	upward
+a922	a1383	G-C	W/W	cis
+a922	a1384	G-U	outward
+a923	a924	G-C	upward
+a923	a1382	G-C	W/W	cis
+a923	a1383	G-C	outward
+a924	a925	C-C	upward
+a924	a1381	C-G	W/W	cis
+a925	a926	C-C	upward
+a925	a1380	C-G	W/W	cis
+a925	a1381	C-G	outward
+a926	a927	C-G	upward
+a926	a1379	C-G	W/W	cis
+a927	a929	G-A	upward
+a927	a1378	G-C	W/W	cis
+a927	a1379	G-G	outward
+a928	a932	C-A	W/W	cis
+a928	a1338	C-C	inward
+a929	a930	A-C	upward
+a929	a1374	A-U	W/W	cis
+a930	a931	C-A	upward
+a930	a1373	C-G	W/W	cis
+a930	a1376	C-C	S/W	cis
+a931	a932	A-A	upward
+a931	a1372	A-C	S/H	trans
+a931	a1373	A-G	outward
+a932	a933	A-G	upward
+a933	a934	G-C	upward
+a933	a1338	G-C	W/W	cis
+a934	a935	C-G	upward
+a934	a1337	C-G	W/W	cis
+a935	a936	G-G	upward
+a935	a1336	G-C	W/W	cis
+a935	a1337	G-G	outward
+a936	a937	G-U	upward
+a936	a1335	G-U	W/W	cis
+a936	a1336	G-C	outward
+a937	a938	U-G	upward
+a937	a1334	U-A	W/W	cis
+a938	a1333	G-A	S/H	trans
+a938	a1334	G-A	outward
+a939	a940	G-A	upward
+a939	a1230	G-A	W/W	cis
+a939	a1331	G-G	downward
+a940	a941	A-G	upward
+a940	a1229	A-U	W/W	cis
+a940	a1230	A-A	outward
+a940	a1327	A-A	S/W	cis
+a941	a942	G-C	upward
+a941	a1228	G-C	W/W	cis
+a942	a1227	C-G	W/W	cis
+a943	a944	A-U	upward
+a943	a1226	A-U	W/W	cis
+a943	a1227	A-G	outward
+a944	a1225	U-G	W/W	cis
+a945	a946	G-U	upward
+a945	a1224	G-C	W/W	cis
+a945	a1225	G-G	outward
+a946	a1223	U-A	W/W	cis
+a946	a1224	U-C	W/W	cis
+a947	a948	G-G	upward
+a947	a1222	G-C	W/W	cis
+a947	a1223	G-A	outward
+a948	a949	G-U	upward
+a948	a1220	G-C	W/W	cis
+a949	a950	U-U	upward
+a949	a1219	U-A	W/W	cis
+a950	a951	U-U	upward
+a950	a954	U-U	W/W	trans
+a951	a953	U-A	W/H	trans
+a952	a953	A-A	upward
+a953	a979	A-C	S/S	cis
+a953	a1215	A-G	W/S	trans
+a954	a1219	U-A	outward
+a955	a956	U-C	upward
+a955	a977	U-A	downward
+a955	a1195	U-A	W/W	trans
+a956	a957	C-G	upward
+a956	a967	C-G	W/W	cis
+a957	a958	G-A	upward
+a957	a966	G-C	W/W	cis
+a957	a967	G-G	outward
+a959	a963	A-A	upward
+a960	a961	G-C	upward
+a961	a962	C-A	upward
+a963	a964	A-C	upward
+a965	a1359	G-G	upward
+a967	a968	G-A	upward
+a970	a1356	G-A	inward
+a970	a1357	G-A	downward
+a971	a1218	A-U	outward
+a972	a1310	A-G	W/S	trans
+a972	a1312	A-A	inward
+a972	a1313	A-A	outward
+a972	a1354	A-A	H/W	trans
+a973	a974	C-C	upward
+a973	a1311	C-C	W/H	trans
+a974	a975	C-U	inward
+a975	a976	U-U	outward
+a976	a977	U-A	upward
+a978	a979	C-C	upward
+a978	a1215	C-G	W/W	cis
+a979	a980	C-U	upward
+a979	a1214	C-G	W/W	cis
+a979	a1215	C-G	outward
+a980	a981	U-G	upward
+a980	a1213	U-A	W/W	cis
+a981	a982	G-G	upward
+a981	a1212	G-C	W/W	cis
+a981	a1213	G-A	outward
+a982	a983	G-C	upward
+a982	a1009	G-G	S/W	trans
+a982	a1211	G-C	W/W	cis
+a982	a1212	G-C	outward
+a983	a984	C-C	upward
+a983	a1210	C-G	W/W	cis
+a984	a1209	C-G	W/W	cis
+a984	a1210	C-G	outward
+a985	a1206	U-U	upward
+a986	a987	U-G	downward
+a986	a1037	U-C	inward
+a986	a1038	U-A	W/H	trans
+a986	a1039	U-C	outward
+a987	a1039	G-C	W/W	cis
+a987	a1040	G-A	outward
+a988	a989	A-C	upward
+a989	a1040	C-A	W/S	cis
+a990	a991	A-U	upward
+a990	a1039	A-C	W/S	cis
+a991	a992	U-G	upward
+a991	a1038	U-A	W/W	cis
+a992	a993	G-C	upward
+a992	a1037	G-C	W/W	cis
+a992	a1038	G-A	outward
+a993	a994	C-U	upward
+a993	a1035	C-G	W/W	cis
+a994	a995	U-G	upward
+a994	a1034	U-A	W/W	cis
+a994	a1035	U-G	outward
+a995	a996	G-A	upward
+a995	a1033	G-C	W/W	cis
+a995	a1034	G-A	outward
+a996	a997	A-G	upward
+a996	a1032	A-U	W/W	cis
+a996	a1033	A-C	outward
+a997	a1030	G-A	inward
+a997	a1031	G-C	W/W	cis
+a997	a1032	G-U	outward
+a998	a999	A-A	upward
+a998	a1020	A-G	outward
+a998	a1030	A-A	S/W	trans
+a999	a1000	A-C	upward
+a999	a1018	A-G	H/S	trans
+a1000	a1001	C-U	upward
+a1000	a1017	C-G	W/W	cis
+a1000	a1018	C-G	outward
+a1001	a1002	U-U	upward
+a1001	a1016	U-U	S/H	trans
+a1001	a1017	U-G	outward
+a1004	a1005	C-C	upward
+a1004	a1013	C-G	W/W	cis
+a1004	a1014	C-A	outward
+a1005	a1006	C-A	upward
+a1005	a1012	C-G	W/W	cis
+a1005	a1013	C-G	outward
+a1006	a1007	A-G	upward
+a1006	a1011	A-U	W/W	cis
+a1006	a1012	A-G	outward
+a1007	a1010	G-A	S/H	trans
+a1007	a1011	G-U	outward
+a1008	a1009	A-G	upward
+a1009	a1010	G-A	upward
+a1009	a1212	G-C	s/S	cis
+a1010	a1011	A-U	upward
+a1011	a1012	U-G	upward
+a1012	a1013	G-G	upward
+a1013	a1014	G-A	upward
+a1014	a1015	A-U	upward
+a1016	a1017	U-G	upward
+a1017	a1018	G-G	upward
+a1018	a1019	G-U	upward
+a1020	a1021	G-C	upward
+a1020	a1029	G-A	W/W	cis
+a1020	a1030	G-A	outward
+a1021	a1022	C-C	upward
+a1021	a1028	C-G	W/W	cis
+a1022	a1023	C-U	upward
+a1022	a1027	C-G	W/W	cis
+a1022	a1028	C-G	outward
+a1023	a1025	U-C	upward
+a1023	a1026	U-G	S/W	trans
+a1023	a1027	U-G	outward
+a1025	a1026	C-G	downward
+a1026	a1027	G-G	outward
+a1027	a1028	G-G	upward
+a1028	a1029	G-A	upward
+a1029	a1030	A-A	upward
+a1030	a1031	A-C	upward
+a1031	a1032	C-U	upward
+a1032	a1033	U-C	upward
+a1033	a1034	C-A	upward
+a1034	a1035	A-G	upward
+a1035	a1036	G-A	upward
+a1036	a1037	A-C	upward
+a1037	a1038	C-A	upward
+a1038	a1039	A-C	upward
+a1039	a1040	C-A	upward
+a1040	a1041	A-G	upward
+a1040	a1205	A-U	H/S	trans
+a1040	a1207	A-A	W/W	trans
+a1041	a1042	G-G	upward
+a1041	a1204	G-C	W/W	cis
+a1042	a1044	G-G	upward
+a1042	a1203	G-C	W/W	cis
+a1042	a1204	G-C	outward
+a1042	a1208	G-C	W/S	cis
+a1043	a1195	U-A	outward
+a1044	a1045	G-C	upward
+a1044	a1202	G-C	W/W	cis
+a1044	a1203	G-C	outward
+a1045	a1046	C-U	upward
+a1045	a1201	C-G	W/W	cis
+a1046	a1194	U-C	inward
+a1046	a1200	U-G	W/W	cis
+a1046	a1201	U-G	outward
+a1047	a1050	G-U	downward
+a1047	a1051	G-G	W/H	cis
+a1047	a1193	G-U	inward
+a1047	a1194	G-C	outward
+a1048	a1190	C-A	outward
+a1049	a1050	A-U	upward
+a1049	a1194	A-C	H/W	trans
+a1049	a1199	A-U	W/W	cis
+a1049	a1200	A-G	outward
+a1050	a1198	U-A	W/W	cis
+a1051	a1052	G-G	upward
+a1051	a1197	G-C	W/W	cis
+a1051	a1198	G-A	outward
+a1052	a1053	G-C	upward
+a1052	a1193	G-U	W/W	cis
+a1052	a1196	G-U	S/H	trans
+a1053	a1054	C-U	upward
+a1053	a1192	C-G	W/W	cis
+a1054	a1191	U-A	W/W	cis
+a1054	a1192	U-G	outward
+a1055	a1056	G-U	upward
+a1055	a1189	G-C	W/W	cis
+a1055	a1191	G-A	outward
+a1056	a1057	U-C	upward
+a1056	a1188	U-U	W/W	cis
+a1057	a1058	C-G	inward
+a1057	a1187	C-G	W/W	cis
+a1058	a1060	G-C	outward
+a1059	a1183	U-U	inward
+a1059	a1184	U-G	downward
+a1060	a1061	C-A	upward
+a1062	a1063	G-C	upward
+a1062	a1101	G-C	W/W	cis
+a1062	a1102	G-G	outward
+a1062	a1185	G-A	S/S	trans
+a1063	a1064	C-U	upward
+a1063	a1100	C-G	W/W	cis
+a1064	a1065	U-C	upward
+a1064	a1088	U-G	H/W	trans
+a1064	a1099	U-A	W/W	cis
+a1064	a1100	U-G	outward
+a1065	a1078	C-G	inward
+a1065	a1079	C-U	H/H	trans
+a1065	a1098	C-G	W/W	cis
+a1066	a1067	G-U	upward
+a1066	a1078	G-G	H/S	trans
+a1066	a1097	G-C	W/W	cis
+a1066	a1098	G-G	outward
+a1067	a1068	U-G	upward
+a1067	a1096	U-A	W/W	cis
+a1068	a1069	G-U	upward
+a1068	a1077	G-U	W/W	cis
+a1068	a1095	G-A	S/W	trans
+a1068	a1096	G-A	outward
+a1069	a1070	U-C	upward
+a1069	a1076	U-A	W/W	cis
+a1070	a1071	C-G	upward
+a1070	a1075	C-G	W/H	cis
+a1071	a1074	G-A	S/H	trans
+a1071	a1075	G-G	downward
+a1072	a1073	U-G	upward
+a1073	a1074	G-A	upward
+a1075	a1076	G-A	outward
+a1076	a1077	A-U	upward
+a1077	a1078	U-G	upward
+a1078	a1079	G-U	inward
+a1078	a1096	G-A	S/H	cis
+a1078	a1097	G-C	S/H	cis
+a1079	a1088	U-G	outward
+a1080	a1093	U-G	W/W	cis
+a1081	a1082	G-G	upward
+a1081	a1092	G-C	W/W	cis
+a1081	a1093	G-G	outward
+a1082	a1083	G-G	upward
+a1082	a1091	G-C	W/W	cis
+a1082	a1092	G-C	outward
+a1083	a1084	G-U	upward
+a1083	a1090	G-C	W/W	cis
+a1083	a1091	G-C	outward
+a1084	a1085	U-U	upward
+a1084	a1089	U-U	W/W	cis
+a1086	a1087	A-A	outward
+a1086	a1177	A-U	upward
+a1087	a1089	A-U	upward
+a1089	a1090	U-C	upward
+a1090	a1091	C-C	upward
+a1091	a1092	C-C	upward
+a1092	a1093	C-G	upward
+a1093	a1094	G-U	upward
+a1096	a1097	A-C	upward
+a1097	a1098	C-G	upward
+a1098	a1099	G-A	upward
+a1099	a1100	A-G	upward
+a1100	a1101	G-C	upward
+a1101	a1102	C-G	upward
+a1102	a1103	G-C	upward
+a1103	a1104	C-A	upward
+a1104	a1105	A-A	upward
+a1105	a1106	A-C	upward
+a1107	a1108	C-C	upward
+a1107	a1181	C-G	W/W	cis
+a1108	a1109	C-U	upward
+a1108	a1180	C-G	W/W	cis
+a1108	a1181	C-G	outward
+a1109	a1110	U-U	upward
+a1109	a1179	U-G	W/W	cis
+a1109	a1180	U-G	outward
+a1110	a1111	U-G	upward
+a1110	a1178	U-G	W/W	cis
+a1110	a1179	U-G	outward
+a1111	a1178	G-G	outward
+a1112	a1113	U-C	upward
+a1112	a1149	U-A	W/W	cis
+a1112	a1150	U-G	outward
+a1112	a1173	U-A	outward
+a1113	a1114	C-C	upward
+a1113	a1148	C-G	W/W	cis
+a1114	a1115	C-U	upward
+a1114	a1147	C-G	W/W	cis
+a1114	a1148	C-G	outward
+a1115	a1116	U-U	upward
+a1115	a1146	U-A	W/W	cis
+a1115	a1147	U-G	outward
+a1116	a1117	U-A	upward
+a1116	a1145	U-A	W/W	cis
+a1116	a1146	U-A	outward
+a1117	a1118	A-G	upward
+a1117	a1143	A-C	W/W	cis
+a1117	a1145	A-A	outward
+a1118	a1119	G-U	S/H	cis
+a1118	a1143	G-C	W/W	cis
+a1119	a1121	U-A	upward
+a1120	a1275	U-U	outward
+a1121	a1122	A-C	upward
+a1122	a1123	C-C	upward
+a1122	a1138	C-G	W/W	cis
+a1123	a1124	C-A	S/H	cis
+a1123	a1133	C-G	inward
+a1123	a1137	C-G	W/W	cis
+a1124	a1125	A-G	upward
+a1124	a1137	A-G	H/W	cis
+a1124	a1140	A-A	outward
+a1125	a1126	G-C	upward
+a1125	a1137	G-G	W/S	cis
+a1126	a1127	C-A	upward
+a1126	a1133	C-G	W/W	cis
+a1126	a1136	C-G	W/W	cis
+a1127	a1128	A-C	upward
+a1127	a1135	A-U	W/W	cis
+a1127	a1136	A-G	outward
+a1128	a1129	C-C	upward
+a1128	a1134	C-G	W/W	cis
+a1129	a1131	C-C	upward
+a1129	a1132	C-G	S/W	trans
+a1129	a1134	C-G	outward
+a1132	a1134	G-G	outward
+a1133	a1135	G-U	downward
+a1133	a1136	G-G	W/H	cis
+a1133	a1137	G-G	upward
+a1134	a1135	G-U	upward
+a1135	a1136	U-G	upward
+a1136	a1137	G-G	upward
+a1137	a1138	G-G	upward
+a1138	a1139	G-C	upward
+a1138	a1140	G-A	S/H	cis
+a1140	a1141	A-C	upward
+a1141	a1142	C-U	upward
+a1142	a1143	U-C	upward
+a1143	a1144	C-U	upward
+a1143	a1274	C-A	S/W	cis
+a1144	a1145	U-A	upward
+a1145	a1146	A-A	upward
+a1146	a1147	A-G	upward
+a1147	a1148	G-G	upward
+a1148	a1149	G-A	upward
+a1149	a1150	A-G	upward
+a1150	a1173	G-A	S/W	trans
+a1151	a1152	A-C	outward
+a1151	a1171	A-G	downward
+a1151	a1172	A-G	W/S	trans
+a1151	a1174	A-A	inward
+a1151	a1175	A-G	outward
+a1152	a1154	C-G	upward
+a1152	a1175	C-G	H/W	cis
+a1153	a1176	U-G	inward
+a1154	a1155	G-C	upward
+a1154	a1170	G-A	W/W	cis
+a1154	a1175	G-G	downward
+a1154	a1176	G-G	H/W	cis
+a1155	a1169	C-G	W/W	cis
+a1156	a1157	C-G	upward
+a1156	a1168	C-G	W/W	cis
+a1156	a1169	C-G	outward
+a1157	a1158	G-G	upward
+a1157	a1167	G-C	W/W	cis
+a1157	a1168	G-G	outward
+a1158	a1159	G-U	upward
+a1158	a1166	G-C	W/W	cis
+a1158	a1167	G-C	outward
+a1159	a1160	U-G	upward
+a1159	a1165	U-A	W/W	cis
+a1160	a1162	G-C	inward
+a1160	a1163	G-A	S/H	trans
+a1160	a1165	G-A	outward
+a1161	a1163	A-A	upward
+a1163	a1164	A-A	upward
+a1165	a1166	A-C	upward
+a1166	a1167	C-C	upward
+a1167	a1168	C-G	upward
+a1168	a1169	G-G	upward
+a1169	a1170	G-A	upward
+a1169	a1176	G-G	H/H	cis
+a1170	a1171	A-G	upward
+a1171	a1172	G-G	upward
+a1171	a1175	G-G	W/H	trans
+a1173	a1174	A-A	upward
+a1175	a1176	G-G	upward
+a1178	a1179	G-G	upward
+a1179	a1180	G-G	upward
+a1180	a1181	G-G	upward
+a1181	a1182	G-A	upward
+a1182	a1183	A-U	upward
+a1185	a1186	A-C	upward
+a1186	a1187	C-G	upward
+a1187	a1188	G-U	upward
+a1188	a1189	U-C	upward
+a1191	a1192	A-G	upward
+a1192	a1193	G-U	upward
+a1194	a1199	C-U	W/W	trans
+a1196	a1197	U-C	upward
+a1197	a1198	C-A	upward
+a1198	a1199	A-U	upward
+a1200	a1201	G-G	upward
+a1201	a1202	G-C	upward
+a1202	a1203	C-C	upward
+a1203	a1204	C-C	upward
+a1204	a1205	C-U	upward
+a1207	a1209	A-G	upward
+a1209	a1210	G-G	upward
+a1210	a1211	G-C	upward
+a1211	a1212	C-C	upward
+a1213	a1214	A-G	upward
+a1214	a1215	G-G	upward
+a1215	a1216	G-G	upward
+a1216	a1217	G-C	upward
+a1218	a1316	U-C	inward
+a1219	a1220	A-C	upward
+a1223	a1224	A-C	upward
+a1225	a1226	G-U	upward
+a1226	a1227	U-G	upward
+a1227	a1228	G-C	upward
+a1228	a1229	C-U	upward
+a1229	a1230	U-A	upward
+a1230	a1231	A-C	upward
+a1231	a1330	C-C	upward
+a1231	a1331	C-G	W/W	cis
+a1232	a1233	A-A	upward
+a1232	a1295	A-U	H/W	trans
+a1233	a1235	A-G	outward
+a1233	a1292	A-U	upward
+a1233	a1293	A-A	H/H	trans
+a1235	a1236	G-G	upward
+a1235	a1290	G-C	W/W	cis
+a1236	a1237	G-U	upward
+a1236	a1289	G-U	W/W	cis
+a1236	a1290	G-C	outward
+a1237	a1238	U-C	upward
+a1237	a1288	U-A	W/W	cis
+a1237	a1289	U-U	W/W	cis
+a1238	a1239	C-G	upward
+a1238	a1287	C-G	W/W	cis
+a1239	a1240	G-G	upward
+a1239	a1286	G-C	W/W	cis
+a1239	a1287	G-G	outward
+a1240	a1241	G-U	upward
+a1240	a1285	G-C	W/W	cis
+a1240	a1286	G-C	outward
+a1241	a1285	U-C	W/W	cis
+a1242	a1243	A-C	upward
+a1242	a1283	A-A	W/H	trans
+a1242	a1284	A-A	outward
+a1243	a1282	C-A	W/H	trans
+a1244	a1245	A-A	upward
+a1244	a1281	A-A	outward
+a1245	a1246	A-A	upward
+a1246	a1247	A-G	upward
+a1246	a1279	A-A	W/W	trans
+a1247	a1248	G-G	upward
+a1247	a1278	G-C	W/W	cis
+a1248	a1249	G-G	upward
+a1248	a1277	G-C	W/W	cis
+a1249	a1253	G-C	S/S	cis
+a1249	a1273	G-A	upward
+a1249	a1276	G-C	W/W	cis
+a1249	a1277	G-C	outward
+a1250	a1272	U-U	inward
+a1252	a1253	G-C	upward
+a1252	a1271	G-C	W/W	cis
+a1252	a1272	G-U	W/W	cis
+a1253	a1270	C-G	W/W	cis
+a1255	a1256	A-A	upward
+a1255	a1268	A-G	H/S	trans
+a1255	a1269	A-A	outward
+a1256	a1257	A-G	upward
+a1256	a1267	A-G	H/S	trans
+a1257	a1258	G-C	upward
+a1257	a1266	G-U	W/W	cis
+a1258	a1259	C-C	upward
+a1258	a1265	C-G	W/W	cis
+a1259	a1260	C-G	upward
+a1259	a1264	C-G	W/W	cis
+a1259	a1265	C-G	outward
+a1260	a1263	G-A	S/H	trans
+a1260	a1264	G-G	outward
+a1261	a1262	C-G	upward
+a1262	a1263	G-A	upward
+a1262	a1320	G-U	S/S	cis
+a1263	a1306	A-G	W/S	trans
+a1264	a1265	G-G	upward
+a1265	a1266	G-U	upward
+a1266	a1267	U-G	upward
+a1267	a1268	G-G	upward
+a1269	a1270	A-G	upward
+a1270	a1271	G-C	upward
+a1270	a1276	G-C	S/S	cis
+a1271	a1272	C-U	upward
+a1272	a1273	U-A	downward
+a1273	a1276	A-C	outward
+a1276	a1277	C-C	upward
+a1277	a1278	C-C	upward
+a1278	a1279	C-A	inward
+a1281	a1282	A-A	upward
+a1282	a1283	A-A	upward
+a1282	a1346	A-C	s/S	cis
+a1283	a1284	A-A	upward
+a1284	a1285	A-C	upward
+a1285	a1286	C-C	upward
+a1286	a1287	C-G	upward
+a1287	a1288	G-A	upward
+a1288	a1289	A-U	upward
+a1289	a1290	U-C	upward
+a1290	a1291	C-G	upward
+a1291	a1292	G-U	S/H	cis
+a1293	a1295	A-U	outward
+a1294	a1295	G-U	S/H	cis
+a1294	a1328	G-G	inward
+a1294	a1329	G-U	outward
+a1295	a1297	U-C	upward
+a1297	a1298	C-G	upward
+a1297	a1328	C-G	W/W	cis
+a1298	a1299	G-G	upward
+a1298	a1327	G-A	S/H	trans
+a1299	a1325	G-G	inward
+a1299	a1326	G-A	S/H	trans
+a1300	a1301	A-U	upward
+a1300	a1325	A-G	H/S	trans
+a1300	a1326	A-A	outward
+a1301	a1302	U-C	upward
+a1301	a1324	U-U	W/W	cis
+a1302	a1323	C-G	W/W	cis
+a1303	a1304	G-C	upward
+a1303	a1322	G-C	W/W	cis
+a1303	a1323	G-G	outward
+a1304	a1305	C-A	upward
+a1304	a1321	C-G	W/W	cis
+a1305	a1306	A-G	upward
+a1305	a1320	A-U	W/W	cis
+a1305	a1321	A-G	outward
+a1306	a1307	G-U	upward
+a1306	a1319	G-C	W/W	cis
+a1306	a1320	G-U	outward
+a1307	a1308	U-C	upward
+a1307	a1318	U-A	W/W	cis
+a1308	a1309	C-U	upward
+a1308	a1317	C-G	W/W	cis
+a1309	a1310	U-G	upward
+a1309	a1313	U-A	W/H	trans
+a1310	a1313	G-A	outward
+a1311	a1312	C-A	upward
+a1313	a1317	A-G	upward
+a1313	a1355	A-G	W/S	trans
+a1314	a1315	C-U	upward
+a1315	a1316	U-C	upward
+a1317	a1318	G-A	upward
+a1318	a1319	A-C	upward
+a1319	a1320	C-U	upward
+a1321	a1322	G-C	upward
+a1322	a1323	C-G	upward
+a1323	a1324	G-U	upward
+a1324	a1325	U-G	upward
+a1326	a1327	A-A	upward
+a1327	a1328	A-G	upward
+a1330	a1331	C-G	outward
+a1332	a1333	G-A	upward
+a1334	a1335	A-U	upward
+a1335	a1336	U-C	upward
+a1337	a1338	G-C	upward
+a1339	a1370	U-U	W/W	trans
+a1340	a1342	A-U	outward
+a1340	a1369	A-A	H/H	trans
+a1341	a1342	G-U	S/H	cis
+a1341	a1367	G-G	inward
+a1342	a1368	U-A	W/H	trans
+a1343	a1344	A-A	upward
+a1343	a1367	A-G	H/S	trans
+a1343	a1368	A-A	outward
+a1344	a1345	A-U	upward
+a1344	a1366	A-U	W/W	cis
+a1344	a1367	A-G	outward
+a1345	a1346	U-C	upward
+a1345	a1365	U-G	W/W	cis
+a1346	a1347	C-G	upward
+a1346	a1364	C-G	W/W	cis
+a1346	a1365	C-G	outward
+a1347	a1348	G-U	upward
+a1347	a1363	G-C	W/W	cis
+a1347	a1364	G-G	outward
+a1348	a1349	U-G	upward
+a1348	a1362	U-A	W/W	cis
+a1349	a1350	G-A	upward
+a1349	a1361	G-C	W/W	cis
+a1349	a1362	G-A	outward
+a1350	a1351	A-A	upward
+a1350	a1360	A-U	W/W	cis
+a1351	a1352	A-U	upward
+a1351	a1359	A-G	W/W	cis
+a1352	a1353	U-C	upward
+a1352	a1357	U-A	W/W	trans
+a1354	a1355	A-G	upward
+a1355	a1356	G-A	upward
+a1357	a1359	A-G	outward
+a1359	a1360	G-U	upward
+a1360	a1361	U-C	upward
+a1361	a1362	C-A	upward
+a1362	a1363	A-C	upward
+a1363	a1364	C-G	upward
+a1364	a1365	G-G	upward
+a1365	a1366	G-U	upward
+a1366	a1367	U-G	upward
+a1368	a1369	A-A	upward
+a1369	a1370	A-U	upward
+a1370	a1371	U-A	upward
+a1372	a1373	C-G	upward
+a1373	a1374	G-U	upward
+a1375	a1376	U-C	upward
+a1377	a1378	C-C	upward
+a1378	a1379	C-G	upward
+a1379	a1380	G-G	upward
+a1380	a1381	G-G	upward
+a1381	a1382	G-C	upward
+a1382	a1383	C-C	upward
+a1383	a1384	C-U	upward
+a1384	a1385	U-U	upward
+a1385	a1386	U-G	upward
+a1386	a1387	G-U	upward
+a1386	a1496	G-A	S/S	cis
+a1393	a1395	C-G	outward
+a1393	a1496	C-A	upward
+a1393	a1498	C-G	W/W	cis
+a1395	a1396	G-C	upward
+a1395	a1495	G-C	W/W	cis
+a1396	a1397	C-C	upward
+a1396	a1494	C-A	W/W	cis
+a1398	a1399	C-G	upward
+a1398	a1491	C-G	W/W	cis
+a1398	a1493	C-A	outward
+a1398	a1513	C-A	s/S	cis
+a1399	a1400	G-U	upward
+a1399	a1490	G-C	W/W	cis
+a1399	a1491	G-G	outward
+a1399	a1512	G-A	S/S	cis
+a1400	a1401	U-C	upward
+a1400	a1489	U-U	W/W	cis
+a1401	a1402	C-A	upward
+a1401	a1488	C-G	W/W	cis
+a1402	a1403	A-C	upward
+a1402	a1488	A-G	outward
+a1403	a1404	C-A	upward
+a1403	a1485	C-G	W/W	cis
+a1403	a1487	C-A	W/W	trans
+a1404	a1405	A-C	upward
+a1404	a1484	A-U	W/W	cis
+a1404	a1485	A-G	outward
+a1405	a1406	C-C	upward
+a1405	a1483	C-G	W/W	cis
+a1406	a1407	C-A	upward
+a1406	a1482	C-G	W/W	cis
+a1407	a1408	A-U	upward
+a1407	a1481	A-G	W/W	cis
+a1407	a1482	A-G	outward
+a1408	a1480	U-G	W/W	cis
+a1409	a1410	G-G	upward
+a1409	a1479	G-U	W/W	cis
+a1409	a1480	G-G	outward
+a1410	a1411	G-G	upward
+a1410	a1478	G-C	W/W	cis
+a1410	a1479	G-U	outward
+a1411	a1476	G-G	inward
+a1411	a1477	G-A	S/H	trans
+a1411	a1478	G-C	outward
+a1412	a1476	A-G	H/S	trans
+a1412	a1477	A-A	outward
+a1413	a1414	G-U	upward
+a1413	a1475	G-U	W/W	cis
+a1413	a1476	G-G	outward
+a1414	a1474	U-A	W/W	cis
+a1415	a1416	G-G	upward
+a1415	a1473	G-C	W/W	cis
+a1415	a1474	G-A	outward
+a1416	a1417	G-G	upward
+a1416	a1472	G-U	W/W	cis
+a1416	a1473	G-C	outward
+a1417	a1418	G-U	upward
+a1417	a1470	G-A	W/W	cis
+a1417	a1471	G-U	W/W	cis
+a1418	a1419	U-U	upward
+a1418	a1470	U-A	W/W	cis
+a1419	a1420	U-G	upward
+a1419	a1469	U-G	W/W	cis
+a1420	a1421	G-C	upward
+a1420	a1468	G-U	W/W	cis
+a1420	a1469	G-G	outward
+a1421	a1422	C-U	upward
+a1421	a1467	C-G	W/W	cis
+a1422	a1423	U-C	upward
+a1422	a1466	U-A	W/W	cis
+a1422	a1467	U-G	outward
+a1423	a1424	C-C	upward
+a1423	a1465	C-G	W/W	cis
+a1423	a1466	C-A	outward
+a1424	a1425	C-A	upward
+a1424	a1464	C-G	W/W	cis
+a1424	a1465	C-G	outward
+a1425	a1426	A-G	upward
+a1425	a1463	A-C	S/H	trans
+a1426	a1461	G-C	inward
+a1426	a1462	G-A	S/H	trans
+a1427	a1428	A-A	upward
+a1427	a1461	A-C	H/W	trans
+a1427	a1462	A-A	outward
+a1428	a1429	A-G	upward
+a1429	a1430	G-U	upward
+a1429	a1460	G-C	W/W	cis
+a1430	a1431	U-A	upward
+a1430	a1459	U-A	W/W	cis
+a1431	a1432	A-G	upward
+a1431	a1458	A-U	W/W	cis
+a1431	a1459	A-A	outward
+a1432	a1433	G-C	upward
+a1432	a1457	G-U	W/W	cis
+a1432	a1458	G-U	outward
+a1433	a1434	C-U	upward
+a1433	a1456	C-G	W/W	cis
+a1434	a1455	U-G	W/W	cis
+a1434	a1456	U-G	outward
+a1435	a1436	A-G	upward
+a1435	a1455	A-G	H/W	trans
+a1436	a1437	G-U	upward
+a1436	a1454	G-C	W/W	cis
+a1436	a1455	G-G	outward
+a1437	a1438	U-C	upward
+a1437	a1453	U-A	W/W	cis
+a1438	a1439	C-U	upward
+a1438	a1452	C-G	W/W	cis
+a1439	a1451	U-G	W/W	cis
+a1439	a1452	U-G	outward
+a1440	a1441	A-A	upward
+a1442	a1443	C-C	upward
+a1442	a1449	C-G	W/W	cis
+a1442	a1450	C-G	outward
+a1443	a1444	C-G	upward
+a1443	a1448	C-G	W/W	cis
+a1443	a1449	C-G	outward
+a1444	a1447	G-A	S/W	trans
+a1444	a1448	G-G	outward
+a1445	a1447	C-A	inward
+a1447	a1448	A-G	outward
+a1448	a1449	G-G	upward
+a1449	a1450	G-G	upward
+a1450	a1451	G-G	upward
+a1451	a1452	G-G	upward
+a1452	a1453	G-A	upward
+a1453	a1454	A-C	upward
+a1454	a1455	C-G	upward
+a1455	a1456	G-G	upward
+a1456	a1457	G-U	upward
+a1457	a1458	U-U	upward
+a1458	a1459	U-A	upward
+a1459	a1460	A-C	upward
+a1460	a1461	C-C	upward
+a1462	a1463	A-C	upward
+a1463	a1464	C-G	upward
+a1464	a1465	G-G	upward
+a1465	a1466	G-A	upward
+a1466	a1467	A-G	upward
+a1467	a1468	G-U	upward
+a1469	a1470	G-A	upward
+a1470	a1471	A-U	upward
+a1471	a1472	U-U	upward
+a1472	a1473	U-C	upward
+a1473	a1474	C-A	upward
+a1474	a1475	A-U	upward
+a1475	a1476	U-G	upward
+a1477	a1478	A-C	upward
+a1478	a1479	C-U	upward
+a1480	a1481	G-G	upward
+a1481	a1482	G-G	upward
+a1482	a1483	G-G	upward
+a1483	a1484	G-U	upward
+a1484	a1485	U-G	upward
+a1488	a1489	G-U	upward
+a1489	a1490	U-C	upward
+a1490	a1491	C-G	upward
+a1491	a1492	G-U	upward
+a1491	a1513	G-A	S/S	trans
+a1492	a1493	U-A	S/H	cis
+a1493	a1494	A-A	upward
+a1494	a1495	A-C	upward
+a1495	a1498	C-G	inward
+a1496	a1498	A-G	outward
+a1496	a1499	A-G	H/W	cis
+a1501	a1502	A-G	upward
+a1501	a1522	A-U	W/W	cis
+a1501	a1524	A-G	outward
+a1502	a1503	G-C	upward
+a1502	a1521	G-C	W/W	cis
+a1503	a1504	C-C	upward
+a1503	a1520	C-G	W/W	cis
+a1504	a1505	C-G	upward
+a1504	a1519	C-G	W/W	cis
+a1504	a1520	C-G	outward
+a1505	a1506	G-U	upward
+a1505	a1518	G-C	W/W	cis
+a1505	a1519	G-G	outward
+a1506	a1507	U-A	upward
+a1506	a1517	U-G	W/W	cis
+a1507	a1508	A-G	upward
+a1507	a1516	A-U	W/W	cis
+a1507	a1517	A-G	outward
+a1508	a1509	G-G	upward
+a1508	a1515	G-C	W/W	cis
+a1508	a1516	G-U	outward
+a1509	a1510	G-G	upward
+a1509	a1514	G-C	W/W	cis
+a1509	a1515	G-C	outward
+a1510	a1514	G-C	outward
+a1511	a1512	G-A	upward
+a1512	a1513	A-A	upward
+a1514	a1515	C-C	upward
+a1515	a1516	C-U	upward
+a1516	a1517	U-G	upward
+a1517	a1518	G-C	upward
+a1518	a1519	C-G	upward
+a1519	a1520	G-G	upward
+a1520	a1521	G-C	upward
+a1521	a1522	C-U	upward
+a1524	a1525	G-A	upward
+a1525	a1526	A-U	upward
+a1526	a1527	U-C	upward

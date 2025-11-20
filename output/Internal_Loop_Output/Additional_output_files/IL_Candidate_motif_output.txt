@@ -1,0 +1,10 @@
+Number of graphs: 2521
+Node types: ['nucleotide']
+Edge types: [('nucleotide', 'bonds_with', 'nucleotide'), ('nucleotide', 'orientation_to', 'nucleotide'), ('nucleotide', 'distance_from', 'nucleotide')]
+Author node features shape: torch.Size([8, 4])
+Sarting GVP testing...
+TEST loss: 0.0000 acc: 1.0000
+Sarting GINE Autoencoder testing...
+Test AUC: 0.9186, Loss = 1.0236
+LOSS: 1.0235625505447388
+AUC: 0.9185579446372012
