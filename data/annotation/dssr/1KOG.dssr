@@ -16,8 +16,8 @@ Note: By default, each nucleotide is identified by chainId.name#. So a
       notation, please refer to the DSSR User Manual.
     Questions and suggestions are *always* welcome on the 3DNA Forum.
 
-Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx/1KOG.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/annotation/dssr/1KOG.dssr
-Date and time: Fri Nov 14 00:39:06 2025
+Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/pdbx/1KOG.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/annotation/dssr/1KOG.dssr
+Date and time: Fri May  8 16:52:33 2026
 File name: 1KOG.cif
     no. of DNA/RNA chains: 8 [I=37,J=37,K=37,L=37,M=37,N=37,O=37,P=37]
     no. of nucleotides:    304
@@ -1591,4 +1591,4 @@ List of 14 additional files
   14 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
 
 ****************************************************************************
-Time used: 00:00:00:07
+Time used: 00:00:00:06

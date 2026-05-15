@@ -16,8 +16,8 @@ Note: By default, each nucleotide is identified by chainId.name#. So a
       notation, please refer to the DSSR User Manual.
     Questions and suggestions are *always* welcome on the 3DNA Forum.
 
-Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx/3DHS.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/annotation/dssr/3DHS.dssr
-Date and time: Fri Nov 14 00:45:33 2025
+Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/pdbx/3DHS.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/annotation/dssr/3DHS.dssr
+Date and time: Fri May  8 16:58:34 2026
 File name: 3DHS.cif
     no. of DNA/RNA chains: 1 [A=215]
     no. of nucleotides:    215

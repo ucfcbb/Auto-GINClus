@@ -33,23 +33,31 @@ def generate_dssr_annotation_for_single_pdb(selected_annotation_dir, pdb_id):
 
 def download_dssr_annotation_for_single_pdb(selected_annotation_dir, pdb_id):
 	try:
-		response = requests.get(dssr_url.replace('XXXX', pdb_id.lower()), allow_redirects=False)
+		response = requests.get(dssr_url.replace('XXXX', pdb_id.lower()), allow_redirects=True)
+		fp = open(os.path.join(selected_annotation_dir, pdb_id+'.dssr'), 'wb')
+		fp.write(response.content)
+		fp.close()
 
-		if response.status_code == 200:
-			fp = open(os.path.join(selected_annotation_dir, pdb_id+'.dssr'), 'wb')
-			fp.write(response.content)
-			fp.close()
-		else:
-			logger.error('Error downloading dssr annotation file for ' + pdb_id + '. ' + e.Read())
+		if response.content[0:5] != b'*****':
+			logger.error('Error downloading dssr annotation file for ' + pdb_id + '.dssr')
 			logger.info('Try generating DSSR annotation for ' + pdb_id + ' using DSSR tool or from DSSR website \'http://skmatic.x3dna.org/\'.')
-		# logger.info('File downloaded successfully: ' + os.path.join(selected_annotation_dir, pdb_id+'.fr3d'))
+
+		### Old code
+		# if response.status_code == 200:
+		# 	fp = open(os.path.join(selected_annotation_dir, pdb_id+'.dssr'), 'wb')
+		# 	fp.write(response.content)
+		# 	fp.close()
+		# else:
+		# 	logger.error('Error downloading dssr annotation file for ' + pdb_id + '. ' + e.Read())
+		# 	logger.info('Try generating DSSR annotation for ' + pdb_id + ' using DSSR tool or from DSSR website \'http://skmatic.x3dna.org/\'.')
+		# # logger.info('File downloaded successfully: ' + os.path.join(selected_annotation_dir, pdb_id+'.fr3d'))
+
 	except HTTPError as e:
 		if annotation_source == 'dssr':
 			logger.error('Error downloading dssr annotation file for ' + pdb_id + '. ' + e.Read())
 			logger.info('Try generating DSSR annotation for PDB: ' + pdb_id + ' using DSSR tool or from DSSR website \'http://skmatic.x3dna.org/\'.')
 			sys.exit()
 		else:
-			# logger.warning('Error downloading fr3d annotation file for ' + pdb_id + '. ' + e.Read())
 			return
 
 def download_fr3d_annotation_for_single_pdb(selected_annotation_dir, pdb_id):

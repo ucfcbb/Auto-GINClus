@@ -1,10 +1,10 @@
-Number of graphs: 2521
+Number of graphs: 5269
 Node types: ['nucleotide']
 Edge types: [('nucleotide', 'bonds_with', 'nucleotide'), ('nucleotide', 'orientation_to', 'nucleotide'), ('nucleotide', 'distance_from', 'nucleotide')]
-Author node features shape: torch.Size([8, 4])
+Author node features shape: torch.Size([6, 4])
 Sarting GVP testing...
-TEST loss: 0.0000 acc: 1.0000
+TEST loss: 2.0838 acc: 0.3090
 Sarting GINE Autoencoder testing...
-Test AUC: 0.9186, Loss = 1.0236
-LOSS: 1.0235625505447388
-AUC: 0.9185579446372012
+Test AUC: 0.9361, Loss = 1.0319
+LOSS: 1.0318630933761597
+AUC: 0.9360725456830121

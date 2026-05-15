@@ -16,8 +16,8 @@ Note: By default, each nucleotide is identified by chainId.name#. So a
       notation, please refer to the DSSR User Manual.
     Questions and suggestions are *always* welcome on the 3DNA Forum.
 
-Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx/1E7K.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/annotation/dssr/1E7K.dssr
-Date and time: Fri Nov 14 00:50:31 2025
+Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/pdbx/1E7K.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/annotation/dssr/1E7K.dssr
+Date and time: Fri May  8 17:02:47 2026
 File name: 1E7K.cif
     no. of DNA/RNA chains: 2 [C=17,D=17]
     no. of nucleotides:    34

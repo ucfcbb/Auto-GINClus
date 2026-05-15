@@ -16,8 +16,8 @@ Note: By default, each nucleotide is identified by chainId.name#. So a
       notation, please refer to the DSSR User Manual.
     Questions and suggestions are *always* welcome on the 3DNA Forum.
 
-Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx/5TBW.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/annotation/dssr/5TBW.dssr
-Date and time: Fri Nov 14 00:51:50 2025
+Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/pdbx/5TBW.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/annotation/dssr/5TBW.dssr
+Date and time: Fri May  8 17:04:17 2026
 File name: 5TBW.cif
     no. of DNA/RNA chains: 8 [1=3149,3=121,4=158,A=1781,AR=3149,AS=121,AT=158,sR=1783]
     no. of nucleotides:    10420
@@ -53349,4 +53349,4 @@ List of 17 additional files
   17 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
 
 ****************************************************************************
-Time used: 00:00:15:04
+Time used: 00:00:14:06

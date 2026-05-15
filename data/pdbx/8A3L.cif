@@ -3,7 +3,7 @@ data_8A3L
 _entry.id   8A3L 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.402 
+_audit_conform.dict_version    5.411 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -46,6 +46,10 @@ _pdbx_audit_revision_history.part_number
 22 'Primary map'     1 0 2023-05-10 ? 
 23 'Structure model' 2 2 2025-03-12 ? 
 24 'EM metadata'     1 1 2025-03-12 ? 
+25 'Structure model' 3 0 2025-12-24 ? 
+26 'EM metadata'     1 2 2025-12-24 ? 
+27 'Structure model' 3 1 2026-04-01 ? 
+28 'EM metadata'     1 3 2026-04-01 ? 
 # 
 loop_
 _pdbx_audit_revision_details.ordinal 
@@ -81,14 +85,21 @@ _pdbx_audit_revision_group.ordinal
 _pdbx_audit_revision_group.revision_ordinal 
 _pdbx_audit_revision_group.data_content_type 
 _pdbx_audit_revision_group.group 
-1 9  'Structure model' 'Atomic model'           
-2 9  'Structure model' 'Data collection'        
-3 9  'Structure model' 'Derived calculations'   
-4 9  'Structure model' 'Refinement description' 
-5 16 'Structure model' 'Data collection'        
-6 23 'Structure model' 'Data collection'        
-7 23 'Structure model' 'Structure summary'      
-8 24 'EM metadata'     'Experimental summary'   
+1  9  'Structure model' 'Atomic model'            
+2  9  'Structure model' 'Data collection'         
+3  9  'Structure model' 'Derived calculations'    
+4  9  'Structure model' 'Refinement description'  
+5  16 'Structure model' 'Data collection'         
+6  23 'Structure model' 'Data collection'         
+7  23 'Structure model' 'Structure summary'       
+8  24 'EM metadata'     'Experimental summary'    
+9  25 'Structure model' 'Data collection'         
+10 25 'Structure model' 'Non-polymer description' 
+11 25 'Structure model' 'Structure summary'       
+12 26 'EM metadata'     'Experimental summary'    
+13 26 'EM metadata'     'Structure summary'       
+14 27 'Structure model' 'Data collection'         
+15 28 'EM metadata'     'Experimental summary'    
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -109,6 +120,16 @@ _pdbx_audit_revision_category.category
 12 23 'Structure model' pdbx_entry_details             
 13 23 'Structure model' pdbx_modification_feature      
 14 24 'EM metadata'     em_admin                       
+15 25 'Structure model' chem_comp                      
+16 25 'Structure model' chem_comp_atom                 
+17 25 'Structure model' chem_comp_bond                 
+18 25 'Structure model' em_admin                       
+19 25 'Structure model' entity                         
+20 25 'Structure model' pdbx_modification_feature      
+21 26 'EM metadata'     em_admin                       
+22 26 'EM metadata'     entity                         
+23 27 'Structure model' em_admin                       
+24 28 'EM metadata'     em_admin                       
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -137,6 +158,18 @@ _pdbx_audit_revision_item.item
 20 23 'Structure model' '_em_admin.last_update'                           
 21 23 'Structure model' '_pdbx_entry_details.has_protein_modification'    
 22 24 'EM metadata'     '_em_admin.last_update'                           
+23 25 'Structure model' '_chem_comp.formula'                              
+24 25 'Structure model' '_chem_comp.formula_weight'                       
+25 25 'Structure model' '_chem_comp.mon_nstd_flag'                        
+26 25 'Structure model' '_chem_comp.pdbx_synonyms'                        
+27 25 'Structure model' '_chem_comp.type'                                 
+28 25 'Structure model' '_em_admin.last_update'                           
+29 25 'Structure model' '_entity.formula_weight'                          
+30 26 'EM metadata'     '_chem_comp.pdbx_synonyms'                        
+31 26 'EM metadata'     '_em_admin.last_update'                           
+32 26 'EM metadata'     '_entity.formula_weight'                          
+33 27 'Structure model' '_em_admin.last_update'                           
+34 28 'EM metadata'     '_em_admin.last_update'                           
 # 
 _pdbx_database_status.status_code                     REL 
 _pdbx_database_status.status_code_sf                  ? 
@@ -264,7 +297,7 @@ _entity.details
 34 polymer     nat '50S ribosomal protein L13' 16050.606  1   ? ? ? ? 
 35 polymer     nat '50S ribosomal protein L14' 13565.067  1   ? ? ? ? 
 36 polymer     nat '50S ribosomal protein L15' 15008.471  1   ? ? ? ? 
-37 polymer     nat '50S ribosomal protein L16' 15329.343  1   ? ? ? ? 
+37 polymer     nat '50S ribosomal protein L16' 15343.327  1   ? ? ? ? 
 38 polymer     nat '50S ribosomal protein L17' 14393.657  1   ? ? ? ? 
 39 polymer     nat '50S ribosomal protein L18' 12794.668  1   ? ? ? ? 
 40 polymer     nat '50S ribosomal protein L19' 13159.278  1   ? ? ? ? 
@@ -12167,7 +12200,7 @@ _chem_comp.formula_weight
 5MU 'RNA linking'       n 
 ;5-METHYLURIDINE 5'-MONOPHOSPHATE
 ;
-? 'C10 H15 N2 O9 P'   338.208 
+?                                                    'C10 H15 N2 O9 P'   338.208 
 6MZ 'RNA linking'       n "N6-METHYLADENOSINE-5'-MONOPHOSPHATE"                                                              ? 
 'C11 H16 N5 O7 P'   361.248 
 A   'RNA linking'       y "ADENOSINE-5'-MONOPHOSPHATE"                                                                       ? 
@@ -12214,8 +12247,8 @@ MET 'L-peptide linking' y METHIONINE                                            
 'C5 H11 N O2 S'     149.211 
 MG  non-polymer         . 'MAGNESIUM ION'                                                                                    ? 
 'Mg 2'              24.305  
-MS6 non-polymer         . '(2S)-2-amino-4-(methylsulfanyl)butane-1-thiol'                                                    ? 
-'C5 H13 N S2'       151.293 
+MS6 'L-peptide linking' n '(2S)-2-amino-4-(methylsulfanyl)butane-1-thiol'                                                    
+'(2S)-2-amino-4-(methylsulfanyl)butanethioic O-acid' 'C5 H11 N O S2'     165.277 
 OMC 'RNA linking'       n "O2'-METHYLYCYTIDINE-5'-MONOPHOSPHATE"                                                             ? 
 'C10 H16 N3 O8 P'   337.223 
 OMG 'RNA linking'       n "O2'-METHYLGUANOSINE-5'-MONOPHOSPHATE"                                                             ? 
@@ -12223,7 +12256,7 @@ OMG 'RNA linking'       n "O2'-METHYLGUANOSINE-5'-MONOPHOSPHATE"                
 OMU 'RNA linking'       n 
 ;O2'-METHYLURIDINE 5'-MONOPHOSPHATE
 ;
-? 'C10 H15 N2 O9 P'   338.208 
+?                                                    'C10 H15 N2 O9 P'   338.208 
 PHE 'L-peptide linking' y PHENYLALANINE                                                                                      ? 
 'C9 H11 N O2'       165.189 
 PRO 'L-peptide linking' y PROLINE                                                                                            ? 
@@ -35195,11 +35228,10 @@ _pdbx_modification_feature.ref_pcm_id
 _pdbx_modification_feature.ref_comp_id 
 _pdbx_modification_feature.type 
 _pdbx_modification_feature.category 
-1 MEQ CA 150 ? .   .  .  . MEQ d 150 ? 1_555 .   . .   . .     . . GLN 1 MEQ Methylation         'Named protein modification' 
-2 4D4 KA 81  ? .   .  .  . 4D4 l 81  ? 1_555 .   . .   . .     . . ARG 1 4D4 Hydroxylation       'Named protein modification' 
-3 D2T L  89  ? .   .  .  . D2T L 89  ? 1_555 .   . .   . .     . . ASP 1 D2T Methylsulfanylation 'Named protein modification' 
-4 MS6 KA 82  ? .   .  .  . MS6 l 137 ? 1_555 .   . .   . .     . . MET 1 MS6 None                'Non-standard residue'       
-5 MS6 KA 82  ? GLY KA 83 ? MS6 l 137 ? 1_555 GLY l 138 ? 1_555 C N .   . .   None                'Non-standard linkage'       
+1 MEQ CA 150 ? . . . . MEQ d 150 ? 1_555 . . . . . . . GLN 1 MEQ Methylation         'Named protein modification' 
+2 4D4 KA 81  ? . . . . 4D4 l 81  ? 1_555 . . . . . . . ARG 1 4D4 Hydroxylation       'Named protein modification' 
+3 D2T L  89  ? . . . . D2T L 89  ? 1_555 . . . . . . . ASP 1 D2T Methylsulfanylation 'Named protein modification' 
+4 MS6 KA 82  ? . . . . MS6 l 137 ? 1_555 . . . . . . . MET 1 MS6 None                'Non-standard residue'       
 # 
 loop_
 _struct_mon_prot_cis.pdbx_id 
@@ -38009,381 +38041,380 @@ MS6 CE     C  N N 903
 MS6 N      N  N N 904  
 MS6 S      S  N N 905  
 MS6 HA     H  N N 906  
-MS6 H1     H  N N 907  
-MS6 H3     H  N N 908  
-MS6 H4     H  N N 909  
-MS6 H5     H  N N 910  
-MS6 H6     H  N N 911  
-MS6 H7     H  N N 912  
-MS6 H8     H  N N 913  
-MS6 H9     H  N N 914  
-MS6 H10    H  N N 915  
-MS6 H      H  N N 916  
-MS6 H2     H  N N 917  
-MS6 H14    H  N N 918  
-OMC N1     N  N N 919  
-OMC C2     C  N N 920  
-OMC N3     N  N N 921  
-OMC C4     C  N N 922  
-OMC C5     C  N N 923  
-OMC C6     C  N N 924  
-OMC O2     O  N N 925  
-OMC N4     N  N N 926  
-OMC "C1'"  C  N R 927  
-OMC "C2'"  C  N R 928  
-OMC "O2'"  O  N N 929  
-OMC CM2    C  N N 930  
-OMC "C3'"  C  N R 931  
-OMC "C4'"  C  N R 932  
-OMC "O4'"  O  N N 933  
-OMC "O3'"  O  N N 934  
-OMC "C5'"  C  N N 935  
-OMC "O5'"  O  N N 936  
-OMC P      P  N N 937  
-OMC OP1    O  N N 938  
-OMC OP2    O  N N 939  
-OMC OP3    O  N N 940  
-OMC H5     H  N N 941  
-OMC H6     H  N N 942  
-OMC HN41   H  N N 943  
-OMC HN42   H  N N 944  
-OMC "H1'"  H  N N 945  
-OMC "H2'"  H  N N 946  
-OMC HM21   H  N N 947  
-OMC HM22   H  N N 948  
-OMC HM23   H  N N 949  
-OMC "H3'"  H  N N 950  
-OMC "H4'"  H  N N 951  
-OMC "HO3'" H  N N 952  
-OMC "H5'"  H  N N 953  
-OMC "H5''" H  N N 954  
-OMC HOP2   H  N N 955  
-OMC HOP3   H  N N 956  
-OMG P      P  N N 957  
-OMG OP1    O  N N 958  
-OMG OP2    O  N N 959  
-OMG OP3    O  N N 960  
-OMG "O5'"  O  N N 961  
-OMG "C5'"  C  N N 962  
-OMG "C4'"  C  N R 963  
-OMG "O4'"  O  N N 964  
-OMG "C3'"  C  N R 965  
-OMG "O3'"  O  N N 966  
-OMG "C2'"  C  N R 967  
-OMG "O2'"  O  N N 968  
-OMG CM2    C  N N 969  
-OMG "C1'"  C  N R 970  
-OMG N9     N  Y N 971  
-OMG C8     C  Y N 972  
-OMG N7     N  Y N 973  
-OMG C5     C  Y N 974  
-OMG C6     C  N N 975  
-OMG O6     O  N N 976  
-OMG N1     N  N N 977  
-OMG C2     C  N N 978  
-OMG N2     N  N N 979  
-OMG N3     N  N N 980  
-OMG C4     C  Y N 981  
-OMG HOP2   H  N N 982  
-OMG HOP3   H  N N 983  
-OMG "H5'"  H  N N 984  
-OMG "H5''" H  N N 985  
-OMG "H4'"  H  N N 986  
-OMG "H3'"  H  N N 987  
-OMG "HO3'" H  N N 988  
-OMG "H2'"  H  N N 989  
-OMG HM21   H  N N 990  
-OMG HM22   H  N N 991  
-OMG HM23   H  N N 992  
-OMG "H1'"  H  N N 993  
-OMG H8     H  N N 994  
-OMG HN1    H  N N 995  
-OMG HN21   H  N N 996  
-OMG HN22   H  N N 997  
-OMU N1     N  N N 998  
-OMU C2     C  N N 999  
-OMU N3     N  N N 1000 
-OMU C4     C  N N 1001 
-OMU C5     C  N N 1002 
-OMU C6     C  N N 1003 
-OMU O2     O  N N 1004 
-OMU O4     O  N N 1005 
-OMU "C1'"  C  N R 1006 
-OMU "C2'"  C  N R 1007 
-OMU "O2'"  O  N N 1008 
-OMU CM2    C  N N 1009 
-OMU "C3'"  C  N R 1010 
-OMU "C4'"  C  N R 1011 
-OMU "O3'"  O  N N 1012 
-OMU "O4'"  O  N N 1013 
-OMU "C5'"  C  N N 1014 
-OMU "O5'"  O  N N 1015 
-OMU P      P  N N 1016 
-OMU OP1    O  N N 1017 
-OMU OP2    O  N N 1018 
-OMU OP3    O  N N 1019 
-OMU HN3    H  N N 1020 
-OMU H5     H  N N 1021 
-OMU H6     H  N N 1022 
-OMU "H1'"  H  N N 1023 
-OMU "H2'"  H  N N 1024 
-OMU HM21   H  N N 1025 
-OMU HM22   H  N N 1026 
-OMU HM23   H  N N 1027 
-OMU "H3'"  H  N N 1028 
-OMU "H4'"  H  N N 1029 
-OMU "HO3'" H  N N 1030 
-OMU "H5'"  H  N N 1031 
-OMU "H5''" H  N N 1032 
-OMU HOP2   H  N N 1033 
-OMU HOP3   H  N N 1034 
-PHE N      N  N N 1035 
-PHE CA     C  N S 1036 
-PHE C      C  N N 1037 
-PHE O      O  N N 1038 
-PHE CB     C  N N 1039 
-PHE CG     C  Y N 1040 
-PHE CD1    C  Y N 1041 
-PHE CD2    C  Y N 1042 
-PHE CE1    C  Y N 1043 
-PHE CE2    C  Y N 1044 
-PHE CZ     C  Y N 1045 
-PHE OXT    O  N N 1046 
-PHE H      H  N N 1047 
-PHE H2     H  N N 1048 
-PHE HA     H  N N 1049 
-PHE HB2    H  N N 1050 
-PHE HB3    H  N N 1051 
-PHE HD1    H  N N 1052 
-PHE HD2    H  N N 1053 
-PHE HE1    H  N N 1054 
-PHE HE2    H  N N 1055 
-PHE HZ     H  N N 1056 
-PHE HXT    H  N N 1057 
-PRO N      N  N N 1058 
-PRO CA     C  N S 1059 
-PRO C      C  N N 1060 
-PRO O      O  N N 1061 
-PRO CB     C  N N 1062 
-PRO CG     C  N N 1063 
-PRO CD     C  N N 1064 
-PRO OXT    O  N N 1065 
-PRO H      H  N N 1066 
-PRO HA     H  N N 1067 
-PRO HB2    H  N N 1068 
-PRO HB3    H  N N 1069 
-PRO HG2    H  N N 1070 
-PRO HG3    H  N N 1071 
-PRO HD2    H  N N 1072 
-PRO HD3    H  N N 1073 
-PRO HXT    H  N N 1074 
-PSU N1     N  N N 1075 
-PSU C2     C  N N 1076 
-PSU N3     N  N N 1077 
-PSU C4     C  N N 1078 
-PSU C5     C  N N 1079 
-PSU C6     C  N N 1080 
-PSU O2     O  N N 1081 
-PSU O4     O  N N 1082 
-PSU "C1'"  C  N S 1083 
-PSU "C2'"  C  N R 1084 
-PSU "O2'"  O  N N 1085 
-PSU "C3'"  C  N S 1086 
-PSU "C4'"  C  N R 1087 
-PSU "O3'"  O  N N 1088 
-PSU "O4'"  O  N N 1089 
-PSU "C5'"  C  N N 1090 
-PSU "O5'"  O  N N 1091 
-PSU P      P  N N 1092 
-PSU OP1    O  N N 1093 
-PSU OP2    O  N N 1094 
-PSU OP3    O  N N 1095 
-PSU HN1    H  N N 1096 
-PSU HN3    H  N N 1097 
-PSU H6     H  N N 1098 
-PSU "H1'"  H  N N 1099 
-PSU "H2'"  H  N N 1100 
-PSU "HO2'" H  N N 1101 
-PSU "H3'"  H  N N 1102 
-PSU "H4'"  H  N N 1103 
-PSU "HO3'" H  N N 1104 
-PSU "H5'"  H  N N 1105 
-PSU "H5''" H  N N 1106 
-PSU HOP2   H  N N 1107 
-PSU HOP3   H  N N 1108 
-SER N      N  N N 1109 
-SER CA     C  N S 1110 
-SER C      C  N N 1111 
-SER O      O  N N 1112 
-SER CB     C  N N 1113 
-SER OG     O  N N 1114 
-SER OXT    O  N N 1115 
-SER H      H  N N 1116 
-SER H2     H  N N 1117 
-SER HA     H  N N 1118 
-SER HB2    H  N N 1119 
-SER HB3    H  N N 1120 
-SER HG     H  N N 1121 
-SER HXT    H  N N 1122 
-THR N      N  N N 1123 
-THR CA     C  N S 1124 
-THR C      C  N N 1125 
-THR O      O  N N 1126 
-THR CB     C  N R 1127 
-THR OG1    O  N N 1128 
-THR CG2    C  N N 1129 
-THR OXT    O  N N 1130 
-THR H      H  N N 1131 
-THR H2     H  N N 1132 
-THR HA     H  N N 1133 
-THR HB     H  N N 1134 
-THR HG1    H  N N 1135 
-THR HG21   H  N N 1136 
-THR HG22   H  N N 1137 
-THR HG23   H  N N 1138 
-THR HXT    H  N N 1139 
-TRP N      N  N N 1140 
-TRP CA     C  N S 1141 
-TRP C      C  N N 1142 
-TRP O      O  N N 1143 
-TRP CB     C  N N 1144 
-TRP CG     C  Y N 1145 
-TRP CD1    C  Y N 1146 
-TRP CD2    C  Y N 1147 
-TRP NE1    N  Y N 1148 
-TRP CE2    C  Y N 1149 
-TRP CE3    C  Y N 1150 
-TRP CZ2    C  Y N 1151 
-TRP CZ3    C  Y N 1152 
-TRP CH2    C  Y N 1153 
-TRP OXT    O  N N 1154 
-TRP H      H  N N 1155 
-TRP H2     H  N N 1156 
-TRP HA     H  N N 1157 
-TRP HB2    H  N N 1158 
-TRP HB3    H  N N 1159 
-TRP HD1    H  N N 1160 
-TRP HE1    H  N N 1161 
-TRP HE3    H  N N 1162 
-TRP HZ2    H  N N 1163 
-TRP HZ3    H  N N 1164 
-TRP HH2    H  N N 1165 
-TRP HXT    H  N N 1166 
-TYR N      N  N N 1167 
-TYR CA     C  N S 1168 
-TYR C      C  N N 1169 
-TYR O      O  N N 1170 
-TYR CB     C  N N 1171 
-TYR CG     C  Y N 1172 
-TYR CD1    C  Y N 1173 
-TYR CD2    C  Y N 1174 
-TYR CE1    C  Y N 1175 
-TYR CE2    C  Y N 1176 
-TYR CZ     C  Y N 1177 
-TYR OH     O  N N 1178 
-TYR OXT    O  N N 1179 
-TYR H      H  N N 1180 
-TYR H2     H  N N 1181 
-TYR HA     H  N N 1182 
-TYR HB2    H  N N 1183 
-TYR HB3    H  N N 1184 
-TYR HD1    H  N N 1185 
-TYR HD2    H  N N 1186 
-TYR HE1    H  N N 1187 
-TYR HE2    H  N N 1188 
-TYR HH     H  N N 1189 
-TYR HXT    H  N N 1190 
-U   OP3    O  N N 1191 
-U   P      P  N N 1192 
-U   OP1    O  N N 1193 
-U   OP2    O  N N 1194 
-U   "O5'"  O  N N 1195 
-U   "C5'"  C  N N 1196 
-U   "C4'"  C  N R 1197 
-U   "O4'"  O  N N 1198 
-U   "C3'"  C  N S 1199 
-U   "O3'"  O  N N 1200 
-U   "C2'"  C  N R 1201 
-U   "O2'"  O  N N 1202 
-U   "C1'"  C  N R 1203 
-U   N1     N  N N 1204 
-U   C2     C  N N 1205 
-U   O2     O  N N 1206 
-U   N3     N  N N 1207 
-U   C4     C  N N 1208 
-U   O4     O  N N 1209 
-U   C5     C  N N 1210 
-U   C6     C  N N 1211 
-U   HOP3   H  N N 1212 
-U   HOP2   H  N N 1213 
-U   "H5'"  H  N N 1214 
-U   "H5''" H  N N 1215 
-U   "H4'"  H  N N 1216 
-U   "H3'"  H  N N 1217 
-U   "HO3'" H  N N 1218 
-U   "H2'"  H  N N 1219 
-U   "HO2'" H  N N 1220 
-U   "H1'"  H  N N 1221 
-U   H3     H  N N 1222 
-U   H5     H  N N 1223 
-U   H6     H  N N 1224 
-UR3 P      P  N N 1225 
-UR3 OP1    O  N N 1226 
-UR3 OP2    O  N N 1227 
-UR3 "O5'"  O  N N 1228 
-UR3 "C5'"  C  N N 1229 
-UR3 "C4'"  C  N R 1230 
-UR3 "O4'"  O  N N 1231 
-UR3 "C1'"  C  N R 1232 
-UR3 N1     N  N N 1233 
-UR3 C6     C  N N 1234 
-UR3 C2     C  N N 1235 
-UR3 O2     O  N N 1236 
-UR3 N3     N  N N 1237 
-UR3 C3U    C  N N 1238 
-UR3 C4     C  N N 1239 
-UR3 O4     O  N N 1240 
-UR3 C5     C  N N 1241 
-UR3 "C2'"  C  N R 1242 
-UR3 "O2'"  O  N N 1243 
-UR3 "C3'"  C  N S 1244 
-UR3 "O3'"  O  N N 1245 
-UR3 OP3    O  N N 1246 
-UR3 HOP2   H  N N 1247 
-UR3 "H5'"  H  N N 1248 
-UR3 "H5''" H  N N 1249 
-UR3 "H4'"  H  N N 1250 
-UR3 "H1'"  H  N N 1251 
-UR3 H6     H  N N 1252 
-UR3 H3U1   H  N N 1253 
-UR3 H3U2   H  N N 1254 
-UR3 H3U3   H  N N 1255 
-UR3 H5     H  N N 1256 
-UR3 "H2'"  H  N N 1257 
-UR3 "HO2'" H  N N 1258 
-UR3 "H3'"  H  N N 1259 
-UR3 "HO3'" H  N N 1260 
-UR3 HOP3   H  N N 1261 
-VAL N      N  N N 1262 
-VAL CA     C  N S 1263 
-VAL C      C  N N 1264 
-VAL O      O  N N 1265 
-VAL CB     C  N N 1266 
-VAL CG1    C  N N 1267 
-VAL CG2    C  N N 1268 
-VAL OXT    O  N N 1269 
-VAL H      H  N N 1270 
-VAL H2     H  N N 1271 
-VAL HA     H  N N 1272 
-VAL HB     H  N N 1273 
-VAL HG11   H  N N 1274 
-VAL HG12   H  N N 1275 
-VAL HG13   H  N N 1276 
-VAL HG21   H  N N 1277 
-VAL HG22   H  N N 1278 
-VAL HG23   H  N N 1279 
-VAL HXT    H  N N 1280 
-ZN  ZN     ZN N N 1281 
+MS6 HB2    H  N N 907  
+MS6 HB3    H  N N 908  
+MS6 HG2    H  N N 909  
+MS6 HG3    H  N N 910  
+MS6 HE1    H  N N 911  
+MS6 HE2    H  N N 912  
+MS6 HE3    H  N N 913  
+MS6 H      H  N N 914  
+MS6 H2     H  N N 915  
+MS6 OXT    O  N N 916  
+MS6 HXT    H  N N 917  
+OMC N1     N  N N 918  
+OMC C2     C  N N 919  
+OMC N3     N  N N 920  
+OMC C4     C  N N 921  
+OMC C5     C  N N 922  
+OMC C6     C  N N 923  
+OMC O2     O  N N 924  
+OMC N4     N  N N 925  
+OMC "C1'"  C  N R 926  
+OMC "C2'"  C  N R 927  
+OMC "O2'"  O  N N 928  
+OMC CM2    C  N N 929  
+OMC "C3'"  C  N R 930  
+OMC "C4'"  C  N R 931  
+OMC "O4'"  O  N N 932  
+OMC "O3'"  O  N N 933  
+OMC "C5'"  C  N N 934  
+OMC "O5'"  O  N N 935  
+OMC P      P  N N 936  
+OMC OP1    O  N N 937  
+OMC OP2    O  N N 938  
+OMC OP3    O  N N 939  
+OMC H5     H  N N 940  
+OMC H6     H  N N 941  
+OMC HN41   H  N N 942  
+OMC HN42   H  N N 943  
+OMC "H1'"  H  N N 944  
+OMC "H2'"  H  N N 945  
+OMC HM21   H  N N 946  
+OMC HM22   H  N N 947  
+OMC HM23   H  N N 948  
+OMC "H3'"  H  N N 949  
+OMC "H4'"  H  N N 950  
+OMC "HO3'" H  N N 951  
+OMC "H5'"  H  N N 952  
+OMC "H5''" H  N N 953  
+OMC HOP2   H  N N 954  
+OMC HOP3   H  N N 955  
+OMG P      P  N N 956  
+OMG OP1    O  N N 957  
+OMG OP2    O  N N 958  
+OMG OP3    O  N N 959  
+OMG "O5'"  O  N N 960  
+OMG "C5'"  C  N N 961  
+OMG "C4'"  C  N R 962  
+OMG "O4'"  O  N N 963  
+OMG "C3'"  C  N R 964  
+OMG "O3'"  O  N N 965  
+OMG "C2'"  C  N R 966  
+OMG "O2'"  O  N N 967  
+OMG CM2    C  N N 968  
+OMG "C1'"  C  N R 969  
+OMG N9     N  Y N 970  
+OMG C8     C  Y N 971  
+OMG N7     N  Y N 972  
+OMG C5     C  Y N 973  
+OMG C6     C  N N 974  
+OMG O6     O  N N 975  
+OMG N1     N  N N 976  
+OMG C2     C  N N 977  
+OMG N2     N  N N 978  
+OMG N3     N  N N 979  
+OMG C4     C  Y N 980  
+OMG HOP2   H  N N 981  
+OMG HOP3   H  N N 982  
+OMG "H5'"  H  N N 983  
+OMG "H5''" H  N N 984  
+OMG "H4'"  H  N N 985  
+OMG "H3'"  H  N N 986  
+OMG "HO3'" H  N N 987  
+OMG "H2'"  H  N N 988  
+OMG HM21   H  N N 989  
+OMG HM22   H  N N 990  
+OMG HM23   H  N N 991  
+OMG "H1'"  H  N N 992  
+OMG H8     H  N N 993  
+OMG HN1    H  N N 994  
+OMG HN21   H  N N 995  
+OMG HN22   H  N N 996  
+OMU N1     N  N N 997  
+OMU C2     C  N N 998  
+OMU N3     N  N N 999  
+OMU C4     C  N N 1000 
+OMU C5     C  N N 1001 
+OMU C6     C  N N 1002 
+OMU O2     O  N N 1003 
+OMU O4     O  N N 1004 
+OMU "C1'"  C  N R 1005 
+OMU "C2'"  C  N R 1006 
+OMU "O2'"  O  N N 1007 
+OMU CM2    C  N N 1008 
+OMU "C3'"  C  N R 1009 
+OMU "C4'"  C  N R 1010 
+OMU "O3'"  O  N N 1011 
+OMU "O4'"  O  N N 1012 
+OMU "C5'"  C  N N 1013 
+OMU "O5'"  O  N N 1014 
+OMU P      P  N N 1015 
+OMU OP1    O  N N 1016 
+OMU OP2    O  N N 1017 
+OMU OP3    O  N N 1018 
+OMU HN3    H  N N 1019 
+OMU H5     H  N N 1020 
+OMU H6     H  N N 1021 
+OMU "H1'"  H  N N 1022 
+OMU "H2'"  H  N N 1023 
+OMU HM21   H  N N 1024 
+OMU HM22   H  N N 1025 
+OMU HM23   H  N N 1026 
+OMU "H3'"  H  N N 1027 
+OMU "H4'"  H  N N 1028 
+OMU "HO3'" H  N N 1029 
+OMU "H5'"  H  N N 1030 
+OMU "H5''" H  N N 1031 
+OMU HOP2   H  N N 1032 
+OMU HOP3   H  N N 1033 
+PHE N      N  N N 1034 
+PHE CA     C  N S 1035 
+PHE C      C  N N 1036 
+PHE O      O  N N 1037 
+PHE CB     C  N N 1038 
+PHE CG     C  Y N 1039 
+PHE CD1    C  Y N 1040 
+PHE CD2    C  Y N 1041 
+PHE CE1    C  Y N 1042 
+PHE CE2    C  Y N 1043 
+PHE CZ     C  Y N 1044 
+PHE OXT    O  N N 1045 
+PHE H      H  N N 1046 
+PHE H2     H  N N 1047 
+PHE HA     H  N N 1048 
+PHE HB2    H  N N 1049 
+PHE HB3    H  N N 1050 
+PHE HD1    H  N N 1051 
+PHE HD2    H  N N 1052 
+PHE HE1    H  N N 1053 
+PHE HE2    H  N N 1054 
+PHE HZ     H  N N 1055 
+PHE HXT    H  N N 1056 
+PRO N      N  N N 1057 
+PRO CA     C  N S 1058 
+PRO C      C  N N 1059 
+PRO O      O  N N 1060 
+PRO CB     C  N N 1061 
+PRO CG     C  N N 1062 
+PRO CD     C  N N 1063 
+PRO OXT    O  N N 1064 
+PRO H      H  N N 1065 
+PRO HA     H  N N 1066 
+PRO HB2    H  N N 1067 
+PRO HB3    H  N N 1068 
+PRO HG2    H  N N 1069 
+PRO HG3    H  N N 1070 
+PRO HD2    H  N N 1071 
+PRO HD3    H  N N 1072 
+PRO HXT    H  N N 1073 
+PSU N1     N  N N 1074 
+PSU C2     C  N N 1075 
+PSU N3     N  N N 1076 
+PSU C4     C  N N 1077 
+PSU C5     C  N N 1078 
+PSU C6     C  N N 1079 
+PSU O2     O  N N 1080 
+PSU O4     O  N N 1081 
+PSU "C1'"  C  N S 1082 
+PSU "C2'"  C  N R 1083 
+PSU "O2'"  O  N N 1084 
+PSU "C3'"  C  N S 1085 
+PSU "C4'"  C  N R 1086 
+PSU "O3'"  O  N N 1087 
+PSU "O4'"  O  N N 1088 
+PSU "C5'"  C  N N 1089 
+PSU "O5'"  O  N N 1090 
+PSU P      P  N N 1091 
+PSU OP1    O  N N 1092 
+PSU OP2    O  N N 1093 
+PSU OP3    O  N N 1094 
+PSU HN1    H  N N 1095 
+PSU HN3    H  N N 1096 
+PSU H6     H  N N 1097 
+PSU "H1'"  H  N N 1098 
+PSU "H2'"  H  N N 1099 
+PSU "HO2'" H  N N 1100 
+PSU "H3'"  H  N N 1101 
+PSU "H4'"  H  N N 1102 
+PSU "HO3'" H  N N 1103 
+PSU "H5'"  H  N N 1104 
+PSU "H5''" H  N N 1105 
+PSU HOP2   H  N N 1106 
+PSU HOP3   H  N N 1107 
+SER N      N  N N 1108 
+SER CA     C  N S 1109 
+SER C      C  N N 1110 
+SER O      O  N N 1111 
+SER CB     C  N N 1112 
+SER OG     O  N N 1113 
+SER OXT    O  N N 1114 
+SER H      H  N N 1115 
+SER H2     H  N N 1116 
+SER HA     H  N N 1117 
+SER HB2    H  N N 1118 
+SER HB3    H  N N 1119 
+SER HG     H  N N 1120 
+SER HXT    H  N N 1121 
+THR N      N  N N 1122 
+THR CA     C  N S 1123 
+THR C      C  N N 1124 
+THR O      O  N N 1125 
+THR CB     C  N R 1126 
+THR OG1    O  N N 1127 
+THR CG2    C  N N 1128 
+THR OXT    O  N N 1129 
+THR H      H  N N 1130 
+THR H2     H  N N 1131 
+THR HA     H  N N 1132 
+THR HB     H  N N 1133 
+THR HG1    H  N N 1134 
+THR HG21   H  N N 1135 
+THR HG22   H  N N 1136 
+THR HG23   H  N N 1137 
+THR HXT    H  N N 1138 
+TRP N      N  N N 1139 
+TRP CA     C  N S 1140 
+TRP C      C  N N 1141 
+TRP O      O  N N 1142 
+TRP CB     C  N N 1143 
+TRP CG     C  Y N 1144 
+TRP CD1    C  Y N 1145 
+TRP CD2    C  Y N 1146 
+TRP NE1    N  Y N 1147 
+TRP CE2    C  Y N 1148 
+TRP CE3    C  Y N 1149 
+TRP CZ2    C  Y N 1150 
+TRP CZ3    C  Y N 1151 
+TRP CH2    C  Y N 1152 
+TRP OXT    O  N N 1153 
+TRP H      H  N N 1154 
+TRP H2     H  N N 1155 
+TRP HA     H  N N 1156 
+TRP HB2    H  N N 1157 
+TRP HB3    H  N N 1158 
+TRP HD1    H  N N 1159 
+TRP HE1    H  N N 1160 
+TRP HE3    H  N N 1161 
+TRP HZ2    H  N N 1162 
+TRP HZ3    H  N N 1163 
+TRP HH2    H  N N 1164 
+TRP HXT    H  N N 1165 
+TYR N      N  N N 1166 
+TYR CA     C  N S 1167 
+TYR C      C  N N 1168 
+TYR O      O  N N 1169 
+TYR CB     C  N N 1170 
+TYR CG     C  Y N 1171 
+TYR CD1    C  Y N 1172 
+TYR CD2    C  Y N 1173 
+TYR CE1    C  Y N 1174 
+TYR CE2    C  Y N 1175 
+TYR CZ     C  Y N 1176 
+TYR OH     O  N N 1177 
+TYR OXT    O  N N 1178 
+TYR H      H  N N 1179 
+TYR H2     H  N N 1180 
+TYR HA     H  N N 1181 
+TYR HB2    H  N N 1182 
+TYR HB3    H  N N 1183 
+TYR HD1    H  N N 1184 
+TYR HD2    H  N N 1185 
+TYR HE1    H  N N 1186 
+TYR HE2    H  N N 1187 
+TYR HH     H  N N 1188 
+TYR HXT    H  N N 1189 
+U   OP3    O  N N 1190 
+U   P      P  N N 1191 
+U   OP1    O  N N 1192 
+U   OP2    O  N N 1193 
+U   "O5'"  O  N N 1194 
+U   "C5'"  C  N N 1195 
+U   "C4'"  C  N R 1196 
+U   "O4'"  O  N N 1197 
+U   "C3'"  C  N S 1198 
+U   "O3'"  O  N N 1199 
+U   "C2'"  C  N R 1200 
+U   "O2'"  O  N N 1201 
+U   "C1'"  C  N R 1202 
+U   N1     N  N N 1203 
+U   C2     C  N N 1204 
+U   O2     O  N N 1205 
+U   N3     N  N N 1206 
+U   C4     C  N N 1207 
+U   O4     O  N N 1208 
+U   C5     C  N N 1209 
+U   C6     C  N N 1210 
+U   HOP3   H  N N 1211 
+U   HOP2   H  N N 1212 
+U   "H5'"  H  N N 1213 
+U   "H5''" H  N N 1214 
+U   "H4'"  H  N N 1215 
+U   "H3'"  H  N N 1216 
+U   "HO3'" H  N N 1217 
+U   "H2'"  H  N N 1218 
+U   "HO2'" H  N N 1219 
+U   "H1'"  H  N N 1220 
+U   H3     H  N N 1221 
+U   H5     H  N N 1222 
+U   H6     H  N N 1223 
+UR3 P      P  N N 1224 
+UR3 OP1    O  N N 1225 
+UR3 OP2    O  N N 1226 
+UR3 "O5'"  O  N N 1227 
+UR3 "C5'"  C  N N 1228 
+UR3 "C4'"  C  N R 1229 
+UR3 "O4'"  O  N N 1230 
+UR3 "C1'"  C  N R 1231 
+UR3 N1     N  N N 1232 
+UR3 C6     C  N N 1233 
+UR3 C2     C  N N 1234 
+UR3 O2     O  N N 1235 
+UR3 N3     N  N N 1236 
+UR3 C3U    C  N N 1237 
+UR3 C4     C  N N 1238 
+UR3 O4     O  N N 1239 
+UR3 C5     C  N N 1240 
+UR3 "C2'"  C  N R 1241 
+UR3 "O2'"  O  N N 1242 
+UR3 "C3'"  C  N S 1243 
+UR3 "O3'"  O  N N 1244 
+UR3 OP3    O  N N 1245 
+UR3 HOP2   H  N N 1246 
+UR3 "H5'"  H  N N 1247 
+UR3 "H5''" H  N N 1248 
+UR3 "H4'"  H  N N 1249 
+UR3 "H1'"  H  N N 1250 
+UR3 H6     H  N N 1251 
+UR3 H3U1   H  N N 1252 
+UR3 H3U2   H  N N 1253 
+UR3 H3U3   H  N N 1254 
+UR3 H5     H  N N 1255 
+UR3 "H2'"  H  N N 1256 
+UR3 "HO2'" H  N N 1257 
+UR3 "H3'"  H  N N 1258 
+UR3 "HO3'" H  N N 1259 
+UR3 HOP3   H  N N 1260 
+VAL N      N  N N 1261 
+VAL CA     C  N S 1262 
+VAL C      C  N N 1263 
+VAL O      O  N N 1264 
+VAL CB     C  N N 1265 
+VAL CG1    C  N N 1266 
+VAL CG2    C  N N 1267 
+VAL OXT    O  N N 1268 
+VAL H      H  N N 1269 
+VAL H2     H  N N 1270 
+VAL HA     H  N N 1271 
+VAL HB     H  N N 1272 
+VAL HG11   H  N N 1273 
+VAL HG12   H  N N 1274 
+VAL HG13   H  N N 1275 
+VAL HG21   H  N N 1276 
+VAL HG22   H  N N 1277 
+VAL HG23   H  N N 1278 
+VAL HXT    H  N N 1279 
+ZN  ZN     ZN N N 1280 
 # 
 loop_
 _chem_comp_bond.comp_id 
@@ -39297,7 +39328,7 @@ MET CE    HE1    sing N N 901
 MET CE    HE2    sing N N 902  
 MET CE    HE3    sing N N 903  
 MET OXT   HXT    sing N N 904  
-MS6 S     C      sing N N 905  
+MS6 S     C      doub N N 905  
 MS6 C     CA     sing N N 906  
 MS6 CB    CA     sing N N 907  
 MS6 CB    CG     sing N N 908  
@@ -39305,391 +39336,390 @@ MS6 CA    N      sing N N 909
 MS6 CG    SD     sing N N 910  
 MS6 SD    CE     sing N N 911  
 MS6 CA    HA     sing N N 912  
-MS6 C     H1     sing N N 913  
-MS6 C     H3     sing N N 914  
-MS6 CB    H4     sing N N 915  
-MS6 CB    H5     sing N N 916  
-MS6 CG    H6     sing N N 917  
-MS6 CG    H7     sing N N 918  
-MS6 CE    H8     sing N N 919  
-MS6 CE    H9     sing N N 920  
-MS6 CE    H10    sing N N 921  
-MS6 N     H      sing N N 922  
-MS6 N     H2     sing N N 923  
-MS6 S     H14    sing N N 924  
-OMC N1    C2     sing N N 925  
-OMC N1    C6     sing N N 926  
-OMC N1    "C1'"  sing N N 927  
-OMC C2    N3     sing N N 928  
-OMC C2    O2     doub N N 929  
-OMC N3    C4     doub N N 930  
-OMC C4    C5     sing N N 931  
-OMC C4    N4     sing N N 932  
-OMC C5    C6     doub N N 933  
-OMC C5    H5     sing N N 934  
-OMC C6    H6     sing N N 935  
-OMC N4    HN41   sing N N 936  
-OMC N4    HN42   sing N N 937  
-OMC "C1'" "C2'"  sing N N 938  
-OMC "C1'" "O4'"  sing N N 939  
-OMC "C1'" "H1'"  sing N N 940  
-OMC "C2'" "O2'"  sing N N 941  
-OMC "C2'" "C3'"  sing N N 942  
-OMC "C2'" "H2'"  sing N N 943  
-OMC "O2'" CM2    sing N N 944  
-OMC CM2   HM21   sing N N 945  
-OMC CM2   HM22   sing N N 946  
-OMC CM2   HM23   sing N N 947  
-OMC "C3'" "C4'"  sing N N 948  
-OMC "C3'" "O3'"  sing N N 949  
-OMC "C3'" "H3'"  sing N N 950  
-OMC "C4'" "O4'"  sing N N 951  
-OMC "C4'" "C5'"  sing N N 952  
-OMC "C4'" "H4'"  sing N N 953  
-OMC "O3'" "HO3'" sing N N 954  
-OMC "C5'" "O5'"  sing N N 955  
-OMC "C5'" "H5'"  sing N N 956  
-OMC "C5'" "H5''" sing N N 957  
-OMC "O5'" P      sing N N 958  
-OMC P     OP1    doub N N 959  
-OMC P     OP2    sing N N 960  
-OMC P     OP3    sing N N 961  
-OMC OP2   HOP2   sing N N 962  
-OMC OP3   HOP3   sing N N 963  
-OMG P     OP1    doub N N 964  
-OMG P     OP2    sing N N 965  
-OMG P     OP3    sing N N 966  
-OMG P     "O5'"  sing N N 967  
-OMG OP2   HOP2   sing N N 968  
-OMG OP3   HOP3   sing N N 969  
-OMG "O5'" "C5'"  sing N N 970  
-OMG "C5'" "C4'"  sing N N 971  
-OMG "C5'" "H5'"  sing N N 972  
-OMG "C5'" "H5''" sing N N 973  
-OMG "C4'" "O4'"  sing N N 974  
-OMG "C4'" "C3'"  sing N N 975  
-OMG "C4'" "H4'"  sing N N 976  
-OMG "O4'" "C1'"  sing N N 977  
-OMG "C3'" "O3'"  sing N N 978  
-OMG "C3'" "C2'"  sing N N 979  
-OMG "C3'" "H3'"  sing N N 980  
-OMG "O3'" "HO3'" sing N N 981  
-OMG "C2'" "O2'"  sing N N 982  
-OMG "C2'" "C1'"  sing N N 983  
-OMG "C2'" "H2'"  sing N N 984  
-OMG "O2'" CM2    sing N N 985  
-OMG CM2   HM21   sing N N 986  
-OMG CM2   HM22   sing N N 987  
-OMG CM2   HM23   sing N N 988  
-OMG "C1'" N9     sing N N 989  
-OMG "C1'" "H1'"  sing N N 990  
-OMG N9    C8     sing Y N 991  
-OMG N9    C4     sing Y N 992  
-OMG C8    N7     doub Y N 993  
-OMG C8    H8     sing N N 994  
-OMG N7    C5     sing Y N 995  
-OMG C5    C6     sing N N 996  
-OMG C5    C4     doub Y N 997  
-OMG C6    O6     doub N N 998  
-OMG C6    N1     sing N N 999  
-OMG N1    C2     sing N N 1000 
-OMG N1    HN1    sing N N 1001 
-OMG C2    N2     sing N N 1002 
-OMG C2    N3     doub N N 1003 
-OMG N2    HN21   sing N N 1004 
-OMG N2    HN22   sing N N 1005 
-OMG N3    C4     sing N N 1006 
-OMU N1    C2     sing N N 1007 
-OMU N1    C6     sing N N 1008 
-OMU N1    "C1'"  sing N N 1009 
-OMU C2    N3     sing N N 1010 
-OMU C2    O2     doub N N 1011 
-OMU N3    C4     sing N N 1012 
-OMU N3    HN3    sing N N 1013 
-OMU C4    C5     sing N N 1014 
-OMU C4    O4     doub N N 1015 
-OMU C5    C6     doub N N 1016 
-OMU C5    H5     sing N N 1017 
-OMU C6    H6     sing N N 1018 
-OMU "C1'" "C2'"  sing N N 1019 
-OMU "C1'" "O4'"  sing N N 1020 
-OMU "C1'" "H1'"  sing N N 1021 
-OMU "C2'" "O2'"  sing N N 1022 
-OMU "C2'" "C3'"  sing N N 1023 
-OMU "C2'" "H2'"  sing N N 1024 
-OMU "O2'" CM2    sing N N 1025 
-OMU CM2   HM21   sing N N 1026 
-OMU CM2   HM22   sing N N 1027 
-OMU CM2   HM23   sing N N 1028 
-OMU "C3'" "C4'"  sing N N 1029 
-OMU "C3'" "O3'"  sing N N 1030 
-OMU "C3'" "H3'"  sing N N 1031 
-OMU "C4'" "O4'"  sing N N 1032 
-OMU "C4'" "C5'"  sing N N 1033 
-OMU "C4'" "H4'"  sing N N 1034 
-OMU "O3'" "HO3'" sing N N 1035 
-OMU "C5'" "O5'"  sing N N 1036 
-OMU "C5'" "H5'"  sing N N 1037 
-OMU "C5'" "H5''" sing N N 1038 
-OMU "O5'" P      sing N N 1039 
-OMU P     OP1    doub N N 1040 
-OMU P     OP2    sing N N 1041 
-OMU P     OP3    sing N N 1042 
-OMU OP2   HOP2   sing N N 1043 
-OMU OP3   HOP3   sing N N 1044 
-PHE N     CA     sing N N 1045 
-PHE N     H      sing N N 1046 
-PHE N     H2     sing N N 1047 
-PHE CA    C      sing N N 1048 
-PHE CA    CB     sing N N 1049 
-PHE CA    HA     sing N N 1050 
-PHE C     O      doub N N 1051 
-PHE C     OXT    sing N N 1052 
-PHE CB    CG     sing N N 1053 
-PHE CB    HB2    sing N N 1054 
-PHE CB    HB3    sing N N 1055 
-PHE CG    CD1    doub Y N 1056 
-PHE CG    CD2    sing Y N 1057 
-PHE CD1   CE1    sing Y N 1058 
-PHE CD1   HD1    sing N N 1059 
-PHE CD2   CE2    doub Y N 1060 
-PHE CD2   HD2    sing N N 1061 
-PHE CE1   CZ     doub Y N 1062 
-PHE CE1   HE1    sing N N 1063 
-PHE CE2   CZ     sing Y N 1064 
-PHE CE2   HE2    sing N N 1065 
-PHE CZ    HZ     sing N N 1066 
-PHE OXT   HXT    sing N N 1067 
-PRO N     CA     sing N N 1068 
-PRO N     CD     sing N N 1069 
-PRO N     H      sing N N 1070 
-PRO CA    C      sing N N 1071 
-PRO CA    CB     sing N N 1072 
-PRO CA    HA     sing N N 1073 
-PRO C     O      doub N N 1074 
-PRO C     OXT    sing N N 1075 
-PRO CB    CG     sing N N 1076 
-PRO CB    HB2    sing N N 1077 
-PRO CB    HB3    sing N N 1078 
-PRO CG    CD     sing N N 1079 
-PRO CG    HG2    sing N N 1080 
-PRO CG    HG3    sing N N 1081 
-PRO CD    HD2    sing N N 1082 
-PRO CD    HD3    sing N N 1083 
-PRO OXT   HXT    sing N N 1084 
-PSU N1    C2     sing N N 1085 
-PSU N1    C6     sing N N 1086 
-PSU N1    HN1    sing N N 1087 
-PSU C2    N3     sing N N 1088 
-PSU C2    O2     doub N N 1089 
-PSU N3    C4     sing N N 1090 
-PSU N3    HN3    sing N N 1091 
-PSU C4    C5     sing N N 1092 
-PSU C4    O4     doub N N 1093 
-PSU C5    C6     doub N N 1094 
-PSU C5    "C1'"  sing N N 1095 
-PSU C6    H6     sing N N 1096 
-PSU "C1'" "C2'"  sing N N 1097 
-PSU "C1'" "O4'"  sing N N 1098 
-PSU "C1'" "H1'"  sing N N 1099 
-PSU "C2'" "O2'"  sing N N 1100 
-PSU "C2'" "C3'"  sing N N 1101 
-PSU "C2'" "H2'"  sing N N 1102 
-PSU "O2'" "HO2'" sing N N 1103 
-PSU "C3'" "C4'"  sing N N 1104 
-PSU "C3'" "O3'"  sing N N 1105 
-PSU "C3'" "H3'"  sing N N 1106 
-PSU "C4'" "O4'"  sing N N 1107 
-PSU "C4'" "C5'"  sing N N 1108 
-PSU "C4'" "H4'"  sing N N 1109 
-PSU "O3'" "HO3'" sing N N 1110 
-PSU "C5'" "O5'"  sing N N 1111 
-PSU "C5'" "H5'"  sing N N 1112 
-PSU "C5'" "H5''" sing N N 1113 
-PSU "O5'" P      sing N N 1114 
-PSU P     OP1    doub N N 1115 
-PSU P     OP2    sing N N 1116 
-PSU P     OP3    sing N N 1117 
-PSU OP2   HOP2   sing N N 1118 
-PSU OP3   HOP3   sing N N 1119 
-SER N     CA     sing N N 1120 
-SER N     H      sing N N 1121 
-SER N     H2     sing N N 1122 
-SER CA    C      sing N N 1123 
-SER CA    CB     sing N N 1124 
-SER CA    HA     sing N N 1125 
-SER C     O      doub N N 1126 
-SER C     OXT    sing N N 1127 
-SER CB    OG     sing N N 1128 
-SER CB    HB2    sing N N 1129 
-SER CB    HB3    sing N N 1130 
-SER OG    HG     sing N N 1131 
-SER OXT   HXT    sing N N 1132 
-THR N     CA     sing N N 1133 
-THR N     H      sing N N 1134 
-THR N     H2     sing N N 1135 
-THR CA    C      sing N N 1136 
-THR CA    CB     sing N N 1137 
-THR CA    HA     sing N N 1138 
-THR C     O      doub N N 1139 
-THR C     OXT    sing N N 1140 
-THR CB    OG1    sing N N 1141 
-THR CB    CG2    sing N N 1142 
-THR CB    HB     sing N N 1143 
-THR OG1   HG1    sing N N 1144 
-THR CG2   HG21   sing N N 1145 
-THR CG2   HG22   sing N N 1146 
-THR CG2   HG23   sing N N 1147 
-THR OXT   HXT    sing N N 1148 
-TRP N     CA     sing N N 1149 
-TRP N     H      sing N N 1150 
-TRP N     H2     sing N N 1151 
-TRP CA    C      sing N N 1152 
-TRP CA    CB     sing N N 1153 
-TRP CA    HA     sing N N 1154 
-TRP C     O      doub N N 1155 
-TRP C     OXT    sing N N 1156 
-TRP CB    CG     sing N N 1157 
-TRP CB    HB2    sing N N 1158 
-TRP CB    HB3    sing N N 1159 
-TRP CG    CD1    doub Y N 1160 
-TRP CG    CD2    sing Y N 1161 
-TRP CD1   NE1    sing Y N 1162 
-TRP CD1   HD1    sing N N 1163 
-TRP CD2   CE2    doub Y N 1164 
-TRP CD2   CE3    sing Y N 1165 
-TRP NE1   CE2    sing Y N 1166 
-TRP NE1   HE1    sing N N 1167 
-TRP CE2   CZ2    sing Y N 1168 
-TRP CE3   CZ3    doub Y N 1169 
-TRP CE3   HE3    sing N N 1170 
-TRP CZ2   CH2    doub Y N 1171 
-TRP CZ2   HZ2    sing N N 1172 
-TRP CZ3   CH2    sing Y N 1173 
-TRP CZ3   HZ3    sing N N 1174 
-TRP CH2   HH2    sing N N 1175 
-TRP OXT   HXT    sing N N 1176 
-TYR N     CA     sing N N 1177 
-TYR N     H      sing N N 1178 
-TYR N     H2     sing N N 1179 
-TYR CA    C      sing N N 1180 
-TYR CA    CB     sing N N 1181 
-TYR CA    HA     sing N N 1182 
-TYR C     O      doub N N 1183 
-TYR C     OXT    sing N N 1184 
-TYR CB    CG     sing N N 1185 
-TYR CB    HB2    sing N N 1186 
-TYR CB    HB3    sing N N 1187 
-TYR CG    CD1    doub Y N 1188 
-TYR CG    CD2    sing Y N 1189 
-TYR CD1   CE1    sing Y N 1190 
-TYR CD1   HD1    sing N N 1191 
-TYR CD2   CE2    doub Y N 1192 
-TYR CD2   HD2    sing N N 1193 
-TYR CE1   CZ     doub Y N 1194 
-TYR CE1   HE1    sing N N 1195 
-TYR CE2   CZ     sing Y N 1196 
-TYR CE2   HE2    sing N N 1197 
-TYR CZ    OH     sing N N 1198 
-TYR OH    HH     sing N N 1199 
-TYR OXT   HXT    sing N N 1200 
-U   OP3   P      sing N N 1201 
-U   OP3   HOP3   sing N N 1202 
-U   P     OP1    doub N N 1203 
-U   P     OP2    sing N N 1204 
-U   P     "O5'"  sing N N 1205 
-U   OP2   HOP2   sing N N 1206 
-U   "O5'" "C5'"  sing N N 1207 
-U   "C5'" "C4'"  sing N N 1208 
-U   "C5'" "H5'"  sing N N 1209 
-U   "C5'" "H5''" sing N N 1210 
-U   "C4'" "O4'"  sing N N 1211 
-U   "C4'" "C3'"  sing N N 1212 
-U   "C4'" "H4'"  sing N N 1213 
-U   "O4'" "C1'"  sing N N 1214 
-U   "C3'" "O3'"  sing N N 1215 
-U   "C3'" "C2'"  sing N N 1216 
-U   "C3'" "H3'"  sing N N 1217 
-U   "O3'" "HO3'" sing N N 1218 
-U   "C2'" "O2'"  sing N N 1219 
-U   "C2'" "C1'"  sing N N 1220 
-U   "C2'" "H2'"  sing N N 1221 
-U   "O2'" "HO2'" sing N N 1222 
-U   "C1'" N1     sing N N 1223 
-U   "C1'" "H1'"  sing N N 1224 
-U   N1    C2     sing N N 1225 
-U   N1    C6     sing N N 1226 
-U   C2    O2     doub N N 1227 
-U   C2    N3     sing N N 1228 
-U   N3    C4     sing N N 1229 
-U   N3    H3     sing N N 1230 
-U   C4    O4     doub N N 1231 
-U   C4    C5     sing N N 1232 
-U   C5    C6     doub N N 1233 
-U   C5    H5     sing N N 1234 
-U   C6    H6     sing N N 1235 
-UR3 P     OP1    doub N N 1236 
-UR3 P     OP2    sing N N 1237 
-UR3 P     "O5'"  sing N N 1238 
-UR3 P     OP3    sing N N 1239 
-UR3 OP2   HOP2   sing N N 1240 
-UR3 "O5'" "C5'"  sing N N 1241 
-UR3 "C5'" "C4'"  sing N N 1242 
-UR3 "C5'" "H5'"  sing N N 1243 
-UR3 "C5'" "H5''" sing N N 1244 
-UR3 "C4'" "O4'"  sing N N 1245 
-UR3 "C4'" "C3'"  sing N N 1246 
-UR3 "C4'" "H4'"  sing N N 1247 
-UR3 "O4'" "C1'"  sing N N 1248 
-UR3 "C1'" N1     sing N N 1249 
-UR3 "C1'" "C2'"  sing N N 1250 
-UR3 "C1'" "H1'"  sing N N 1251 
-UR3 N1    C6     sing N N 1252 
-UR3 N1    C2     sing N N 1253 
-UR3 C6    C5     doub N N 1254 
-UR3 C6    H6     sing N N 1255 
-UR3 C2    O2     doub N N 1256 
-UR3 C2    N3     sing N N 1257 
-UR3 N3    C3U    sing N N 1258 
-UR3 N3    C4     sing N N 1259 
-UR3 C3U   H3U1   sing N N 1260 
-UR3 C3U   H3U2   sing N N 1261 
-UR3 C3U   H3U3   sing N N 1262 
-UR3 C4    O4     doub N N 1263 
-UR3 C4    C5     sing N N 1264 
-UR3 C5    H5     sing N N 1265 
-UR3 "C2'" "O2'"  sing N N 1266 
-UR3 "C2'" "C3'"  sing N N 1267 
-UR3 "C2'" "H2'"  sing N N 1268 
-UR3 "O2'" "HO2'" sing N N 1269 
-UR3 "C3'" "O3'"  sing N N 1270 
-UR3 "C3'" "H3'"  sing N N 1271 
-UR3 "O3'" "HO3'" sing N N 1272 
-UR3 OP3   HOP3   sing N N 1273 
-VAL N     CA     sing N N 1274 
-VAL N     H      sing N N 1275 
-VAL N     H2     sing N N 1276 
-VAL CA    C      sing N N 1277 
-VAL CA    CB     sing N N 1278 
-VAL CA    HA     sing N N 1279 
-VAL C     O      doub N N 1280 
-VAL C     OXT    sing N N 1281 
-VAL CB    CG1    sing N N 1282 
-VAL CB    CG2    sing N N 1283 
-VAL CB    HB     sing N N 1284 
-VAL CG1   HG11   sing N N 1285 
-VAL CG1   HG12   sing N N 1286 
-VAL CG1   HG13   sing N N 1287 
-VAL CG2   HG21   sing N N 1288 
-VAL CG2   HG22   sing N N 1289 
-VAL CG2   HG23   sing N N 1290 
-VAL OXT   HXT    sing N N 1291 
+MS6 CB    HB2    sing N N 913  
+MS6 CB    HB3    sing N N 914  
+MS6 CG    HG2    sing N N 915  
+MS6 CG    HG3    sing N N 916  
+MS6 CE    HE1    sing N N 917  
+MS6 CE    HE2    sing N N 918  
+MS6 CE    HE3    sing N N 919  
+MS6 N     H      sing N N 920  
+MS6 N     H2     sing N N 921  
+MS6 C     OXT    sing N N 922  
+MS6 OXT   HXT    sing N N 923  
+OMC N1    C2     sing N N 924  
+OMC N1    C6     sing N N 925  
+OMC N1    "C1'"  sing N N 926  
+OMC C2    N3     sing N N 927  
+OMC C2    O2     doub N N 928  
+OMC N3    C4     doub N N 929  
+OMC C4    C5     sing N N 930  
+OMC C4    N4     sing N N 931  
+OMC C5    C6     doub N N 932  
+OMC C5    H5     sing N N 933  
+OMC C6    H6     sing N N 934  
+OMC N4    HN41   sing N N 935  
+OMC N4    HN42   sing N N 936  
+OMC "C1'" "C2'"  sing N N 937  
+OMC "C1'" "O4'"  sing N N 938  
+OMC "C1'" "H1'"  sing N N 939  
+OMC "C2'" "O2'"  sing N N 940  
+OMC "C2'" "C3'"  sing N N 941  
+OMC "C2'" "H2'"  sing N N 942  
+OMC "O2'" CM2    sing N N 943  
+OMC CM2   HM21   sing N N 944  
+OMC CM2   HM22   sing N N 945  
+OMC CM2   HM23   sing N N 946  
+OMC "C3'" "C4'"  sing N N 947  
+OMC "C3'" "O3'"  sing N N 948  
+OMC "C3'" "H3'"  sing N N 949  
+OMC "C4'" "O4'"  sing N N 950  
+OMC "C4'" "C5'"  sing N N 951  
+OMC "C4'" "H4'"  sing N N 952  
+OMC "O3'" "HO3'" sing N N 953  
+OMC "C5'" "O5'"  sing N N 954  
+OMC "C5'" "H5'"  sing N N 955  
+OMC "C5'" "H5''" sing N N 956  
+OMC "O5'" P      sing N N 957  
+OMC P     OP1    doub N N 958  
+OMC P     OP2    sing N N 959  
+OMC P     OP3    sing N N 960  
+OMC OP2   HOP2   sing N N 961  
+OMC OP3   HOP3   sing N N 962  
+OMG P     OP1    doub N N 963  
+OMG P     OP2    sing N N 964  
+OMG P     OP3    sing N N 965  
+OMG P     "O5'"  sing N N 966  
+OMG OP2   HOP2   sing N N 967  
+OMG OP3   HOP3   sing N N 968  
+OMG "O5'" "C5'"  sing N N 969  
+OMG "C5'" "C4'"  sing N N 970  
+OMG "C5'" "H5'"  sing N N 971  
+OMG "C5'" "H5''" sing N N 972  
+OMG "C4'" "O4'"  sing N N 973  
+OMG "C4'" "C3'"  sing N N 974  
+OMG "C4'" "H4'"  sing N N 975  
+OMG "O4'" "C1'"  sing N N 976  
+OMG "C3'" "O3'"  sing N N 977  
+OMG "C3'" "C2'"  sing N N 978  
+OMG "C3'" "H3'"  sing N N 979  
+OMG "O3'" "HO3'" sing N N 980  
+OMG "C2'" "O2'"  sing N N 981  
+OMG "C2'" "C1'"  sing N N 982  
+OMG "C2'" "H2'"  sing N N 983  
+OMG "O2'" CM2    sing N N 984  
+OMG CM2   HM21   sing N N 985  
+OMG CM2   HM22   sing N N 986  
+OMG CM2   HM23   sing N N 987  
+OMG "C1'" N9     sing N N 988  
+OMG "C1'" "H1'"  sing N N 989  
+OMG N9    C8     sing Y N 990  
+OMG N9    C4     sing Y N 991  
+OMG C8    N7     doub Y N 992  
+OMG C8    H8     sing N N 993  
+OMG N7    C5     sing Y N 994  
+OMG C5    C6     sing N N 995  
+OMG C5    C4     doub Y N 996  
+OMG C6    O6     doub N N 997  
+OMG C6    N1     sing N N 998  
+OMG N1    C2     sing N N 999  
+OMG N1    HN1    sing N N 1000 
+OMG C2    N2     sing N N 1001 
+OMG C2    N3     doub N N 1002 
+OMG N2    HN21   sing N N 1003 
+OMG N2    HN22   sing N N 1004 
+OMG N3    C4     sing N N 1005 
+OMU N1    C2     sing N N 1006 
+OMU N1    C6     sing N N 1007 
+OMU N1    "C1'"  sing N N 1008 
+OMU C2    N3     sing N N 1009 
+OMU C2    O2     doub N N 1010 
+OMU N3    C4     sing N N 1011 
+OMU N3    HN3    sing N N 1012 
+OMU C4    C5     sing N N 1013 
+OMU C4    O4     doub N N 1014 
+OMU C5    C6     doub N N 1015 
+OMU C5    H5     sing N N 1016 
+OMU C6    H6     sing N N 1017 
+OMU "C1'" "C2'"  sing N N 1018 
+OMU "C1'" "O4'"  sing N N 1019 
+OMU "C1'" "H1'"  sing N N 1020 
+OMU "C2'" "O2'"  sing N N 1021 
+OMU "C2'" "C3'"  sing N N 1022 
+OMU "C2'" "H2'"  sing N N 1023 
+OMU "O2'" CM2    sing N N 1024 
+OMU CM2   HM21   sing N N 1025 
+OMU CM2   HM22   sing N N 1026 
+OMU CM2   HM23   sing N N 1027 
+OMU "C3'" "C4'"  sing N N 1028 
+OMU "C3'" "O3'"  sing N N 1029 
+OMU "C3'" "H3'"  sing N N 1030 
+OMU "C4'" "O4'"  sing N N 1031 
+OMU "C4'" "C5'"  sing N N 1032 
+OMU "C4'" "H4'"  sing N N 1033 
+OMU "O3'" "HO3'" sing N N 1034 
+OMU "C5'" "O5'"  sing N N 1035 
+OMU "C5'" "H5'"  sing N N 1036 
+OMU "C5'" "H5''" sing N N 1037 
+OMU "O5'" P      sing N N 1038 
+OMU P     OP1    doub N N 1039 
+OMU P     OP2    sing N N 1040 
+OMU P     OP3    sing N N 1041 
+OMU OP2   HOP2   sing N N 1042 
+OMU OP3   HOP3   sing N N 1043 
+PHE N     CA     sing N N 1044 
+PHE N     H      sing N N 1045 
+PHE N     H2     sing N N 1046 
+PHE CA    C      sing N N 1047 
+PHE CA    CB     sing N N 1048 
+PHE CA    HA     sing N N 1049 
+PHE C     O      doub N N 1050 
+PHE C     OXT    sing N N 1051 
+PHE CB    CG     sing N N 1052 
+PHE CB    HB2    sing N N 1053 
+PHE CB    HB3    sing N N 1054 
+PHE CG    CD1    doub Y N 1055 
+PHE CG    CD2    sing Y N 1056 
+PHE CD1   CE1    sing Y N 1057 
+PHE CD1   HD1    sing N N 1058 
+PHE CD2   CE2    doub Y N 1059 
+PHE CD2   HD2    sing N N 1060 
+PHE CE1   CZ     doub Y N 1061 
+PHE CE1   HE1    sing N N 1062 
+PHE CE2   CZ     sing Y N 1063 
+PHE CE2   HE2    sing N N 1064 
+PHE CZ    HZ     sing N N 1065 
+PHE OXT   HXT    sing N N 1066 
+PRO N     CA     sing N N 1067 
+PRO N     CD     sing N N 1068 
+PRO N     H      sing N N 1069 
+PRO CA    C      sing N N 1070 
+PRO CA    CB     sing N N 1071 
+PRO CA    HA     sing N N 1072 
+PRO C     O      doub N N 1073 
+PRO C     OXT    sing N N 1074 
+PRO CB    CG     sing N N 1075 
+PRO CB    HB2    sing N N 1076 
+PRO CB    HB3    sing N N 1077 
+PRO CG    CD     sing N N 1078 
+PRO CG    HG2    sing N N 1079 
+PRO CG    HG3    sing N N 1080 
+PRO CD    HD2    sing N N 1081 
+PRO CD    HD3    sing N N 1082 
+PRO OXT   HXT    sing N N 1083 
+PSU N1    C2     sing N N 1084 
+PSU N1    C6     sing N N 1085 
+PSU N1    HN1    sing N N 1086 
+PSU C2    N3     sing N N 1087 
+PSU C2    O2     doub N N 1088 
+PSU N3    C4     sing N N 1089 
+PSU N3    HN3    sing N N 1090 
+PSU C4    C5     sing N N 1091 
+PSU C4    O4     doub N N 1092 
+PSU C5    C6     doub N N 1093 
+PSU C5    "C1'"  sing N N 1094 
+PSU C6    H6     sing N N 1095 
+PSU "C1'" "C2'"  sing N N 1096 
+PSU "C1'" "O4'"  sing N N 1097 
+PSU "C1'" "H1'"  sing N N 1098 
+PSU "C2'" "O2'"  sing N N 1099 
+PSU "C2'" "C3'"  sing N N 1100 
+PSU "C2'" "H2'"  sing N N 1101 
+PSU "O2'" "HO2'" sing N N 1102 
+PSU "C3'" "C4'"  sing N N 1103 
+PSU "C3'" "O3'"  sing N N 1104 
+PSU "C3'" "H3'"  sing N N 1105 
+PSU "C4'" "O4'"  sing N N 1106 
+PSU "C4'" "C5'"  sing N N 1107 
+PSU "C4'" "H4'"  sing N N 1108 
+PSU "O3'" "HO3'" sing N N 1109 
+PSU "C5'" "O5'"  sing N N 1110 
+PSU "C5'" "H5'"  sing N N 1111 
+PSU "C5'" "H5''" sing N N 1112 
+PSU "O5'" P      sing N N 1113 
+PSU P     OP1    doub N N 1114 
+PSU P     OP2    sing N N 1115 
+PSU P     OP3    sing N N 1116 
+PSU OP2   HOP2   sing N N 1117 
+PSU OP3   HOP3   sing N N 1118 
+SER N     CA     sing N N 1119 
+SER N     H      sing N N 1120 
+SER N     H2     sing N N 1121 
+SER CA    C      sing N N 1122 
+SER CA    CB     sing N N 1123 
+SER CA    HA     sing N N 1124 
+SER C     O      doub N N 1125 
+SER C     OXT    sing N N 1126 
+SER CB    OG     sing N N 1127 
+SER CB    HB2    sing N N 1128 
+SER CB    HB3    sing N N 1129 
+SER OG    HG     sing N N 1130 
+SER OXT   HXT    sing N N 1131 
+THR N     CA     sing N N 1132 
+THR N     H      sing N N 1133 
+THR N     H2     sing N N 1134 
+THR CA    C      sing N N 1135 
+THR CA    CB     sing N N 1136 
+THR CA    HA     sing N N 1137 
+THR C     O      doub N N 1138 
+THR C     OXT    sing N N 1139 
+THR CB    OG1    sing N N 1140 
+THR CB    CG2    sing N N 1141 
+THR CB    HB     sing N N 1142 
+THR OG1   HG1    sing N N 1143 
+THR CG2   HG21   sing N N 1144 
+THR CG2   HG22   sing N N 1145 
+THR CG2   HG23   sing N N 1146 
+THR OXT   HXT    sing N N 1147 
+TRP N     CA     sing N N 1148 
+TRP N     H      sing N N 1149 
+TRP N     H2     sing N N 1150 
+TRP CA    C      sing N N 1151 
+TRP CA    CB     sing N N 1152 
+TRP CA    HA     sing N N 1153 
+TRP C     O      doub N N 1154 
+TRP C     OXT    sing N N 1155 
+TRP CB    CG     sing N N 1156 
+TRP CB    HB2    sing N N 1157 
+TRP CB    HB3    sing N N 1158 
+TRP CG    CD1    doub Y N 1159 
+TRP CG    CD2    sing Y N 1160 
+TRP CD1   NE1    sing Y N 1161 
+TRP CD1   HD1    sing N N 1162 
+TRP CD2   CE2    doub Y N 1163 
+TRP CD2   CE3    sing Y N 1164 
+TRP NE1   CE2    sing Y N 1165 
+TRP NE1   HE1    sing N N 1166 
+TRP CE2   CZ2    sing Y N 1167 
+TRP CE3   CZ3    doub Y N 1168 
+TRP CE3   HE3    sing N N 1169 
+TRP CZ2   CH2    doub Y N 1170 
+TRP CZ2   HZ2    sing N N 1171 
+TRP CZ3   CH2    sing Y N 1172 
+TRP CZ3   HZ3    sing N N 1173 
+TRP CH2   HH2    sing N N 1174 
+TRP OXT   HXT    sing N N 1175 
+TYR N     CA     sing N N 1176 
+TYR N     H      sing N N 1177 
+TYR N     H2     sing N N 1178 
+TYR CA    C      sing N N 1179 
+TYR CA    CB     sing N N 1180 
+TYR CA    HA     sing N N 1181 
+TYR C     O      doub N N 1182 
+TYR C     OXT    sing N N 1183 
+TYR CB    CG     sing N N 1184 
+TYR CB    HB2    sing N N 1185 
+TYR CB    HB3    sing N N 1186 
+TYR CG    CD1    doub Y N 1187 
+TYR CG    CD2    sing Y N 1188 
+TYR CD1   CE1    sing Y N 1189 
+TYR CD1   HD1    sing N N 1190 
+TYR CD2   CE2    doub Y N 1191 
+TYR CD2   HD2    sing N N 1192 
+TYR CE1   CZ     doub Y N 1193 
+TYR CE1   HE1    sing N N 1194 
+TYR CE2   CZ     sing Y N 1195 
+TYR CE2   HE2    sing N N 1196 
+TYR CZ    OH     sing N N 1197 
+TYR OH    HH     sing N N 1198 
+TYR OXT   HXT    sing N N 1199 
+U   OP3   P      sing N N 1200 
+U   OP3   HOP3   sing N N 1201 
+U   P     OP1    doub N N 1202 
+U   P     OP2    sing N N 1203 
+U   P     "O5'"  sing N N 1204 
+U   OP2   HOP2   sing N N 1205 
+U   "O5'" "C5'"  sing N N 1206 
+U   "C5'" "C4'"  sing N N 1207 
+U   "C5'" "H5'"  sing N N 1208 
+U   "C5'" "H5''" sing N N 1209 
+U   "C4'" "O4'"  sing N N 1210 
+U   "C4'" "C3'"  sing N N 1211 
+U   "C4'" "H4'"  sing N N 1212 
+U   "O4'" "C1'"  sing N N 1213 
+U   "C3'" "O3'"  sing N N 1214 
+U   "C3'" "C2'"  sing N N 1215 
+U   "C3'" "H3'"  sing N N 1216 
+U   "O3'" "HO3'" sing N N 1217 
+U   "C2'" "O2'"  sing N N 1218 
+U   "C2'" "C1'"  sing N N 1219 
+U   "C2'" "H2'"  sing N N 1220 
+U   "O2'" "HO2'" sing N N 1221 
+U   "C1'" N1     sing N N 1222 
+U   "C1'" "H1'"  sing N N 1223 
+U   N1    C2     sing N N 1224 
+U   N1    C6     sing N N 1225 
+U   C2    O2     doub N N 1226 
+U   C2    N3     sing N N 1227 
+U   N3    C4     sing N N 1228 
+U   N3    H3     sing N N 1229 
+U   C4    O4     doub N N 1230 
+U   C4    C5     sing N N 1231 
+U   C5    C6     doub N N 1232 
+U   C5    H5     sing N N 1233 
+U   C6    H6     sing N N 1234 
+UR3 P     OP1    doub N N 1235 
+UR3 P     OP2    sing N N 1236 
+UR3 P     "O5'"  sing N N 1237 
+UR3 P     OP3    sing N N 1238 
+UR3 OP2   HOP2   sing N N 1239 
+UR3 "O5'" "C5'"  sing N N 1240 
+UR3 "C5'" "C4'"  sing N N 1241 
+UR3 "C5'" "H5'"  sing N N 1242 
+UR3 "C5'" "H5''" sing N N 1243 
+UR3 "C4'" "O4'"  sing N N 1244 
+UR3 "C4'" "C3'"  sing N N 1245 
+UR3 "C4'" "H4'"  sing N N 1246 
+UR3 "O4'" "C1'"  sing N N 1247 
+UR3 "C1'" N1     sing N N 1248 
+UR3 "C1'" "C2'"  sing N N 1249 
+UR3 "C1'" "H1'"  sing N N 1250 
+UR3 N1    C6     sing N N 1251 
+UR3 N1    C2     sing N N 1252 
+UR3 C6    C5     doub N N 1253 
+UR3 C6    H6     sing N N 1254 
+UR3 C2    O2     doub N N 1255 
+UR3 C2    N3     sing N N 1256 
+UR3 N3    C3U    sing N N 1257 
+UR3 N3    C4     sing N N 1258 
+UR3 C3U   H3U1   sing N N 1259 
+UR3 C3U   H3U2   sing N N 1260 
+UR3 C3U   H3U3   sing N N 1261 
+UR3 C4    O4     doub N N 1262 
+UR3 C4    C5     sing N N 1263 
+UR3 C5    H5     sing N N 1264 
+UR3 "C2'" "O2'"  sing N N 1265 
+UR3 "C2'" "C3'"  sing N N 1266 
+UR3 "C2'" "H2'"  sing N N 1267 
+UR3 "O2'" "HO2'" sing N N 1268 
+UR3 "C3'" "O3'"  sing N N 1269 
+UR3 "C3'" "H3'"  sing N N 1270 
+UR3 "O3'" "HO3'" sing N N 1271 
+UR3 OP3   HOP3   sing N N 1272 
+VAL N     CA     sing N N 1273 
+VAL N     H      sing N N 1274 
+VAL N     H2     sing N N 1275 
+VAL CA    C      sing N N 1276 
+VAL CA    CB     sing N N 1277 
+VAL CA    HA     sing N N 1278 
+VAL C     O      doub N N 1279 
+VAL C     OXT    sing N N 1280 
+VAL CB    CG1    sing N N 1281 
+VAL CB    CG2    sing N N 1282 
+VAL CB    HB     sing N N 1283 
+VAL CG1   HG11   sing N N 1284 
+VAL CG1   HG12   sing N N 1285 
+VAL CG1   HG13   sing N N 1286 
+VAL CG2   HG21   sing N N 1287 
+VAL CG2   HG22   sing N N 1288 
+VAL CG2   HG23   sing N N 1289 
+VAL OXT   HXT    sing N N 1290 
 # 
 _em_admin.current_status     REL 
 _em_admin.deposition_date    2022-06-08 
 _em_admin.deposition_site    PDBE 
 _em_admin.entry_id           8A3L 
-_em_admin.last_update        2025-03-12 
+_em_admin.last_update        2026-04-01 
 _em_admin.map_release_date   2023-05-10 
 _em_admin.title              'Structural  insights  into  the  binding  of  bS1  to the ribosome' 
 # 

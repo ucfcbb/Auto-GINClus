@@ -3,7 +3,7 @@ data_5OOL
 _entry.id   5OOL 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.403 
+_audit_conform.dict_version    5.408 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -60,6 +60,8 @@ _pdbx_audit_revision_history.part_number
 36 'Primary map'     1 0 2017-09-13 ? 
 37 'Structure model' 2 0 2025-04-09 ? 
 38 'EM metadata'     1 1 2025-04-09 ? 
+39 'Structure model' 2 1 2025-12-17 ? 
+40 'EM metadata'     1 2 2025-12-17 ? 
 # 
 loop_
 _pdbx_audit_revision_details.ordinal 
@@ -124,6 +126,8 @@ _pdbx_audit_revision_group.group
 15 38 'EM metadata'     'Database references'    
 16 38 'EM metadata'     'Experimental summary'   
 17 38 'EM metadata'     'Refinement description' 
+18 39 'Structure model' 'Data collection'        
+19 40 'EM metadata'     'Experimental summary'   
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -160,6 +164,8 @@ _pdbx_audit_revision_category.category
 28 38 'EM metadata'     em_3d_fitting_list            
 29 38 'EM metadata'     em_admin                      
 30 38 'EM metadata'     pdbx_initial_refinement_model 
+31 39 'Structure model' em_admin                      
+32 40 'EM metadata'     em_admin                      
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -217,6 +223,8 @@ _pdbx_audit_revision_item.item
 49 38 'EM metadata'     '_em_3d_fitting_list.source_name'                  
 50 38 'EM metadata'     '_em_3d_fitting_list.type'                         
 51 38 'EM metadata'     '_em_admin.last_update'                            
+52 39 'Structure model' '_em_admin.last_update'                            
+53 40 'EM metadata'     '_em_admin.last_update'                            
 # 
 _pdbx_database_status.status_code                     REL 
 _pdbx_database_status.status_code_sf                  ? 
@@ -36914,7 +36922,7 @@ _em_admin.entry_id           5OOL
 _em_admin.current_status     REL 
 _em_admin.deposition_date    2017-08-08 
 _em_admin.deposition_site    PDBE 
-_em_admin.last_update        2025-04-09 
+_em_admin.last_update        2025-12-17 
 _em_admin.map_release_date   2017-09-13 
 _em_admin.title              
 'Structure of a native assembly intermediate of the human mitochondrial ribosome with unfolded interfacial rRNA' 

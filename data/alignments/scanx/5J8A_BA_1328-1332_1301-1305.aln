@@ -1,6 +1,6 @@
 
-#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 8QBT_i:1301-1305_1328-1332:
-#  Alignment score:  39.8
+#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 4V85_AA:1300-1304_1327-1331:
+#  Alignment score:  37.5
 #  P-value:  NA
 #  Query aligned region: 2-4,5-9
 #  Target aligned region: 2-4,5-9
@@ -13,26 +13,7 @@
 	<G(2:)-A(9:) trans S/H>                        MATCHES	<G(2:)-A(9:) trans S/H>
 #  Matched base-stacking interactions: 
 	<A(3:)-G(7:) downward>                         MATCHES	<G(3:)-G(7:) inward>
-	<G(2:)-G(8:) inward>                           MATCHES	<G(2:)-A(8:) upward>
-Total Elapsed Time : 0.008331 sec (copied)
-
-#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 8QBT_i:1328-1332_1301-1305:
-#  Alignment score:  80.4
-#  P-value:  NA
-#  Query aligned region: 0-4,5-9
-#  Target aligned region: 0-4,5-9
-
-	AUGAACCGGA
-	AUGAACCGGA
-
-#  Matched base-pairing interactions: 
-	<A(4:)-G(7:) trans H/S>                        MATCHES	<A(4:)-G(7:) trans H/S>
-	<G(2:)-A(9:) trans S/H>                        MATCHES	<G(2:)-A(9:) trans S/H>
-#  Matched base-stacking interactions: 
-	<A(3:)-G(7:) downward>                         MATCHES	<A(3:)-G(7:) downward>
-	<G(2:)-G(8:) inward>                           MATCHES	<G(2:)-G(8:) inward>
-	<A(3:)-A(9:) upward>                           MATCHES	<A(3:)-A(9:) upward>
-Total Elapsed Time : 0.017705 sec (copied)
+Total Elapsed Time : 0.004743 sec
 
 #  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 4V85_AA:1327-1331_1300-1304:
 #  Alignment score:  62.8
@@ -49,43 +30,7 @@ Total Elapsed Time : 0.017705 sec (copied)
 #  Matched base-stacking interactions: 
 	<G(2:)-G(8:) inward>                           MATCHES	<G(2:)-G(8:) inward>
 	<A(3:)-A(9:) upward>                           MATCHES	<A(3:)-A(9:) upward>
-Total Elapsed Time : 0.006875 sec (copied)
-
-#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 7OTC_a:1301-1305_1328-1332:
-#  Alignment score:  46.4
-#  P-value:  NA
-#  Query aligned region: 2-4,5-9
-#  Target aligned region: 2-4,5-9
-
-	GAACCGGA
-	GGAAUGAA
-
-#  Matched base-pairing interactions: 
-	<A(4:)-G(7:) trans H/S>                        MATCHES	<A(4:)-G(7:) trans H/S>
-	<A(3:)-G(8:) trans W/S>                        MATCHES	<G(3:)-A(8:) trans S/H>
-	<G(2:)-A(9:) trans S/H>                        MATCHES	<G(2:)-A(9:) trans S/H>
-#  Matched base-stacking interactions: 
-	<A(3:)-G(7:) downward>                         MATCHES	<G(3:)-G(7:) inward>
-Total Elapsed Time : 0.011197 sec (copied)
-
-#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 7OIG_2:1328-1332_1301-1305:
-#  Alignment score:  125.0
-#  P-value:  NA
-#  Query aligned region: 0-4,5-9
-#  Target aligned region: 0-4,5-9
-
-	AUGAACCGGA
-	AUGAACCGGA
-
-#  Matched base-pairing interactions: 
-	<A(4:)-G(7:) trans H/S>                        MATCHES	<A(4:)-G(7:) trans H/S>
-	<A(3:)-G(8:) trans W/S>                        MATCHES	<A(3:)-G(8:) trans W/S>
-	<G(2:)-A(9:) trans S/H>                        MATCHES	<G(2:)-A(9:) trans S/H>
-#  Matched base-stacking interactions: 
-	<A(3:)-G(7:) downward>                         MATCHES	<A(3:)-G(7:) downward>
-	<G(2:)-G(8:) inward>                           MATCHES	<G(2:)-G(8:) inward>
-	<A(3:)-A(9:) upward>                           MATCHES	<A(3:)-A(9:) upward>
-Total Elapsed Time : 0.070442 sec (copied)
+Total Elapsed Time : 0.007096 sec
 
 #  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 7OIG_2:1301-1305_1328-1332:
 #  Alignment score:  50.1
@@ -103,10 +48,47 @@ Total Elapsed Time : 0.070442 sec (copied)
 #  Matched base-stacking interactions: 
 	<A(3:)-G(7:) downward>                         MATCHES	<G(3:)-G(7:) inward>
 	<G(2:)-G(8:) inward>                           MATCHES	<G(2:)-A(8:) upward>
-Total Elapsed Time : 0.02238 sec (copied)
+Total Elapsed Time : 0.022381 sec
 
-#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 4V85_AA:1300-1304_1327-1331:
-#  Alignment score:  37.5
+#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 7OIG_2:1328-1332_1301-1305:
+#  Alignment score:  125
+#  P-value:  NA
+#  Query aligned region: 0-4,5-9
+#  Target aligned region: 0-4,5-9
+
+	AUGAACCGGA
+	AUGAACCGGA
+
+#  Matched base-pairing interactions: 
+	<A(4:)-G(7:) trans H/S>                        MATCHES	<A(4:)-G(7:) trans H/S>
+	<A(3:)-G(8:) trans W/S>                        MATCHES	<A(3:)-G(8:) trans W/S>
+	<G(2:)-A(9:) trans S/H>                        MATCHES	<G(2:)-A(9:) trans S/H>
+#  Matched base-stacking interactions: 
+	<A(3:)-G(7:) downward>                         MATCHES	<A(3:)-G(7:) downward>
+	<G(2:)-G(8:) inward>                           MATCHES	<G(2:)-G(8:) inward>
+	<A(3:)-A(9:) upward>                           MATCHES	<A(3:)-A(9:) upward>
+Total Elapsed Time : 0.071542 sec
+
+#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 8QBT_i:1328-1332_1301-1305:
+#  Alignment score:  80.4
+#  P-value:  NA
+#  Query aligned region: 0-4,5-9
+#  Target aligned region: 0-4,5-9
+
+	AUGAACCGGA
+	AUGAACCGGA
+
+#  Matched base-pairing interactions: 
+	<A(4:)-G(7:) trans H/S>                        MATCHES	<A(4:)-G(7:) trans H/S>
+	<G(2:)-A(9:) trans S/H>                        MATCHES	<G(2:)-A(9:) trans S/H>
+#  Matched base-stacking interactions: 
+	<A(3:)-G(7:) downward>                         MATCHES	<A(3:)-G(7:) downward>
+	<G(2:)-G(8:) inward>                           MATCHES	<G(2:)-G(8:) inward>
+	<A(3:)-A(9:) upward>                           MATCHES	<A(3:)-A(9:) upward>
+Total Elapsed Time : 0.018029 sec (copied)
+
+#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 7OTC_a:1301-1305_1328-1332:
+#  Alignment score:  46.4
 #  P-value:  NA
 #  Query aligned region: 2-4,5-9
 #  Target aligned region: 2-4,5-9
@@ -116,10 +98,11 @@ Total Elapsed Time : 0.02238 sec (copied)
 
 #  Matched base-pairing interactions: 
 	<A(4:)-G(7:) trans H/S>                        MATCHES	<A(4:)-G(7:) trans H/S>
+	<A(3:)-G(8:) trans W/S>                        MATCHES	<G(3:)-A(8:) trans S/H>
 	<G(2:)-A(9:) trans S/H>                        MATCHES	<G(2:)-A(9:) trans S/H>
 #  Matched base-stacking interactions: 
 	<A(3:)-G(7:) downward>                         MATCHES	<G(3:)-G(7:) inward>
-Total Elapsed Time : 0.004769 sec (copied)
+Total Elapsed Time : 0.011479 sec (copied)
 
 #  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 7OTC_a:1328-1332_1301-1305:
 #  Alignment score:  62.8
@@ -137,34 +120,21 @@ Total Elapsed Time : 0.004769 sec (copied)
 #  Matched base-stacking interactions: 
 	<G(2:)-G(8:) inward>                           MATCHES	<G(2:)-G(8:) inward>
 	<A(3:)-A(9:) upward>                           MATCHES	<A(3:)-A(9:) outward>
-Total Elapsed Time : 0.018164 sec (copied)
+Total Elapsed Time : 0.018421 sec (copied)
 
-#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 4V77_AA:405-411_424-429:
-#  Alignment score:  3.8
+#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 8QBT_i:1301-1305_1328-1332:
+#  Alignment score:  39.8
 #  P-value:  NA
-#  Query aligned region: 3-3,7-7,8-8
-#  Target aligned region: 4-4,6-6,11-11
+#  Query aligned region: 2-4,5-9
+#  Target aligned region: 2-4,5-9
 
-	AGG
-	AGA
+	GAACCGGA
+	GGAAUGAA
 
 #  Matched base-pairing interactions: 
-	<A(3:)-G(8:) trans W/S>                        MATCHES	<A(4:)-A(11:) trans W/H>
+	<A(4:)-G(7:) trans H/S>                        MATCHES	<A(4:)-G(7:) trans H/S>
+	<G(2:)-A(9:) trans S/H>                        MATCHES	<G(2:)-A(9:) trans S/H>
 #  Matched base-stacking interactions: 
-	<A(3:)-G(7:) downward>                         MATCHES	<A(4:)-G(6:) upward>
-Total Elapsed Time : 0.022053 sec
-
-#  Aligning       :: 5J8A_BA:1328-1332_1301-1305 and 4V77_AA:424-429_405-411:
-#  Alignment score:  4.7
-#  P-value:  NA
-#  Query aligned region: 2-2,3-4,9-9
-#  Target aligned region: 2-2,10-11,12-12
-
-	GAAA
-	GAAG
-
-#  Matched base-pairing interactions: 
-	<G(2:)-A(9:) trans S/H>                        MATCHES	<G(2:)-G(12:) trans S/S>
-#  Matched base-stacking interactions: 
-	<A(3:)-A(9:) upward>                           MATCHES	<A(10:)-G(12:) upward>
-Total Elapsed Time : 0.017931 sec
+	<A(3:)-G(7:) downward>                         MATCHES	<G(3:)-G(7:) inward>
+	<G(2:)-G(8:) inward>                           MATCHES	<G(2:)-A(8:) upward>
+Total Elapsed Time : 0.008553 sec (copied)

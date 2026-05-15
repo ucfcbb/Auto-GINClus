@@ -133,6 +133,9 @@ def read_graph(in_file):
             
     in_file.close()
 
+    ### Randomly mask residue embeddings for GVP
+    residue_embeddings_masked, node_mask = mask_residue_embeddings(residue_embeddings, 0.4)
+
     ### Edge indexes
     ### Node features (scalar, vector)
     h_V = (residue_embeddings, node_coordinates)
@@ -141,7 +144,9 @@ def read_graph(in_file):
     ### Sequence
     letter_to_num = {'A': 0, 'C': 1, 'G': 2, 'U': 3}
     seq = torch.as_tensor([letter_to_num[a] for a in SEQ], device=device, dtype=torch.long)
-    mask = torch.isfinite(node_coordinates.sum(dim=(1,2)))
+    # mask = torch.isfinite(node_coordinates.sum(dim=(1,2)))
+    valid_node_mask = torch.isfinite(node_coordinates.sum(dim=(1,2))) ### Removes nodes with NaN or InF coordinate
+    mask = node_mask & valid_node_mask # combining both masks
 
     return num_nodes, node_features, distance_edge_src, distance_edge_des, distance_edge_features, bond_edge_src, bond_edge_des, bond_edge_features, orientation_edge_src, orientation_edge_des, orientation_edge_features, graph_label, PDB_location, h_V, h_E, seq, mask
 ########### Read input data to generate graph representation ###########
@@ -319,8 +324,8 @@ class GVPModel(torch.nn.Module):
                 GVPConvLayer(node_h_dim, edge_h_dim, drop_rate=drop_rate) 
             for _ in range(num_layers))
         
-        self.W_s = nn.Embedding(20, 20)
-        edge_h_dim = (edge_h_dim[0] + 20, edge_h_dim[1])
+        self.W_s = nn.Embedding(4, 4)
+        edge_h_dim = (edge_h_dim[0] + 4, edge_h_dim[1])
       
         self.decoder_layers = nn.ModuleList(
                 GVPConvLayer(node_h_dim, edge_h_dim, 
@@ -365,6 +370,25 @@ class GVPModel(torch.nn.Module):
 
             return h_scalar
 ########### GVP Model run ########### 
+
+
+###### Masked node embeddings for GVP node scalar features ######
+def mask_residue_embeddings(residue_embeddings, mask_ratio=0.4):
+    N = residue_embeddings.shape[0]
+
+    # 1. Sample random mask
+    num_mask = max(1, round(mask_ratio * N))
+    random_index = torch.randperm(N, device=device)
+    mask = torch.zeros(N, dtype=torch.bool, device=device)
+    mask[random_index[:num_mask]] = True
+
+    # 2. Clone to avoid in-place issues
+    residue_embeddings_masked = residue_embeddings.clone()
+
+    # 3. Mask nucleotide features (assuming first 4 dims = one-hot)
+    residue_embeddings_masked[mask, :4] = 0.0
+
+    return residue_embeddings_masked, mask
 
 
 ###### Masked Edge index ######

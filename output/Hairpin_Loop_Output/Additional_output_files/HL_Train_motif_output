@@ -1,225 +1,260 @@
-Number of graphs: 654
+Number of graphs: 651
 Node types: ['nucleotide']
 Edge types: [('nucleotide', 'bonds_with', 'nucleotide'), ('nucleotide', 'orientation_to', 'nucleotide'), ('nucleotide', 'distance_from', 'nucleotide')]
 Author node features shape: torch.Size([6, 4])
-[147, 271, 107, 349, 174, 634, 436, 651, 283, 71, 521, 45, 505, 28, 204, 616, 367, 408, 609, 308, 337, 473, 460, 295, 213, 129, 65, 530, 579, 465, 625, 74, 537, 631, 144, 424, 229, 652, 208, 377, 145, 61, 292, 206, 409, 649, 24, 472, 178, 575, 238, 220, 175, 483, 225, 260, 553, 331, 432, 578, 265, 138, 383, 140, 297, 389, 338, 92, 571, 645, 564, 344, 610, 492, 457, 562, 595, 8, 479, 317, 102, 642, 117, 150, 528, 541, 557, 155, 420, 542, 106, 400, 426, 478, 329, 148, 15, 272, 351, 319, 482, 19, 135, 21, 77, 85, 421, 617, 488, 259, 487, 352, 620, 493, 360, 177, 341, 123, 253, 169, 531, 184, 280, 414, 525, 501, 304, 626, 101, 290, 31, 398, 513, 143, 552, 201, 200, 325, 318, 607, 149, 62, 628, 467, 539, 524, 588, 356, 226, 291, 639, 20, 623, 311, 57, 156, 648, 78, 89, 159, 385, 514, 555, 59, 435, 394, 180, 350, 168, 288, 369, 597, 638, 32, 136, 600, 515, 234, 205, 251, 141, 48, 256, 90, 549, 434, 214, 196, 417, 556, 533, 252, 632, 66, 279, 612, 170, 151, 240, 209, 428, 540, 33, 449, 576, 591, 405, 7, 278, 373, 261, 124, 228, 182, 334, 572, 187, 463, 127, 641, 458, 604, 624, 509, 232, 340, 82, 248, 353, 303, 445, 27, 86, 163, 570, 113, 517, 42, 125, 263, 580, 410, 485, 563, 453, 330, 347, 502, 67, 50, 313, 300, 108, 75, 608, 412, 255, 376, 419, 348, 166, 621, 309, 98, 395, 282, 55, 629, 81, 241, 274, 593, 547, 508, 6, 133, 211, 354, 219, 343, 647, 375, 613, 592, 14, 193, 529, 194, 17, 94, 130, 139, 355, 173, 451, 573, 258, 499, 365, 452, 456, 497, 378, 56, 9, 519, 606, 146, 594, 332, 534, 199, 215, 443, 429, 114, 222, 496, 582, 388, 11, 230, 29, 183, 561, 120, 516, 235, 210, 105, 97, 257, 296, 54, 476, 63, 523, 91, 246, 403, 323, 324, 393, 53, 242, 83, 532, 640, 46, 2, 416, 470, 336, 489, 461, 239, 615, 601, 339, 68, 316, 305, 411, 379, 250, 80, 567, 346, 179, 254, 433, 121, 3, 342, 503, 13, 275, 545, 611, 16, 425, 116, 157, 404, 422, 406, 586, 636, 73, 164, 440, 560, 158, 5, 566, 314, 203, 372, 126, 399, 58, 37, 361, 511, 345, 247, 301, 550, 474, 633, 30, 306, 491, 131, 481, 262, 450, 181, 4, 104, 72, 448, 152, 320, 439, 431, 455, 464, 197, 269, 52, 413, 614, 103, 602, 397, 171, 244, 581, 302, 264, 237, 415, 438, 366, 444, 536, 535, 643, 441, 327, 494, 407, 471, 307, 590, 39, 603, 69, 484, 47, 459, 565, 137, 231, 207, 644, 382, 25, 216, 507, 88, 43, 281, 299, 558, 374, 110, 315, 10, 522, 202, 284, 364, 396, 227, 38, 328, 486, 111, 223, 357, 162, 520, 391, 44, 510, 477, 554, 321, 18, 233, 132, 1, 0, 619, 618, 115, 427, 165, 128, 546, 423, 596, 217, 380, 585, 270, 358, 64, 490, 381, 627, 598, 79, 221, 322, 109, 273, 500, 60, 430, 276, 637, 335, 96, 119, 192, 186, 559, 462, 153, 36, 543, 446, 245, 569, 161, 518, 289, 12, 454, 198, 635, 512, 195, 527, 390, 22, 568, 118, 475, 190, 504, 236, 310, 577, 359, 630, 23, 584, 551, 548, 418, 99, 142, 35, 100, 468, 41, 188, 224, 160, 70, 267, 469, 93, 312, 583, 442, 401, 622, 384, 506, 402, 191, 154, 185, 249, 392, 480, 466, 363, 112, 599, 243, 134, 386, 447, 589, 605, 95, 362, 176, 650, 268, 293, 212, 285, 287, 653, 49, 87, 368, 294, 122, 526, 167, 587, 84, 34, 437, 189, 574, 326, 370, 387, 40, 646, 277, 538, 172, 266, 26, 286, 498, 51, 298, 495, 544, 371, 333, 76, 218]
+[15, 535, 11, 167, 293, 477, 386, 116, 43, 115, 497, 456, 419, 114, 431, 475, 211, 181, 313, 169, 595, 611, 470, 195, 630, 319, 213, 286, 568, 75, 129, 243, 500, 645, 59, 160, 261, 564, 346, 614, 602, 468, 19, 355, 297, 214, 489, 509, 501, 240, 60, 13, 29, 596, 398, 288, 294, 321, 538, 176, 590, 370, 151, 586, 496, 519, 30, 177, 385, 387, 517, 252, 38, 446, 531, 460, 638, 393, 35, 484, 634, 467, 108, 57, 301, 443, 225, 399, 280, 179, 633, 371, 336, 367, 50, 227, 549, 528, 74, 163, 244, 649, 428, 73, 76, 377, 56, 40, 525, 339, 91, 299, 403, 391, 85, 504, 183, 532, 290, 452, 530, 362, 490, 199, 232, 269, 178, 128, 545, 201, 289, 51, 83, 438, 103, 152, 486, 6, 400, 352, 237, 188, 581, 113, 471, 61, 5, 560, 94, 180, 32, 202, 314, 495, 642, 343, 236, 598, 230, 264, 337, 320, 221, 643, 608, 162, 255, 70, 207, 58, 120, 618, 384, 441, 107, 459, 548, 292, 364, 480, 238, 259, 539, 542, 373, 644, 234, 89, 84, 4, 434, 551, 33, 281, 379, 647, 451, 555, 569, 31, 256, 353, 298, 194, 448, 334, 135, 579, 526, 409, 516, 433, 173, 166, 363, 209, 242, 39, 327, 646, 270, 17, 328, 300, 278, 86, 226, 331, 575, 45, 416, 77, 235, 623, 360, 250, 80, 332, 62, 133, 210, 529, 463, 458, 68, 414, 425, 637, 357, 0, 435, 101, 442, 462, 388, 609, 122, 610, 427, 591, 603, 139, 148, 64, 254, 615, 550, 262, 520, 392, 317, 124, 266, 557, 121, 182, 92, 258, 97, 276, 552, 469, 263, 407, 588, 134, 144, 534, 309, 69, 487, 585, 7, 18, 506, 478, 25, 426, 9, 580, 472, 310, 87, 81, 600, 65, 350, 613, 498, 27, 422, 88, 635, 432, 147, 224, 482, 454, 574, 444, 612, 302, 406, 380, 335, 12, 617, 220, 308, 546, 372, 624, 175, 34, 46, 241, 584, 67, 295, 111, 311, 412, 318, 155, 537, 410, 554, 200, 141, 228, 492, 465, 576, 268, 316, 112, 102, 543, 165, 420, 324, 439, 44, 395, 540, 445, 378, 161, 340, 157, 365, 650, 429, 390, 417, 307, 347, 104, 273, 246, 123, 21, 191, 154, 344, 196, 547, 23, 401, 247, 648, 597, 449, 304, 16, 96, 430, 491, 383, 63, 193, 10, 47, 277, 275, 192, 453, 499, 106, 265, 573, 322, 172, 272, 527, 356, 189, 359, 217, 158, 8, 127, 306, 514, 24, 415, 132, 559, 382, 287, 20, 285, 143, 423, 229, 131, 570, 418, 239, 119, 587, 326, 208, 279, 563, 22, 55, 164, 396, 216, 369, 594, 109, 305, 483, 186, 78, 296, 284, 558, 187, 625, 361, 571, 544, 474, 282, 629, 170, 303, 42, 621, 333, 522, 408, 457, 351, 485, 589, 620, 513, 402, 130, 205, 190, 464, 140, 375, 349, 524, 405, 368, 389, 14, 218, 150, 481, 437, 184, 271, 212, 156, 52, 515, 257, 636, 219, 291, 36, 626, 511, 607, 338, 381, 125, 168, 2, 601, 510, 592, 494, 253, 323, 604, 142, 260, 93, 203, 424, 476, 153, 82, 374, 312, 599, 622, 137, 639, 100, 565, 561, 345, 397, 118, 174, 105, 553, 447, 138, 616, 54, 473, 283, 248, 488, 185, 376, 1, 233, 48, 223, 521, 413, 315, 245, 222, 251, 508, 26, 567, 411, 606, 523, 627, 204, 533, 404, 249, 348, 541, 197, 354, 72, 342, 593, 329, 394, 79, 366, 493, 274, 479, 605, 145, 126, 215, 512, 71, 440, 640, 325, 582, 556, 502, 37, 28, 206, 341, 619, 466, 507, 117, 231, 136, 198, 110, 518, 578, 628, 146, 267, 330, 49, 3, 66, 572, 450, 503, 632, 455, 95, 41, 562, 159, 583, 421, 536, 566, 577, 90, 53, 461, 98, 358, 505, 149, 641, 436, 171, 631, 99]
 Run no:: 1
 Sarting GVP training...
-EPOCH 0 TRAIN loss: 1.3247 acc: 0.3620
-EPOCH 0 VAL loss: 1.3126 acc: 0.3548
-EPOCH 5 TRAIN loss: 0.0600 acc: 0.9979
-EPOCH 5 VAL loss: 0.0379 acc: 1.0000
-EPOCH 10 TRAIN loss: 0.0121 acc: 1.0000
-EPOCH 10 VAL loss: 0.0095 acc: 1.0000
-EPOCH 15 TRAIN loss: 0.0050 acc: 1.0000
-EPOCH 15 VAL loss: 0.0042 acc: 1.0000
-EPOCH 20 TRAIN loss: 0.0028 acc: 1.0000
-EPOCH 20 VAL loss: 0.0024 acc: 1.0000
-EPOCH 25 TRAIN loss: 0.0017 acc: 1.0000
-EPOCH 25 VAL loss: 0.0015 acc: 1.0000
-EPOCH 30 TRAIN loss: 0.0011 acc: 1.0000
-EPOCH 30 VAL loss: 0.0010 acc: 1.0000
-EPOCH 35 TRAIN loss: 0.0008 acc: 1.0000
-EPOCH 35 VAL loss: 0.0007 acc: 1.0000
-EPOCH 40 TRAIN loss: 0.0006 acc: 1.0000
-EPOCH 40 VAL loss: 0.0005 acc: 1.0000
-EPOCH 45 TRAIN loss: 0.0004 acc: 1.0000
-EPOCH 45 VAL loss: 0.0004 acc: 1.0000
-EPOCH 50 TRAIN loss: 0.0003 acc: 1.0000
-EPOCH 50 VAL loss: 0.0003 acc: 1.0000
-EPOCH 55 TRAIN loss: 0.0002 acc: 1.0000
-EPOCH 55 VAL loss: 0.0002 acc: 1.0000
-EPOCH 60 TRAIN loss: 0.0002 acc: 1.0000
-EPOCH 60 VAL loss: 0.0002 acc: 1.0000
-EPOCH 65 TRAIN loss: 0.0001 acc: 1.0000
-EPOCH 65 VAL loss: 0.0001 acc: 1.0000
-EPOCH 70 TRAIN loss: 0.0001 acc: 1.0000
-EPOCH 70 VAL loss: 0.0001 acc: 1.0000
-EPOCH 75 TRAIN loss: 0.0001 acc: 1.0000
-EPOCH 75 VAL loss: 0.0001 acc: 1.0000
-EPOCH 80 TRAIN loss: 0.0001 acc: 1.0000
-EPOCH 80 VAL loss: 0.0001 acc: 1.0000
-EPOCH 85 TRAIN loss: 0.0001 acc: 1.0000
-EPOCH 85 VAL loss: 0.0001 acc: 1.0000
-EPOCH 90 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 90 VAL loss: 0.0000 acc: 1.0000
-EPOCH 95 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 95 VAL loss: 0.0000 acc: 1.0000
-EPOCH 99 TEST loss: 0.0000 acc: 1.0000
+EPOCH 0 TRAIN loss: 1.3442 acc: 0.3265
+EPOCH 0 VAL loss: 1.3636 acc: 0.2783
+EPOCH 5 TRAIN loss: 1.3248 acc: 0.3919
+EPOCH 5 VAL loss: 1.3561 acc: 0.3739
+EPOCH 10 TRAIN loss: 1.1181 acc: 0.5320
+EPOCH 10 VAL loss: 1.1162 acc: 0.5739
+EPOCH 15 TRAIN loss: 1.0683 acc: 0.5427
+EPOCH 15 VAL loss: 1.0726 acc: 0.5652
+EPOCH 20 TRAIN loss: 1.0591 acc: 0.5590
+EPOCH 20 VAL loss: 1.0661 acc: 0.5652
+EPOCH 25 TRAIN loss: 1.0436 acc: 0.5661
+EPOCH 25 VAL loss: 1.0534 acc: 0.5652
+EPOCH 30 TRAIN loss: 1.0289 acc: 0.5626
+EPOCH 30 VAL loss: 1.0385 acc: 0.5652
+EPOCH 35 TRAIN loss: 1.0144 acc: 0.5740
+EPOCH 35 VAL loss: 1.0361 acc: 0.5739
+EPOCH 40 TRAIN loss: 0.9875 acc: 0.5718
+EPOCH 40 VAL loss: 1.0084 acc: 0.5652
+EPOCH 45 TRAIN loss: 0.9517 acc: 0.5825
+EPOCH 45 VAL loss: 0.9594 acc: 0.6348
+EPOCH 50 TRAIN loss: 0.9087 acc: 0.6060
+EPOCH 50 VAL loss: 0.9750 acc: 0.5652
+EPOCH 55 TRAIN loss: 0.8553 acc: 0.6287
+EPOCH 55 VAL loss: 0.8936 acc: 0.6348
+EPOCH 60 TRAIN loss: 0.8005 acc: 0.6679
+EPOCH 60 VAL loss: 0.8533 acc: 0.6000
+EPOCH 65 TRAIN loss: 0.7667 acc: 0.6679
+EPOCH 65 VAL loss: 0.8061 acc: 0.6000
+EPOCH 70 TRAIN loss: 0.7485 acc: 0.6785
+EPOCH 70 VAL loss: 0.7432 acc: 0.7130
+EPOCH 75 TRAIN loss: 0.7140 acc: 0.6927
+EPOCH 75 VAL loss: 0.7467 acc: 0.7739
+EPOCH 80 TRAIN loss: 0.6815 acc: 0.7212
+EPOCH 80 VAL loss: 0.7559 acc: 0.7304
+EPOCH 85 TRAIN loss: 0.6732 acc: 0.7340
+EPOCH 85 VAL loss: 0.7045 acc: 0.6957
+EPOCH 90 TRAIN loss: 0.6529 acc: 0.7368
+EPOCH 90 VAL loss: 0.7915 acc: 0.7043
+EPOCH 95 TRAIN loss: 0.6415 acc: 0.7411
+EPOCH 95 VAL loss: 0.6816 acc: 0.7565
+EPOCH 100 TRAIN loss: 0.6189 acc: 0.7646
+EPOCH 100 VAL loss: 0.6873 acc: 0.7304
+EPOCH 105 TRAIN loss: 0.6159 acc: 0.7532
+EPOCH 105 VAL loss: 0.6669 acc: 0.7565
+EPOCH 110 TRAIN loss: 0.6117 acc: 0.7632
+EPOCH 110 VAL loss: 0.6796 acc: 0.7391
+EPOCH 115 TRAIN loss: 0.5927 acc: 0.7710
+EPOCH 115 VAL loss: 0.6608 acc: 0.7565
+EPOCH 120 TRAIN loss: 0.5912 acc: 0.7724
+EPOCH 120 VAL loss: 0.6305 acc: 0.7739
+EPOCH 125 TRAIN loss: 0.5790 acc: 0.7667
+EPOCH 125 VAL loss: 0.6822 acc: 0.6957
+EPOCH 129 TEST loss: 0.5790 acc: 0.8407
 Sarting GINE Autoencoder training...
-Epoch 0: Train Loss = 98.0337
-Epoch 0: Validation Loss = 15.8161, Val AUC = 0.6176
-Epoch 5: Train Loss = 1.2285
-Epoch 5: Validation Loss = 8.3366, Val AUC = 0.7477
-Epoch 10: Train Loss = 1.1971
-Epoch 10: Validation Loss = 6.6682, Val AUC = 0.9446
-Epoch 15: Train Loss = 1.1093
-Epoch 15: Validation Loss = 6.8394, Val AUC = 0.9336
-Epoch 20: Train Loss = 1.0969
-Epoch 20: Validation Loss = 6.8668, Val AUC = 0.7062
-Epoch 25: Train Loss = 1.1227
-Epoch 25: Validation Loss = 6.5660, Val AUC = 0.8988
-Epoch 30: Train Loss = 1.0948
-Epoch 30: Validation Loss = 10.9664, Val AUC = 0.9128
-Epoch 35: Train Loss = 1.1200
-Epoch 35: Validation Loss = 6.3077, Val AUC = 0.8644
-Epoch 40: Train Loss = 1.0730
-Epoch 40: Validation Loss = 7.2226, Val AUC = 0.8342
-Epoch 45: Train Loss = 1.2184
-Epoch 45: Validation Loss = 6.6671, Val AUC = 0.8576
-Epoch 50: Train Loss = 1.0400
-Epoch 50: Validation Loss = 6.4436, Val AUC = 0.9601
-Epoch 55: Train Loss = 1.0312
-Epoch 55: Validation Loss = 5.9855, Val AUC = 0.8931
-Epoch 60: Train Loss = 1.0056
-Epoch 60: Validation Loss = 5.7050, Val AUC = 0.9856
-Epoch 65: Train Loss = 0.9901
-Epoch 65: Validation Loss = 5.8506, Val AUC = 0.8887
-Epoch 70: Train Loss = 1.0105
-Epoch 70: Validation Loss = 5.7405, Val AUC = 0.9803
-Epoch 75: Train Loss = 0.9855
-Epoch 75: Validation Loss = 6.0276, Val AUC = 0.9029
-Epoch 80: Train Loss = 0.9767
-Epoch 80: Validation Loss = 5.9599, Val AUC = 0.9438
-Epoch 85: Train Loss = 0.9882
-Epoch 85: Validation Loss = 6.0083, Val AUC = 0.8853
-Epoch 90: Train Loss = 0.9639
-Epoch 90: Validation Loss = 5.8247, Val AUC = 0.9534
-Epoch 95: Train Loss = 0.9777
-Epoch 95: Validation Loss = 6.3307, Val AUC = 0.8731
-Epoch 100: Train Loss = 0.9788
-Epoch 100: Validation Loss = 6.9041, Val AUC = 0.6874
-Epoch 105: Train Loss = 0.9675
-Epoch 105: Validation Loss = 5.5648, Val AUC = 0.9744
-Epoch 110: Train Loss = 0.9691
-Epoch 110: Validation Loss = 5.9075, Val AUC = 0.9374
-Stopping early at epoch 113.
-Test AUC: 0.9001, Loss = 1.0843
+Epoch 0: Train Loss = 99.3835
+Epoch 0: Validation Loss = 19.2258, Val AUC = 0.8658
+Epoch 5: Train Loss = 1.1515
+Epoch 5: Validation Loss = 9.3320, Val AUC = 0.9375
+Epoch 10: Train Loss = 1.1837
+Epoch 10: Validation Loss = 7.4633, Val AUC = 0.9375
+Epoch 15: Train Loss = 1.2471
+Epoch 15: Validation Loss = 22.0754, Val AUC = 0.6688
+Epoch 20: Train Loss = 1.0509
+Epoch 20: Validation Loss = 6.7076, Val AUC = 0.9931
+Epoch 25: Train Loss = 1.0957
+Epoch 25: Validation Loss = 6.3854, Val AUC = 0.9537
+Epoch 30: Train Loss = 1.0607
+Epoch 30: Validation Loss = 6.3869, Val AUC = 0.9815
+Epoch 35: Train Loss = 1.0610
+Epoch 35: Validation Loss = 7.4701, Val AUC = 0.9583
+Epoch 40: Train Loss = 1.1914
+Epoch 40: Validation Loss = 6.0732, Val AUC = 0.9638
+Epoch 45: Train Loss = 1.1746
+Epoch 45: Validation Loss = 6.2196, Val AUC = 0.9549
+Epoch 50: Train Loss = 1.0095
+Epoch 50: Validation Loss = 7.8618, Val AUC = 0.9800
+Epoch 55: Train Loss = 1.0043
+Epoch 55: Validation Loss = 6.3657, Val AUC = 0.9219
+Epoch 60: Train Loss = 1.0250
+Epoch 60: Validation Loss = 6.4679, Val AUC = 0.9722
+Epoch 65: Train Loss = 1.0248
+Epoch 65: Validation Loss = 6.6228, Val AUC = 0.9861
+Epoch 70: Train Loss = 0.9996
+Epoch 70: Validation Loss = 5.7102, Val AUC = 0.9784
+Epoch 75: Train Loss = 0.9686
+Epoch 75: Validation Loss = 5.9018, Val AUC = 0.9044
+Epoch 80: Train Loss = 0.9422
+Epoch 80: Validation Loss = 5.6834, Val AUC = 0.9583
+Epoch 85: Train Loss = 0.9512
+Epoch 85: Validation Loss = 5.6208, Val AUC = 0.9306
+Epoch 90: Train Loss = 0.9378
+Epoch 90: Validation Loss = 5.8387, Val AUC = 0.9583
+Epoch 95: Train Loss = 0.9326
+Epoch 95: Validation Loss = 5.4716, Val AUC = 0.9931
+Epoch 100: Train Loss = 0.9270
+Epoch 100: Validation Loss = 5.8109, Val AUC = 0.9375
+Epoch 105: Train Loss = 0.9231
+Epoch 105: Validation Loss = 5.4127, Val AUC = 0.9900
+Epoch 110: Train Loss = 0.9201
+Epoch 110: Validation Loss = 5.3005, Val AUC = 0.9900
+Epoch 115: Train Loss = 0.9161
+Epoch 115: Validation Loss = 5.8277, Val AUC = 0.9861
+Epoch 120: Train Loss = 0.9132
+Epoch 120: Validation Loss = 5.6134, Val AUC = 0.9792
+Epoch 125: Train Loss = 0.9226
+Epoch 125: Validation Loss = 5.3124, Val AUC = 0.9784
+Epoch 130: Train Loss = 0.8970
+Epoch 130: Validation Loss = 5.5744, Val AUC = 0.9271
+Epoch 135: Train Loss = 0.9157
+Epoch 135: Validation Loss = 6.1615, Val AUC = 0.9184
+Stopping early at epoch 138.
+Test AUC: 0.9656, Loss = 0.8649
 Run no:: 2
 Sarting GVP training...
-EPOCH 0 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 0 VAL loss: 0.0000 acc: 1.0000
-EPOCH 5 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 5 VAL loss: 0.0000 acc: 1.0000
-EPOCH 10 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 10 VAL loss: 0.0000 acc: 1.0000
-EPOCH 15 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 15 VAL loss: 0.0000 acc: 1.0000
-EPOCH 20 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 20 VAL loss: 0.0000 acc: 1.0000
-EPOCH 25 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 25 VAL loss: 0.0000 acc: 1.0000
-EPOCH 30 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 30 VAL loss: 0.0000 acc: 1.0000
-EPOCH 35 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 35 VAL loss: 0.0000 acc: 1.0000
-EPOCH 40 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 40 VAL loss: 0.0000 acc: 1.0000
-EPOCH 45 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 45 VAL loss: 0.0000 acc: 1.0000
-EPOCH 50 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 50 VAL loss: 0.0000 acc: 1.0000
-EPOCH 55 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 55 VAL loss: 0.0000 acc: 1.0000
-EPOCH 60 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 60 VAL loss: 0.0000 acc: 1.0000
-EPOCH 65 TRAIN loss: 0.0009 acc: 1.0000
-EPOCH 65 VAL loss: 0.0002 acc: 1.0000
-EPOCH 70 TRAIN loss: 0.0002 acc: 1.0000
-EPOCH 70 VAL loss: 0.0001 acc: 1.0000
-Stopping early at epoch 74.
-EPOCH 73 TEST loss: 0.0000 acc: 1.0000
+EPOCH 0 TRAIN loss: 0.5810 acc: 0.7674
+EPOCH 0 VAL loss: 0.6814 acc: 0.6957
+EPOCH 5 TRAIN loss: 0.5682 acc: 0.7838
+EPOCH 5 VAL loss: 0.6801 acc: 0.7304
+EPOCH 10 TRAIN loss: 0.5530 acc: 0.7888
+EPOCH 10 VAL loss: 0.6640 acc: 0.7478
+EPOCH 15 TRAIN loss: 0.5676 acc: 0.7845
+EPOCH 15 VAL loss: 0.6292 acc: 0.7391
+EPOCH 20 TRAIN loss: 0.5593 acc: 0.7895
+EPOCH 20 VAL loss: 0.6657 acc: 0.7304
+EPOCH 25 TRAIN loss: 0.5511 acc: 0.7945
+EPOCH 25 VAL loss: 0.6269 acc: 0.7130
+EPOCH 30 TRAIN loss: 0.5525 acc: 0.7881
+EPOCH 30 VAL loss: 0.6567 acc: 0.7304
+EPOCH 35 TRAIN loss: 0.5444 acc: 0.7902
+EPOCH 35 VAL loss: 0.6450 acc: 0.7217
+EPOCH 40 TRAIN loss: 0.5349 acc: 0.7987
+EPOCH 40 VAL loss: 0.6989 acc: 0.7043
+EPOCH 45 TRAIN loss: 0.5375 acc: 0.7866
+EPOCH 45 VAL loss: 0.6417 acc: 0.7043
+EPOCH 50 TRAIN loss: 0.5308 acc: 0.7973
+EPOCH 50 VAL loss: 0.6178 acc: 0.7130
+EPOCH 55 TRAIN loss: 0.5298 acc: 0.7923
+EPOCH 55 VAL loss: 0.6268 acc: 0.7391
+EPOCH 60 TRAIN loss: 0.5344 acc: 0.7923
+EPOCH 60 VAL loss: 0.6315 acc: 0.7217
+EPOCH 65 TRAIN loss: 0.5183 acc: 0.8115
+EPOCH 65 VAL loss: 0.6720 acc: 0.7217
+EPOCH 70 TRAIN loss: 0.5162 acc: 0.8080
+EPOCH 70 VAL loss: 0.6867 acc: 0.7304
+EPOCH 75 TRAIN loss: 0.5203 acc: 0.8044
+EPOCH 75 VAL loss: 0.6497 acc: 0.7217
+EPOCH 80 TRAIN loss: 0.5257 acc: 0.8087
+EPOCH 80 VAL loss: 0.6243 acc: 0.7565
+EPOCH 85 TRAIN loss: 0.5078 acc: 0.8080
+EPOCH 85 VAL loss: 0.6320 acc: 0.7478
+EPOCH 90 TRAIN loss: 0.4929 acc: 0.8108
+EPOCH 90 VAL loss: 0.6502 acc: 0.7217
+EPOCH 95 TRAIN loss: 0.4930 acc: 0.8065
+EPOCH 95 VAL loss: 0.6644 acc: 0.7391
+EPOCH 100 TRAIN loss: 0.5109 acc: 0.8058
+EPOCH 100 VAL loss: 0.6057 acc: 0.7478
+EPOCH 105 TRAIN loss: 0.4934 acc: 0.8172
+EPOCH 105 VAL loss: 0.6089 acc: 0.7565
+EPOCH 110 TRAIN loss: 0.5124 acc: 0.8108
+EPOCH 110 VAL loss: 0.6347 acc: 0.7565
+Stopping early at epoch 115.
+EPOCH 114 TEST loss: 0.5067 acc: 0.8230
 Sarting GINE Autoencoder training...
-Epoch 0: Train Loss = 1.0261
-Epoch 0: Validation Loss = 6.0489, Val AUC = 0.8659
-Epoch 5: Train Loss = 0.9540
-Epoch 5: Validation Loss = 5.2678, Val AUC = 0.9933
-Epoch 10: Train Loss = 0.9662
-Epoch 10: Validation Loss = 5.7707, Val AUC = 0.9477
-Epoch 15: Train Loss = 0.9665
-Epoch 15: Validation Loss = 5.6464, Val AUC = 0.9714
-Epoch 20: Train Loss = 0.9494
-Epoch 20: Validation Loss = 6.1056, Val AUC = 0.9189
-Epoch 25: Train Loss = 0.9618
-Epoch 25: Validation Loss = 5.5378, Val AUC = 0.9533
-Epoch 30: Train Loss = 0.9558
-Epoch 30: Validation Loss = 5.8730, Val AUC = 0.9618
-Epoch 35: Train Loss = 0.9523
-Epoch 35: Validation Loss = 5.5307, Val AUC = 0.9878
-Stopping early at epoch 36.
-Test AUC: 0.9398, Loss = 0.9489
+Epoch 0: Train Loss = 0.9645
+Epoch 0: Validation Loss = 6.1334, Val AUC = 0.9700
+Epoch 5: Train Loss = 0.9292
+Epoch 5: Validation Loss = 5.9458, Val AUC = 0.9061
+Epoch 10: Train Loss = 0.9084
+Epoch 10: Validation Loss = 5.8923, Val AUC = 0.8472
+Epoch 15: Train Loss = 0.9074
+Epoch 15: Validation Loss = 6.2511, Val AUC = 0.7847
+Epoch 20: Train Loss = 0.9082
+Epoch 20: Validation Loss = 5.3244, Val AUC = 0.9815
+Epoch 25: Train Loss = 0.8941
+Epoch 25: Validation Loss = 5.6134, Val AUC = 0.9531
+Epoch 30: Train Loss = 0.8667
+Epoch 30: Validation Loss = 6.4224, Val AUC = 0.9427
+Epoch 35: Train Loss = 0.8900
+Epoch 35: Validation Loss = 5.6605, Val AUC = 0.9153
+Epoch 40: Train Loss = 0.9161
+Epoch 40: Validation Loss = 5.1318, Val AUC = 0.9722
+Epoch 45: Train Loss = 0.8898
+Epoch 45: Validation Loss = 5.3911, Val AUC = 0.9600
+Epoch 50: Train Loss = 0.8824
+Epoch 50: Validation Loss = 5.8137, Val AUC = 0.9761
+Epoch 55: Train Loss = 0.8934
+Epoch 55: Validation Loss = 5.7589, Val AUC = 0.9375
+Epoch 60: Train Loss = 0.8741
+Epoch 60: Validation Loss = 5.7567, Val AUC = 0.9344
+Epoch 65: Train Loss = 0.8895
+Epoch 65: Validation Loss = 5.2481, Val AUC = 0.9583
+Epoch 70: Train Loss = 0.8923
+Epoch 70: Validation Loss = 5.6855, Val AUC = 0.9514
+Stopping early at epoch 74.
+Test AUC: 0.9602, Loss = 0.9198
 Run no:: 3
 Sarting GVP training...
-EPOCH 0 TRAIN loss: 0.0001 acc: 1.0000
-EPOCH 0 VAL loss: 0.0000 acc: 1.0000
-EPOCH 5 TRAIN loss: 0.0001 acc: 1.0000
-EPOCH 5 VAL loss: 0.0000 acc: 1.0000
-EPOCH 10 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 10 VAL loss: 0.0000 acc: 1.0000
-EPOCH 15 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 15 VAL loss: 0.0000 acc: 1.0000
-EPOCH 20 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 20 VAL loss: 0.0000 acc: 1.0000
-EPOCH 25 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 25 VAL loss: 0.0000 acc: 1.0000
-EPOCH 30 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 30 VAL loss: 0.0000 acc: 1.0000
-EPOCH 35 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 35 VAL loss: 0.0000 acc: 1.0000
-EPOCH 40 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 40 VAL loss: 0.0000 acc: 1.0000
-EPOCH 45 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 45 VAL loss: 0.0000 acc: 1.0000
-EPOCH 50 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 50 VAL loss: 0.0000 acc: 1.0000
-EPOCH 55 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 55 VAL loss: 0.0000 acc: 1.0000
-EPOCH 60 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 60 VAL loss: 0.0000 acc: 1.0000
-EPOCH 65 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 65 VAL loss: 0.0000 acc: 1.0000
-EPOCH 70 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 70 VAL loss: 0.0000 acc: 1.0000
-EPOCH 75 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 75 VAL loss: 0.0000 acc: 1.0000
-EPOCH 80 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 80 VAL loss: 0.0000 acc: 1.0000
-EPOCH 85 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 85 VAL loss: 0.0000 acc: 1.0000
-EPOCH 90 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 90 VAL loss: 0.0000 acc: 1.0000
-EPOCH 95 TRAIN loss: 0.0000 acc: 1.0000
-EPOCH 95 VAL loss: 0.0000 acc: 1.0000
-EPOCH 99 TEST loss: 0.0000 acc: 1.0000
+EPOCH 0 TRAIN loss: 0.5085 acc: 0.8087
+EPOCH 0 VAL loss: 0.6976 acc: 0.7130
+EPOCH 5 TRAIN loss: 0.5092 acc: 0.8065
+EPOCH 5 VAL loss: 0.6385 acc: 0.7391
+EPOCH 10 TRAIN loss: 0.4929 acc: 0.8094
+EPOCH 10 VAL loss: 0.6291 acc: 0.7652
+EPOCH 15 TRAIN loss: 0.4900 acc: 0.8165
+EPOCH 15 VAL loss: 0.6530 acc: 0.7391
+EPOCH 20 TRAIN loss: 0.4903 acc: 0.8115
+EPOCH 20 VAL loss: 0.6915 acc: 0.7043
+EPOCH 25 TRAIN loss: 0.4979 acc: 0.8044
+EPOCH 25 VAL loss: 0.6711 acc: 0.7304
+EPOCH 30 TRAIN loss: 0.4868 acc: 0.8193
+EPOCH 30 VAL loss: 0.6488 acc: 0.7304
+Stopping early at epoch 33.
+EPOCH 32 TEST loss: 0.5049 acc: 0.8319
 Sarting GINE Autoencoder training...
-Epoch 0: Train Loss = 1.0552
-Epoch 0: Validation Loss = 5.9199, Val AUC = 0.9222
-Epoch 5: Train Loss = 0.9457
-Epoch 5: Validation Loss = 5.7634, Val AUC = 0.9133
-Epoch 10: Train Loss = 0.9353
-Epoch 10: Validation Loss = 5.8353, Val AUC = 0.9422
-Epoch 15: Train Loss = 0.9281
-Epoch 15: Validation Loss = 5.4863, Val AUC = 0.9402
-Epoch 20: Train Loss = 0.9252
-Epoch 20: Validation Loss = 5.5364, Val AUC = 0.9969
-Epoch 25: Train Loss = 0.9265
-Epoch 25: Validation Loss = 5.9177, Val AUC = 0.9740
-Epoch 30: Train Loss = 0.9260
-Epoch 30: Validation Loss = 5.7158, Val AUC = 0.9717
-Epoch 35: Train Loss = 0.9438
-Epoch 35: Validation Loss = 5.5715, Val AUC = 0.9861
-Epoch 40: Train Loss = 0.9478
-Epoch 40: Validation Loss = 5.7908, Val AUC = 0.9329
-Epoch 45: Train Loss = 0.9273
-Epoch 45: Validation Loss = 6.2657, Val AUC = 0.8941
-Epoch 50: Train Loss = 0.9129
-Epoch 50: Validation Loss = 5.4220, Val AUC = 0.9503
-Epoch 55: Train Loss = 0.9139
-Epoch 55: Validation Loss = 6.5150, Val AUC = 0.8242
-Epoch 60: Train Loss = 0.9003
-Epoch 60: Validation Loss = 5.5287, Val AUC = 0.9747
-Stopping early at epoch 63.
-Test AUC: 0.9467, Loss = 0.9484
-TOT_LOSS: 0.9938470721244812
-TOT_AUC: 0.9288798191423225
-List AUC: 0.9287905197151664
+Epoch 0: Train Loss = 0.9252
+Epoch 0: Validation Loss = 5.2538, Val AUC = 0.9784
+Epoch 5: Train Loss = 0.8817
+Epoch 5: Validation Loss = 6.9364, Val AUC = 0.8663
+Epoch 10: Train Loss = 0.8851
+Epoch 10: Validation Loss = 5.6836, Val AUC = 0.9653
+Epoch 15: Train Loss = 0.8828
+Epoch 15: Validation Loss = 5.4488, Val AUC = 0.8653
+Epoch 20: Train Loss = 0.8767
+Epoch 20: Validation Loss = 5.1353, Val AUC = 0.9453
+Epoch 25: Train Loss = 0.8821
+Epoch 25: Validation Loss = 5.0394, Val AUC = 0.9877
+Epoch 30: Train Loss = 0.8769
+Epoch 30: Validation Loss = 6.0598, Val AUC = 0.9600
+Epoch 35: Train Loss = 0.8854
+Epoch 35: Validation Loss = 5.1553, Val AUC = 0.9707
+Epoch 40: Train Loss = 0.8748
+Epoch 40: Validation Loss = 5.7130, Val AUC = 0.9383
+Epoch 45: Train Loss = 0.8782
+Epoch 45: Validation Loss = 5.2650, Val AUC = 0.9800
+Epoch 50: Train Loss = 0.8887
+Epoch 50: Validation Loss = 5.4380, Val AUC = 0.9444
+Epoch 55: Train Loss = 0.8690
+Epoch 55: Validation Loss = 5.6701, Val AUC = 0.9028
+Epoch 60: Train Loss = 0.8750
+Epoch 60: Validation Loss = 5.8971, Val AUC = 0.9236
+Epoch 65: Train Loss = 0.8696
+Epoch 65: Validation Loss = 5.8271, Val AUC = 0.8594
+Epoch 70: Train Loss = 0.8744
+Epoch 70: Validation Loss = 5.9226, Val AUC = 0.8406
+Epoch 75: Train Loss = 0.8791
+Epoch 75: Validation Loss = 5.1892, Val AUC = 0.9514
+Epoch 80: Train Loss = 0.8598
+Epoch 80: Validation Loss = 5.4487, Val AUC = 1.0000
+Stopping early at epoch 85.
+Test AUC: 0.9741, Loss = 0.8415
+TOT_LOSS: 0.8753930926322937
+TOT_AUC: 0.9666352919076281
+List AUC: 0.9609091170916153

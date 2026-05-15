@@ -137,16 +137,24 @@ def read_graph(in_file):
             
     in_file.close()
 
+
+    ### Randomly mask residue embeddings for GVP
+    residue_embeddings_masked, node_mask = mask_residue_embeddings(residue_embeddings, 0.4)
+
+
     ### Edge indexes
     ### Node features (scalar, vector)
-    h_V = (residue_embeddings, node_coordinates)
+    # h_V = (residue_embeddings, node_coordinates)
+    h_V = (residue_embeddings_masked, node_coordinates)
     ### Edge features (scalar, vector)
     h_E = (scalar_edge_features, edge_orientations)
     ### Sequence
     letter_to_num = {'A': 0, 'C': 1, 'G': 2, 'U': 3}
     seq = torch.as_tensor([letter_to_num[a] for a in SEQ], device=device, dtype=torch.long)
-    mask = torch.isfinite(node_coordinates.sum(dim=(1,2)))
+    valid_node_mask = torch.isfinite(node_coordinates.sum(dim=(1,2))) ### Removes nodes with NaN or InF coordinate
+    mask = node_mask & valid_node_mask # combining both masks
 
+    # mask = torch.isfinite(node_coordinates.sum(dim=(1,2))) ### Removes nodes with NaN or InF coordinate
     return num_nodes, node_features, distance_edge_src, distance_edge_des, distance_edge_features, bond_edge_src, bond_edge_des, bond_edge_features, orientation_edge_src, orientation_edge_des, orientation_edge_features, graph_label, PDB_location, h_V, h_E, seq, mask
 ########### Read input data to generate graph representation ###########
 
@@ -347,8 +355,8 @@ class GVPModel(torch.nn.Module):
                 GVPConvLayer(node_h_dim, edge_h_dim, drop_rate=drop_rate) 
             for _ in range(num_layers))
         
-        self.W_s = nn.Embedding(20, 20)  ### Should it be (4, 4)?
-        edge_h_dim = (edge_h_dim[0] + 20, edge_h_dim[1])
+        self.W_s = nn.Embedding(4, 4)  ### Should it be (4, 4)?
+        edge_h_dim = (edge_h_dim[0] + 4, edge_h_dim[1])
       
         self.decoder_layers = nn.ModuleList(
                 GVPConvLayer(node_h_dim, edge_h_dim, 
@@ -388,11 +396,63 @@ class GVPModel(torch.nn.Module):
         
         else:
             sc, Ve = h_V  # s: [N, d_s], V: [N, d_v, 3]
+           
+            # Vector to scalar conversion using L2-norm
             V_norm = torch.norm(Ve, dim=-1)   # [N, d_v]
             h_scalar = torch.cat([sc, V_norm], dim=-1)  # final scalar input for GINE
 
+            # Vector to scalar conversion using L2-norm and fixed W-projection
+            # W = torch.tensor([
+            #     [ 1,  0,  0],
+            #     [-1,  0,  0],
+            #     [ 0,  1,  0],
+            #     [ 0, -1,  0],
+            #     [ 0,  0,  1],
+            #     [ 0,  0, -1],
+            # ], dtype=torch.float)
+            # # V_norm = torch.norm(Ve, dim=-1, keepdim=True)
+            # V_norm = torch.norm(Ve, dim=-1)
+            # V_proj = torch.matmul(Ve, W.T)
+            # V_proj = V_proj.view(Ve.size(0), -1) 
+            # V_features = torch.cat([V_norm, V_proj], dim=-1)
+            # h_scalar = torch.cat([sc, V_features], dim=-1)
+
+            # Vector to scalar conversion using dot and cross product of the two vectors in Ve
+            # V_norm = torch.norm(Ve, dim=-1)   # [N, d_v]
+            # v0, v1 = Ve.unbind(dim=1)  # [N, 3], [N, 3]
+            # dot = (v0 * v1).sum(dim=-1, keepdim=True)  # [N, 1]
+            # cross = torch.cross(v0, v1, dim=-1)        # [N, 3]
+            # cross_norm = torch.norm(cross, dim=-1, keepdim=True)  # [N, 1]
+            # V_features = torch.cat([V_norm, dot, cross_norm], dim=-1)
+            # h_scalar = torch.cat([sc, V_features], dim=-1)
+
+            # Combine L2 norm, Projection, Dot and Cross product
+            # V_features = torch.cat([V_norm, V_proj, dot, cross_norm], dim=-1)
+            # h_scalar = torch.cat([sc, V_features], dim=-1)
+
             return h_scalar
 ########### GVP Model run ########### 
+
+
+
+###### Masked node embeddings for GVP node scalar features ######
+def mask_residue_embeddings(residue_embeddings, mask_ratio=0.4):
+    N = residue_embeddings.shape[0]
+
+    # 1. Sample random mask
+    num_mask = max(1, round(mask_ratio * N))
+    random_index = torch.randperm(N, device=device)
+    mask = torch.zeros(N, dtype=torch.bool, device=device)
+    mask[random_index[:num_mask]] = True
+
+    # 2. Clone to avoid in-place issues
+    residue_embeddings_masked = residue_embeddings.clone()
+
+    # 3. Mask nucleotide features (assuming first 4 dims = one-hot)
+    residue_embeddings_masked[mask, :4] = 0.0
+
+    return residue_embeddings_masked, mask
+
 
 
 ###### Masked Edge index ######
@@ -474,7 +534,7 @@ def GVP_model_train(batch, gvp_model, optimizer_gvp, gvp_criterion):
     num_nodes = int(mask.sum())
     logits = gvp_model(gvp_x, distance_edge_index, gvp_edge_attr, seq, True)
     logits, seq = logits[mask], seq[mask]
-    
+
     loss_value = gvp_criterion(logits, seq)
     loss_value.backward()
     optimizer_gvp.step()
@@ -484,7 +544,7 @@ def GVP_model_train(batch, gvp_model, optimizer_gvp, gvp_criterion):
     correct = (pred == true).sum()
 
     return loss_value, num_nodes, correct
-
+   
 
 def GVP_model_val(batch, gvp_model, gvp_criterion):
 
@@ -721,16 +781,17 @@ def run_GVP_GINE_model(train_output, train_loader, val_loader, test_loader, gvp_
     f_out.write(f'Sarting GVP training...\n')
     f_out.close()
     
-    gvp_epochs = 100
+    gvp_epochs = 130
     gvp_best_loss = float('inf')
     gvp_no_improve_count = 0
-    gvp_patience = 10
+    gvp_patience = 30
     gvp_best_state = None
 
     ### Train GVP model
     for epoch in range(gvp_epochs):
 
         f_out = open(train_output, "a")
+        batch_Ve_list = []
 
         total_loss, total_correct, total_count = 0, 0, 0
         for batch in train_loader:
@@ -739,7 +800,7 @@ def run_GVP_GINE_model(train_output, train_loader, val_loader, test_loader, gvp_
             total_loss += loss_value.detach().item() * numb_nodes
             total_count += numb_nodes
             total_correct += correct
-            
+ 
         train_loss = total_loss / total_count
         train_correct = total_correct / total_count
         if epoch % 5 == 0: f_out.write(f'EPOCH {epoch} TRAIN loss: {train_loss:.4f} acc: {train_correct:.4f}\n')
@@ -950,6 +1011,10 @@ def run_model(train_data_path, output_path, family_list, save_par, val_percen, t
 
     ########### Autoencoder for link prediction (adjacency reconstruction) ###########
     input_node_dim = (dataset[0]['nucleotide'].x.shape[1] + 10) ### Merging new GVP generated nt features
+    # input_node_dim = (dataset[0]['nucleotide'].x.shape[1] + 22) ### Norm + Projection accross 6 dimesion
+    # input_node_dim = (dataset[0]['nucleotide'].x.shape[1] + 12) ### Norm + dot product + norm of cross product
+    # input_node_dim = (dataset[0]['nucleotide'].x.shape[1] + 24) ### Norm + Projection + dot product + norm of cross product    
+    
     gvp_criterion = nn.CrossEntropyLoss()
     model = HeteroGraphAutoEncoder(metadata, input_node_dim=input_node_dim, hidden_dim=64, edge_dims=edge_dims).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
@@ -963,10 +1028,9 @@ def run_model(train_data_path, output_path, family_list, save_par, val_percen, t
         indices = list(range(len(dataset)))
         random.shuffle(indices)
         indices_list.append(indices)
-
-        f_out = open(train_output, "a")
-        f_out.write(str(indices)+"\n")
-        f_out.close()
+        # f_out = open(train_output, "a")
+        # f_out.write(str(indices)+"\n")
+        # f_out.close()
 
     indices = indices_list[0]
     shuffled_dataset = [dataset[i] for i in indices]
@@ -1014,8 +1078,7 @@ def run_model(train_data_path, output_path, family_list, save_par, val_percen, t
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
     val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=True)
-
-    
+  
     #### Training and Testing part ####
     Y_TEST = []
     Y_PRED = []

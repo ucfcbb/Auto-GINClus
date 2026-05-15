@@ -3,8 +3,8 @@ Node types: ['nucleotide']
 Edge types: [('nucleotide', 'bonds_with', 'nucleotide'), ('nucleotide', 'orientation_to', 'nucleotide'), ('nucleotide', 'distance_from', 'nucleotide')]
 Author node features shape: torch.Size([13, 4])
 Sarting GVP testing...
-TEST loss: 0.0002 acc: 1.0000
+TEST loss: 1.9927 acc: 0.3706
 Sarting GINE Autoencoder testing...
-Test AUC: 0.9038, Loss = 1.1098
-LOSS: 1.109782099723816
-AUC: 0.9038312294826667
+Test AUC: 0.9032, Loss = 1.0716
+LOSS: 1.0715782642364502
+AUC: 0.9031781808525599

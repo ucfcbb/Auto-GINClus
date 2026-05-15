@@ -30,6 +30,7 @@ from cif import *
 from image_utils import *
 
 from GVP_GINE_model_train import *
+# from GVP_GINE_model_train_crossfold import *
 from GVP_GIN_feature_gen import *
 from unsupervised_clustering import *
 from unsupervised_subclustering import *
@@ -89,7 +90,6 @@ def main():
     # cleaning up existing directories for a run using new input data
     parser.add_argument('-clean', nargs='?', default=False, const=True, help="If True, removes train and cadidate data directories (required for a run using new input data). Default: False.")
     # parser.add_argument('-anno', nargs='?', default=False, const=True, help="If True, reads previously generated alignment data from pickle files. Default: False.")
-
 
     try:
         args = parser.parse_args()
@@ -509,8 +509,6 @@ def load_loop_data(loop):
     sequence = lines[1].strip()
     joined_sequence = ''.join(sequence.strip().split('...'))
 
-    # bps = []
-    # stks = []
     bps = {}
     bp_cnt = 0
     stks = {}
@@ -810,18 +808,33 @@ def generate_graphs_for_loops(user_input_fname, families, partial_pdbx_dir, outp
     loop_dic = {}
     FILTERED_LOOP_COUNT = 0
 
+    # Nabila debug
+    fout = open("Missing_coordinate_filtered_loops.txt", "w")
+    fout.close()
+
+    fout2 = open("No_bp_interaction_filtered_loops.txt", "w")
+    fout2.close()
+
+    fout3 = open("Short_loops.txt", "w")
+    fout3.close()
+
     for encoded_fam_id, family_id in enumerate(families):
      
         loops = families[family_id]
-        # Nabila debug
-        fout = open("Missing_coordinate_filtered_loops.txt", "w")
-        fout.close()
-        
+       
         for loop in loops:
             
             loop = str(strToNode(loop))
             index_dict = {}
             pdb_pm = get_pdb_index_list(loop)
+
+            if len(pdb_pm) < 3:
+                logger.warning("Less than 3 nucleotides in loop " + convert_a_loop_from_FASTA_to_PDB(loop) + ". Skipping loop.")
+                FILTERED_LOOP_COUNT += 1
+                fout3 = open("Short_loops.txt", "a")
+                fout3.write(convert_a_loop_from_FASTA_to_PDB(loop) + ",")
+                fout3.close()
+                continue                
 
             ### Generate coordinates for nodes
             # Nabila debug
@@ -882,6 +895,15 @@ def generate_graphs_for_loops(user_input_fname, families, partial_pdbx_dir, outp
                 cologntinue
 
             joined_sequence, bps, bp_cnt, stks, stk_cnt, joined_sequence = load_loop_data(loop)
+
+            if bp_cnt == 0:
+                # logger.warning("No base-pair interactions exist in loop " + convert_a_loop_from_FASTA_to_PDB(loop) + ". Skipping loop.")
+                FILTERED_LOOP_COUNT += 1
+                fout2 = open("No_bp_interaction_filtered_loops.txt", "a")
+                fout2.write(convert_a_loop_from_FASTA_to_PDB(loop) + ",")
+                fout2.close()                
+                continue
+
 
             nucl_list = ['A', 'C', 'G', 'U']
             if any([nucl not in nucl_list for nucl in joined_sequence]):

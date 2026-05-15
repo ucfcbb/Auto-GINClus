@@ -169,6 +169,7 @@ subcluster_images_tmalign = 'output/subcluster_images/tmalign/'
 pdbx_url = 'https://files.rcsb.org/download/'
 # fasta_url = 'https://www.rcsb.org/pdb/download/downloadFastaFiles.do?compressionType=uncompressed&structureIdList='
 fasta_url = 'https://www.rcsb.org/fasta/entry/'
-dssr_url = 'http://skmatic.x3dna.org/pdb/XXXX/XXXX.out'
+# dssr_url = 'http://skmatic.x3dna.org/pdb/XXXX/XXXX.out'
+dssr_url = 'http://skmatic.x3dna-dssr.org/pdb/XXXX/XXXX.out'
 fr3d_url = "http://rna.bgsu.edu/rna3dhub/pdb/XXXX/interactions/fr3d/all/csv"
 

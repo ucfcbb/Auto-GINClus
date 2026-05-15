@@ -1,0 +1,12 @@
+>7OIF_1:534-537_552-555
+GGGA...GUGA
+#info=basepair
+2-7,S/H,trans
+3-6,H/S,trans
+#info=stacking
+0-1,upward
+1-2,upward
+2-6,inward
+3-7,outward
+4-5,upward
+5-6,upward

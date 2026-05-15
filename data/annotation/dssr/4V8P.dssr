@@ -16,8 +16,8 @@ Note: By default, each nucleotide is identified by chainId.name#. So a
       notation, please refer to the DSSR User Manual.
     Questions and suggestions are *always* welcome on the 3DNA Forum.
 
-Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/pdbx/4V8P.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_Sample/data/annotation/dssr/4V8P.dssr
-Date and time: Fri Nov 14 01:01:06 2025
+Command: x3dna-dssr -i=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/pdbx/4V8P.cif --format=mmcif --non-pair -o=/media/nabila/NABILA6TB/Research/Project_3/Auto-GINClus_v2/Auto-GINClus_Final/data/annotation/dssr/4V8P.dssr
+Date and time: Fri May  8 17:12:30 2026
 File name: 4V8P.cif
     no. of DNA/RNA chains: 12 [A1=3119,B2=154,B3=120,C2=154,C3=120,D1=3119,E2=154,E3=120,F1=3119,G2=154,G3=120,H1=3119]
     no. of nucleotides:    13572
@@ -69678,4 +69678,4 @@ List of 17 additional files
   17 dssr-atom2bases.pdb -- an ensemble of atom-base stacking interactions
 
 ****************************************************************************
-Time used: 00:00:08:14
+Time used: 00:00:08:06
